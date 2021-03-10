@@ -17,16 +17,20 @@
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://twilightcourier.github.io/post/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Posts</title>
-      <link>https://twilightcourier.github.io/writing/</link>
-      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://twilightcourier.github.io/writing/</guid>
-      <description></description>
+      <description>&lt;html&gt;  
+&lt;head&gt;  
+&lt;title&gt;ordered list&lt;/title&gt;  
+&lt;/head&gt;  
+&lt;body&gt;  
+&lt;ol&gt;  
+&lt;li&gt;&lt;a href=&#34;../content/writing/poems/test.html&#34;&gt;poem&lt;/a&gt;&lt;/li&gt;  
+&lt;li&gt;c++ &lt;/li&gt;  
+&lt;li&gt;Java&lt;/li&gt;  
+&lt;li&gt;Python&lt;/li&gt;  
+&lt;li&gt;Javascript&lt;/li&gt;  
+&lt;/ol&gt;  
+&lt;/body&gt;  
+&lt;/html&gt;  </description>
     </item>
     
   </channel>
