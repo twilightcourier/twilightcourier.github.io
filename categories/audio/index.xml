@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>audio on Twilight Courier</title>
+    <link>https://twilightcourier.github.io/categories/audio/</link>
+    <description>Recent content in audio on Twilight Courier</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2021</copyright>
+    
+	<atom:link href="https://twilightcourier.github.io/categories/audio/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Callen Duel - Bearers Of The Marigold now released</title>
+      <link>https://twilightcourier.github.io/updates/callen_duel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://twilightcourier.github.io/updates/callen_duel/</guid>
+      <description>&lt;p&gt;can be found &lt;a href=&#34;https://twilightcourier.bandcamp.com/album/bearers-of-the-marigold&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
