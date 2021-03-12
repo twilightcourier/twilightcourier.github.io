@@ -157,6 +157,10 @@
   </url>
   
   <url>
+    <loc>https://twilightcourier.github.io/writing/poems/test_post/</loc>
+  </url>
+  
+  <url>
     <loc>https://twilightcourier.github.io/series/</loc>
   </url>
   
@@ -182,6 +186,10 @@
   
   <url>
     <loc>https://twilightcourier.github.io/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://twilightcourier.github.io/friends_collaborators/</loc>
   </url>
   
 </urlset>
