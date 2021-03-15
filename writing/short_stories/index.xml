@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Short Stories on Twilight Courier</title>
-    <link>https://twilightcourier.github.io/writing/short_stories/</link>
+    <link>https://twilightcourier.com/writing/short_stories/</link>
     <description>Recent content in Short Stories on Twilight Courier</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2021</copyright>
     <lastBuildDate>Wed, 10 Mar 2021 14:30:53 -0700</lastBuildDate>
     
-	<atom:link href="https://twilightcourier.github.io/writing/short_stories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://twilightcourier.com/writing/short_stories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Role Playing Games on Twilight Courier</title>
-    <link>https://twilightcourier.github.io/writing/role_playing_games/</link>
+    <link>https://twilightcourier.com/writing/role_playing_games/</link>
     <description>Recent content in Role Playing Games on Twilight Courier</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2021</copyright>
     <lastBuildDate>Wed, 10 Mar 2021 14:30:53 -0700</lastBuildDate>
     
-	<atom:link href="https://twilightcourier.github.io/writing/role_playing_games/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://twilightcourier.com/writing/role_playing_games/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
