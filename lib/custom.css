@@ -1,14 +1,14 @@
 .flux-overlay{
-    position: relative;
+    position: fixed;
     z-index: 1000;
     top: 0;
     left: 0;
-    min-width: 100%;
-    min-height: 100%;
-    background: rgba(255, 155, 61, 5%);
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 155, 61, 3%);
 }
 
 .flux-background{
 
-    background: rgba(255, 155, 61, 5%);
+    background: rgba(255, 155, 61, 3%);
 }
