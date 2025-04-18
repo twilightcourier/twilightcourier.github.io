@@ -1,0 +1,27 @@
+
+Ok need to make header bigger 
+change the food of VJ Demo header
+Get this photos to line up in grids of 4 by default if size is Okand move the margin over a bit
+It should redirect to a new page with some embeddd videos, and then link to gum road on the page?
+
+add works page and just copy and paste once you get it set up
+I guess its annoying if you want to change it later, but it works for now 
+Probably just make a css like works css and then change that later if you want
+
+Then link this to each gumroad page and some youtube video
+
+add footer and privacy policy
+copyright
+
+setup contact emailand add a photo of it
+
+Automate add header to every page
+
+Get photo CSS grid layout
+
+Add that banner thing? Would be nice if entries for example auto added to the banner
+
+And maybe automate some stuff in React like Margo did.
+O_o or can I just use JavaScript?
+
+add a note and some photos to contact and set up that email
