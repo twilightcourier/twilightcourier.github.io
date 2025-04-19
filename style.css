@@ -58,16 +58,14 @@ font-weight: lighter;
 }
 
 .content-section{
-    margin: 1em;
+
     font-size: 2em;
-    text-align: left;
     color: #777;
 }
 
 .container {
     max-width: 900px;
     
-    padding: 0 1.5em;
 	padding-bottom: 2%;
 }
 
@@ -96,3 +94,8 @@ html {
 
     border-bottom: 1px solid rgba(255, 255, 255, .3)
 }
+
+:root {
+  --margin_lr_demop: 16vw;
+}
+

@@ -5,18 +5,21 @@ html {
 }
 
 .tile-group {
-    margin: 0 auto;
+	
+
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
     grid-auto-rows: auto;
     gap: 1.5px;
     font-family: sans-serif;
     padding-top: 5vh;
-    max-width: 70%;
+    max-width: 70vw;
     display: grid;
     gap: 20px;
     margin-bottom: 13vh;
+    transform-origin: left top;
 	transform: scale(1.3)
+    
 
 }
 
@@ -98,3 +101,8 @@ text-decoration: underline;
     filter: brightness(150%);
 }
 
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    flex-direction: flex-start;
+  }
