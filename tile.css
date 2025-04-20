@@ -105,6 +105,8 @@ text-decoration: underline;
     display: flex;
     flex-direction: column;
     flex-direction: flex-start;
-    margin: 0 5vw;
+    margin: 0 auto;
+    padding: 0vw 8vw;
+
   }
   
