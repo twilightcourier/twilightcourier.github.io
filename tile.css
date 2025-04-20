@@ -15,10 +15,10 @@ html {
     padding-top: 5vh;
     max-width: 62vw;
     display: grid;
-    gap: 2.5vw;
+    gap: 2vw;
     margin-bottom: 13vh;
     transform-origin: left top;
-	transform: scale(1.3)
+	transform: scale(1.4)
     
 
 }
