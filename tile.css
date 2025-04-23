@@ -1,26 +1,46 @@
 
-html {
-  
-    min-height: 1000px;
-}
+
 
 .tile-group {
 	
 
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(11.36vw, 1fr));
     grid-auto-rows: auto;
-    gap: 1.5px;
+    gap: 1vw;
     font-family: sans-serif;
     padding-top: 1.1vh;
+    margin-bottom: 5vh;
     max-width: 62vw;
     display: grid;
     gap: 2vw;
-    margin-bottom: 13vh;
+    padding-bottom: 20vh;
     transform-origin: left top;
 	transform: scale(1.4)
     
 
+}
+
+@media all and (max-width: 500px) {
+.tile-group {
+	
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(5.36vw, 1fr));
+    grid-auto-rows: auto;
+    gap: 1vw;
+    font-family: sans-serif;
+    padding-top: 1.1vh;
+    margin-bottom: 5vh;
+    max-width: 62vw;
+    display: grid;
+    gap: 2vw;
+    padding-bottom: 20vh;
+    transform-origin: left top;
+	transform: scale(1.4)
+    
+
+}
 }
 
 .tile-group * {
@@ -39,8 +59,12 @@ html {
 }
 .tile-single img:hover {
     filter: brightness(150%);
+
 }
 
+.tile-single{
+margin-bottom: 1vh;
+}
 
 .tile-content {
     line-height: 1.5;
