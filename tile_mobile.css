@@ -9,7 +9,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(29.36vw, 1fr));
     grid-auto-rows: auto;
-    gap: 5.5vw;
+    gap: 9.5vw;
     font-family: sans-serif;
     padding-top: 1.1vh;
     margin-bottom: 5vh;
@@ -58,15 +58,24 @@
 
 .tile-single{
 margin-bottom: 1vh;
-}
+width: fit-content;
 
+
+
+}
+/* all the text on each tile*/
 .tile-content {
     line-height: 1.5;
     font-size: 0.9em;
     padding: 15px;
     overflow: hidden;
     max-width: 100%;
-    max-height: 20rem;
+    max-height: auto;
+    word-wrap: break-word;
+
+
+ 
+   
 }
 
 .tile-content > p:first-of-type {
@@ -77,10 +86,12 @@ margin-bottom: 1vh;
     margin-bottom: 0;
 }
 
+/* MINIMAL HOUSE link name- */
 .tile-name {
-    width: 100%;
-    height: 3rem;
-    margin-bottom: 0.1rem;
+    max-width: 150vw;
+    max-height: 50vh;
+    padding-bottom: 0.5vh;
+    height: auto;
 }
 
  .tile-name a {
@@ -90,6 +101,7 @@ font-weight: bold;
 color: #ff015d;
 font-style: italic;
 text-decoration: underline;
+
     
 }
 
@@ -104,8 +116,9 @@ text-decoration: underline;
     align-items: center;
     font-family: 'Noto Serif', serif;
     font-size: 1em;
-    height: 4.5rem;
+    height: auto;
     margin-bottom: 0.001rem;
+    padding-top: 0.3vh;
     overflow: hidden;
 }
 .tile-links {
@@ -124,7 +137,7 @@ text-decoration: underline;
     flex-direction: column;
     flex-direction: flex-start;
     margin: 0 auto;
-    padding: 0vw 7.1vw;
+    padding: 0vw 4.8vw;
 
   }
   
