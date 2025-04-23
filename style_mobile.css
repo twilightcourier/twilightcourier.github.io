@@ -1,0 +1,108 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@200;300&display=swap');
+
+
+
+* {
+    box-sizing: border-box;
+    font-family: 'Noto Serif', serif;
+    color: #777
+  
+
+}
+/* size determined by size of content and borders and margins */
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  font-family: 'Noto Serif', serif;
+  font-size: 15px;
+
+}
+
+html {
+    background:#ffffff
+    
+}
+
+
+    ul {
+    list-style-type: none;
+}
+
+.nav ul {
+    margin: 0;
+    font-size: 1em;
+}
+.nav li {
+    display: inline;
+    
+}
+.nav a {
+    padding: .5em;
+    display: inline-block;
+    text-decoration: none;
+    
+}
+
+.nav a:hover {
+font-weight: lighter;
+}
+
+.main-nav {
+    text-align: left;
+    font-size: 1.1em;
+    border-bottom: 1px solid rgba(255, 255, 255, .3)
+}
+
+.content-section{
+
+    font-size: 2.5em;
+    color: #777;
+}
+
+.content-section1{
+
+    font-size: 2.5em;
+    color: #777;
+    margin-top: 5vh;
+}
+
+
+.container {
+    max-width: 900px;
+	padding-bottom: 3vh;
+}
+
+.about-image {
+    height: auto;
+    width: 40%;
+    margin: 15 px;
+}
+
+/*
+html {
+    background-color : red
+}
+*/
+
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+}
+
+.main-header{
+    font-size: 2.1em;
+
+    border-bottom: 1px solid rgba(255, 255, 255, .3)
+}
+
+:root {
+  --margin_lr_demop: 16vw;
+}
+
