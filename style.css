@@ -12,6 +12,9 @@
 }
 /* size determined by size of content and borders and margins */
 
+
+
+
 html,
 body {
   padding: 0;
@@ -35,6 +38,12 @@ html {
 .nav ul {
     margin: 0;
     font-size: 1em;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: -1.8vw;
 }
 .nav li {
     display: inline;
@@ -52,9 +61,16 @@ font-weight: lighter;
 }
 
 .main-nav {
+ 
     text-align: left;
-    font-size: 1.1em;
+    padding-bottom: 5vh;
+    margin-bottom: 3vh;
+    font-size: 1.6em;
+   
     border-bottom: 1px solid rgba(255, 255, 255, .3)
+
+
+    
 }
 
 .content-section{
@@ -72,7 +88,7 @@ font-weight: lighter;
 
 
 .container {
-    max-width: 900px;
+    max-width: 70vw;
 	padding-bottom: 3vh;
 }
 
@@ -101,6 +117,8 @@ html {
 
     border-bottom: 1px solid rgba(255, 255, 255, .3)
 }
+
+.hr
 
 :root {
   --margin_lr_demop: 16vw;
