@@ -9,7 +9,12 @@
     color: #777
   
 
-}
+    :root {
+        --margin_top: 1.2vh;
+      }
+      
+  
+
 /* size determined by size of content and borders and margins */
 
 html,
@@ -33,15 +38,27 @@ html {
 }
 
 .nav ul {
-    margin: 0;
     font-size: 1em;
+    position: fixed;
+    top: -1.3vh;
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    margin-left: -13.4vw;
+    padding-top: 2vh;
+
+    background-color: #ffffff;
+    width: 160%;
+    overflow: hidden;
+    
 }
 .nav li {
     display: inline;
     
 }
 .nav a {
-    padding: .5em;
+    padding-bottom: 1em;
+  
     display: inline-block;
     text-decoration: none;
     
@@ -54,20 +71,22 @@ font-weight: lighter;
 .main-nav {
     text-align: left;
     font-size: 1.1em;
-    border-bottom: 1px solid rgba(255, 255, 255, .3)
+    width: 100%;
+    background-color: #ffffff;
+    padding-right: 5vw;
 }
 
 .content-section{
+    padding-top: 5vh;
 
     font-size: 2.0em;
     color: #777;
 }
 
 .content-section1{
-
+    padding-top: 5vh;
     font-size: 2.0em;
     color: #777;
-    margin-top: 2vh;
 }
 
 
@@ -88,13 +107,7 @@ html {
 }
 */
 
-.header {
-  padding: 60px;
-  text-align: center;
-  background: #1abc9c;
-  color: white;
-  font-size: 30px;
-}
+
 
 .main-header{
     font-size: 2.1em;
@@ -102,7 +115,4 @@ html {
     border-bottom: 1px solid rgba(255, 255, 255, .3)
 }
 
-:root {
-  --margin_lr_demop: 16vw;
-}
 
