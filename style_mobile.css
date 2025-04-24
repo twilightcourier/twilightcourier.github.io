@@ -47,14 +47,15 @@ html {
     flex-direction: row;
     margin-left: -7.4vw;
     padding-top: 2vh;
+    
 
-    background-color: #ffffff;
     width: 160%;
-    overflow: hidden;
+
     
 }
 .nav li {
     display: inline;
+    width: 100%;
     
 }
 .nav a {
