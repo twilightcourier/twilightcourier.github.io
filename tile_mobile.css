@@ -2,7 +2,6 @@
 
 
 
-@media all and (max-width: 500px) {
 .tile-group {
 	
 
@@ -21,7 +20,7 @@
     
 
 }
-}
+
 
 .tile-group * {
     box-sizing: border-box;
@@ -38,7 +37,7 @@
  
 }
 
-@media all and (max-width: 500px) {
+
 .tile-image {
     max-width: 44vw;
     height: 12vh;
@@ -47,7 +46,7 @@
     transform-origin: left top;
  
 }
-}
+
 
 
 
