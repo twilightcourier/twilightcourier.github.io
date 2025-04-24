@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@200;300&display=swap');
 
 
-
+@media all and (max-width: 500px) {
 * {
     box-sizing: border-box;
     font-family: 'Noto Serif', serif;
@@ -115,5 +115,5 @@ html {
 
     border-bottom: 1px solid rgba(255, 255, 255, .3)
 }
-
+}
 
