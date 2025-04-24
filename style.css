@@ -12,7 +12,10 @@
 }
 /* size determined by size of content and borders and margins */
 
-
+:root {
+    --margin_top: 1.2vh;
+  }
+  
 
 
 html,
@@ -22,11 +25,13 @@ body {
   height: 100%;
   font-family: 'Noto Serif', serif;
   font-size: 15px;
+  padding-top: var(--margin_top);
 
 }
 
 html {
     background:#ffffff
+
     
 }
 
@@ -39,7 +44,6 @@ html {
     margin: 0;
     font-size: 1em;
     position: fixed;
-    top: 0px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -50,7 +54,8 @@ html {
     
 }
 .nav a {
-    padding: .5em;
+    padding-bottom: 1em;
+    padding-left: 1em;
     display: inline-block;
     text-decoration: none;
     
@@ -63,18 +68,17 @@ font-weight: lighter;
 .main-nav {
  
     text-align: left;
-    padding-bottom: 5vh;
-    margin-bottom: 3vh;
+   
     font-size: 1.6em;
    
-    border-bottom: 1px solid rgba(255, 255, 255, .3)
+  
 
 
     
 }
 
 .content-section{
-
+    margin-top: -1vh;
     font-size: 2.5em;
     color: #777;
 }
@@ -83,7 +87,7 @@ font-weight: lighter;
 
     font-size: 2.5em;
     color: #777;
-    margin-top: 5vh;
+    padding-top: var(--margin_top);
 }
 
 
@@ -104,23 +108,13 @@ html {
 }
 */
 
-.header {
-  padding: 60px;
-  text-align: center;
-  background: #1abc9c;
-  color: white;
-  font-size: 30px;
-}
+
 
 .main-header{
     font-size: 2.1em;
 
-    border-bottom: 1px solid rgba(255, 255, 255, .3)
+ 
 }
 
-.hr
 
-:root {
-  --margin_lr_demop: 168vw;
-}
 

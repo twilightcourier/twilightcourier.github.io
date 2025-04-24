@@ -9,14 +9,15 @@
     grid-auto-rows: auto;
     gap: 1vw;
     font-family: sans-serif;
-    padding-top: 1.1vh;
     margin-bottom: 5vh;
-    max-width: 62vw;
+    margin-left: 0.1vw;
+    max-width: 58vw;
     display: grid;
     gap: 2vw;
     padding-bottom: 20vh;
     transform-origin: left top;
 	transform: scale(1.4)
+    
     
 
 }
