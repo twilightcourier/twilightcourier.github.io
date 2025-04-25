@@ -51,6 +51,7 @@ html {
     margin-left: -1.8vw;
     flex-wrap: wrap;
     overflow-wrap: break-word;
+   
 }
 .nav li {
     display: block;
