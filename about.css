@@ -14,9 +14,10 @@
 .flexbox-container {
     display: flex;
  
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     margin-left: var(--margin_menu_col1_flex);
+    display: inline-block;
 }
 
 
@@ -35,7 +36,9 @@
 
 .flexbox-item {
     
-    width: auto;
+    width: 0 auto;
+    padding: 0 0 ;
+   
    
   
     }
