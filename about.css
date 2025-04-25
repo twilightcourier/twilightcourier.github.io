@@ -1,0 +1,28 @@
+.flexbox-container {
+    display: flex;
+    background-color: #4b209b;
+    flex-direction: row;
+
+ 
+}
+
+.flexbox-item {
+    
+    width: auto;
+
+    margin: 1vw;
+    background-color: rgb(40, 218, 24);
+    border: 3px solid black;
+    
+
+}
+
+.flexbox-bio-photo {
+    height: auto;
+    min-width: 30vw;
+    max-width: 41vw;
+    margin-left: 20vw;
+  
+
+}
+ 
