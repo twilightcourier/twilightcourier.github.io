@@ -31,7 +31,7 @@
 .ul{
     margin-top: 0vh;
     padding-top: 0vh;
-    font-size: 50rem;
+
 }
 
 .flexbox-item {
@@ -94,4 +94,16 @@
 
 }
 
+.flexbox-item ev-list li {
+    font-size: 3rem ;
+}
  
+.flexbox-item-ev {
+    
+    width: 0 auto;
+    padding: 0 0 ;
+    margin: 0 0;
+   font-size: 1.3rem;
+    
+  
+    }
