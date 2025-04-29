@@ -14,7 +14,7 @@
     max-width: 58vw;
     display: grid;
     gap: 2vw;
-    padding-bottom: 20vh;
+    padding-bottom: 40vh;
     transform-origin: left top;
 	transform: scale(1.4)
     
@@ -27,6 +27,7 @@
 
 .tile-group * {
     box-sizing: border-box;
+
     
 }
 

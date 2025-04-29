@@ -84,6 +84,8 @@ font-weight: lighter;
     font-size: 2.5rem;
     color: #777;
     padding-top: var(--margin_top);
+    margin-top: 10vh;
+   
 }
 
 
