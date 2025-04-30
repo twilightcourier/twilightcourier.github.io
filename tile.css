@@ -61,7 +61,11 @@
         grid-template-columns: repeat(auto-fill, minmax(30.36vw, 1fr));
         gap: 1vw;
     }
+
+
+    
 }
+
 
 
 
@@ -161,6 +165,7 @@ text-decoration: underline;
     
     display: block;
     justify-content: space-between;
+
    
 }
 
