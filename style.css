@@ -54,6 +54,9 @@ html {
     overflow-wrap: break-word;
    
 }
+
+
+
 .nav li {
     display: block;
     overflow-wrap: break-word;
@@ -66,6 +69,18 @@ html {
     display: inline-block;
     text-decoration: none;
     
+}
+
+@media all and (max-height: 300px) {
+    .nav a {
+        padding-bottom: 0.8rem
+    }
+}
+
+@media all and (max-height: 210px) {
+    .nav a {
+        padding-bottom: 0.5rem;
+    }
 }
 
 .nav a:hover {

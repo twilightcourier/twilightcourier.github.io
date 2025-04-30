@@ -24,14 +24,12 @@
 
 @media all and (max-width: 1200px) {
     .tile-group{
-        background-color: rgba(172, 172, 197, 0.37);
         padding-bottom: 50vh;
     }
 }
 
 @media all and (max-width: 1005px) {
     .tile-group{
-        background-color: rgba(25, 25, 190, 0.37);
         padding-bottom: 55vh;
         grid-template-columns: repeat(auto-fill, minmax(15.36vw, 1fr));
     }
@@ -39,7 +37,6 @@
 
 @media all and (max-width: 905px) {
     .tile-group{
-        background-color: rgba(132, 185, 33, 0.37);
         padding-bottom: 100vh;
         grid-template-columns: repeat(auto-fill, minmax(28.36vw, 1fr));
         gap: 1vw;
@@ -47,7 +44,6 @@
 }
 @media all and (max-width: 805px) {
     .tile-group{
-        background-color: rgba(25, 25, 190, 0.37);
         padding-bottom: 103vh;
         grid-template-columns: repeat(auto-fill, minmax(30.36vw, 1fr));
         gap: 1vw;
@@ -56,7 +52,6 @@
 
 @media all and (max-width: 630px) {
     .tile-group{
-        background-color: rgba(25, 25, 190, 0.37);
         padding-bottom: 120vh;
         grid-template-columns: repeat(auto-fill, minmax(30.36vw, 1fr));
         gap: 1vw;
