@@ -55,6 +55,30 @@ html {
    
 }
 
+@media all and (min-width: 4000px) {
+
+    .nav ul {
+        margin-left: -0.1vw;
+    }
+
+}
+
+
+@media all and (min-width: 4000px) {
+
+    .nav ul {
+        margin-left: -0.1vw;
+    }
+
+}
+
+@media all and (min-width: 2730px) {
+
+    .nav ul {
+        margin-left: -0.5vw;
+    }
+
+}
 
 
 .nav li {
