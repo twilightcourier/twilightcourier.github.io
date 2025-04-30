@@ -48,7 +48,7 @@
 @media all and (max-width: 805px) {
     .tile-group{
         background-color: rgba(25, 25, 190, 0.37);
-        padding-bottom: 50vh;
+        padding-bottom: 103vh;
         grid-template-columns: repeat(auto-fill, minmax(30.36vw, 1fr));
         gap: 1vw;
     }
@@ -57,7 +57,7 @@
 @media all and (max-width: 630px) {
     .tile-group{
         background-color: rgba(25, 25, 190, 0.37);
-        padding-bottom: 50vh;
+        padding-bottom: 120vh;
         grid-template-columns: repeat(auto-fill, minmax(30.36vw, 1fr));
         gap: 1vw;
     }
