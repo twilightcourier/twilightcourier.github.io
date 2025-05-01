@@ -9,13 +9,13 @@ and (max-height: 900px) {
 
     .tile-group {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(30.36vw, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(22.36vw, 1fr));
         grid-auto-rows: auto;
         gap: 1vw;
         font-family: sans-serif;
         margin-bottom: 5vh;
         margin-left: 0.1vw;
-        max-width: 58vw;
+        max-width: 61vw;
         display: grid;
         gap: 2vw;
         padding-bottom: 0vh;
@@ -30,6 +30,22 @@ and (max-height: 900px) {
         margin: 0 auto;
         padding: 0vw 18.9vw;
 
+    }
+
+    .tile-group * {
+        box-sizing: border-box;
+    
+    
+    }
+    
+    
+    
+    .tile-image {
+        max-width: 100%;
+        height: 8.5vh;
+        object-fit: cover;
+        display: block;
+    
     }
 
     
@@ -66,26 +82,21 @@ and (min-height: 901px) {
         padding: 0vw 18.9vw;
 
     }
-}
 
-@media all and (max-width: 1200px) {
-    .tile-group {
-        padding-bottom: 50vh;
+    .tile-group * {
+        box-sizing: border-box;
+    
+    
     }
-}
-
-@media all and (max-width: 1005px) {
-    .tile-group {
-        padding-bottom: 55vh;
-        grid-template-columns: repeat(auto-fill, minmax(15.36vw, 1fr));
-    }
-}
-
-@media all and (max-width: 905px) {
-    .tile-group {
-        padding-bottom: 100vh;
-        grid-template-columns: repeat(auto-fill, minmax(28.36vw, 1fr));
-        gap: 1vw;
+    
+    
+    
+    .tile-image {
+        max-width: 100%;
+        height: 18vh;
+        object-fit: cover;
+        display: block;
+    
     }
 }
 
@@ -100,22 +111,6 @@ and (min-height: 901px) {
 
 
 
-
-.tile-group * {
-    box-sizing: border-box;
-
-
-}
-
-
-
-.tile-image {
-    max-width: 100%;
-    height: 18vh;
-    object-fit: cover;
-    display: block;
-
-}
 
 
 
