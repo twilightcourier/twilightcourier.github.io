@@ -141,9 +141,33 @@
     height: 20vh;
     position: fixed;
     top: 0;
-    z-index: 2;
+    z-index: 4;
    
 
+  }
+
+
+
+  .flexbox-item-ev{
+    position: relative;
+
+  }
+
+  .main-nav ul {
+    top: 19.2vh;
+    margin-left: -8vw;
+    font-size: 1.3rem ;
+
+    
+  }
+  .flexbox-container-top{
+    position: relative;
+    z-index: 3;
+  }
+
+  .flexbox-item-ev{
+    position: relative;
+    z-index: 2;
   }
 }
 
