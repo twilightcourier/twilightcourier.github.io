@@ -89,13 +89,7 @@ and (min-height: 901px) {
     }
 }
 
-@media all and (max-width: 805px) {
-    .tile-group {
-        padding-bottom: 103vh;
-        grid-template-columns: repeat(auto-fill, minmax(30.36vw, 1fr));
-        gap: 1vw;
-    }
-}
+
 
 
 
