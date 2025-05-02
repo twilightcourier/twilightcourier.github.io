@@ -1,0 +1,323 @@
+
+
+:root {
+    --margin_menu_col1_flex:22vw;
+  }
+
+  .overflow_box_hide{
+    display: hide;
+
+  }
+
+/* MOBILE VERSION */
+  @media screen and (width <= 499px) and (height <= 950px) {
+    .flexbox-container-top {
+        display: flex;
+     
+        flex-direction: row;
+    
+    }
+       
+    .nav ul {
+
+        z-index: 5;
+    
+       
+    }
+        
+        .test11 {
+            background-color: blue;
+            width: 5vw;
+            height: 2vw;
+        }
+
+        .overflow_box_hide{
+            background-color:#ffffff;
+            width: 100%;
+            height: 20vh;
+            position: fixed;
+            top: 0;
+            z-index: 4;
+           
+        
+          }
+    
+
+        
+  }
+
+
+  /* DESKTOP VERSION */
+  @media screen and (width >= 500px) and (height >= 501px) {
+
+    .nav ul {
+        margin: 0;
+        font-size: 1.6rem;
+        position: fixed;
+        max-width: 21%;
+        display: flex;
+        flex-direction: column;
+        margin-left: -1.5vw;
+        flex-wrap: wrap;
+        overflow-wrap: break-word;
+        transform-origin: left top;
+        transform: scale(1.6);
+        background-color: gold;
+    
+       
+    }
+
+        
+  }
+  
+  .flexbox-container-top {
+    display: flex;
+ 
+    flex-direction: row;
+   
+}
+
+
+
+.flexbox-container {
+    display: flex;
+ 
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: var(--margin_menu_col1_flex);
+    display: inline-block;
+}
+
+
+
+
+
+
+    .break {
+        flex-basis: 100%;
+        height: 0;
+      }
+ 
+
+
+.ul{
+    margin-top: 0vh;
+    padding-top: 0vh;
+
+}
+
+.flexbox-item {
+    
+    width: 0 auto;
+    padding: 0 0 ;
+    margin: 0 0;
+  
+
+   
+
+  
+    }
+
+
+
+
+.flexbox-item-text {
+
+    min-height: 40vh;
+    padding: 0 0 ;
+    margin: 0 0;
+    word-wrap: break-word ;
+    display: inline-block;
+   
+    flex-grow: 1;
+    max-width: 33vw;
+    font-size: 1.8rem;
+    margin-left: 3vw;
+    overflow-x: clip;
+
+ 
+    
+    
+    
+    }
+    @media all and (min-width: 660px){
+        body{ overflow-x: hidden; }
+    }
+
+
+
+  
+
+ 
+ 
+
+    @media all and (max-width: 876px), and (max-height: 476px) {
+
+        .flexbox-item-text{
+    
+
+           margin-top: 59vh;
+           margin-right: 50vw;
+      
+        }
+        .flexbox-bio-photo {
+
+            margin-bottom: 5vh;
+            margin-left: 10vw;
+
+        }
+
+        .flexbox-container {
+            margin-left: 28vw;
+        
+        }
+    
+    }
+    
+        @media all and (max-width: 518px), and (max-height: 542px) {
+
+            .ev_header{
+    
+
+                margin-top: 43vh;
+           
+             }
+
+             
+        .flexbox-item-text{
+    
+
+            margin-top: 59vh;
+            margin-right: 50vw;
+       
+         }
+
+         .flexbox-bio-photo{
+            display: none;
+         }
+
+         .flexbox-container-top {
+            position: relative;
+            z-index: 1;
+
+            display: flex;
+         
+            flex-direction: row;
+
+    }
+
+    
+  .overflow_box_hide{
+    background-color:#ffffff;
+    width: 100%;
+    height: 20vh;
+    position: fixed;
+    top: 0;
+    z-index: 4;
+   
+
+  }
+
+
+
+  .flexbox-item-ev{
+    position: relative;
+
+  }
+
+  .main-nav ul {
+    top: 19.2vh;
+    margin-left: -10.7vw;
+    font-size: 1.3rem ;
+
+    
+  }
+  .flexbox-container-top{
+    position: relative;
+    z-index: 3;
+  }
+
+  .flexbox-item-ev{
+    position: relative;
+    z-index: 2;
+  }
+}
+
+@media all and (max-width: 767px) {
+    
+    .main-nav{
+        margin-right: 5vw;
+    }
+
+}
+
+@media all and (max-width: 598px) {
+    
+    .main-nav{
+        margin-right: 12vw;
+    }
+
+}
+
+@media all and (max-width: 342px) {
+    
+    .main-nav{
+        margin-right: 20vw;
+    }
+
+    .main-nav{
+        margin-left: 20vw;
+    }
+
+}
+
+
+    
+
+
+.flexbox-bio-photo {
+  
+    height: auto;
+    min-width: 30vw;
+    max-width: 32vw;
+    align-items: flex-start;
+    align-content: flex-start;
+    margin-top: 1vh;
+    
+}
+
+@media all and (max-width: 767px) {
+
+    .flexbox-bio-photo{
+        display: none;
+    }
+}
+      
+
+.p {
+
+    line-break: auto;
+    word-wrap: break-word;
+}
+
+
+
+
+ 
+.flexbox-item-ev {
+    
+    width: 0 auto;
+    max-width: 33vw;
+    padding: 0 0 ;
+    margin: 0 0;
+    font-size: 1.3rem;
+   
+    
+  
+    }
+
+.ev_header{
+    font-size: 1.6rem;
+
+  
+}
