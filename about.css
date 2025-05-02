@@ -74,6 +74,70 @@
 
 
 
+/* MOBILE VERSION Horizontal */
+@media screen and (width <=950px) and (height <=450px) {
+
+    .g-container {
+        display: grid;
+        width: 100%;
+
+        padding-left: 37vw;
+        margin-right: 10vw;
+
+
+        justify-content: center;
+
+        gap: 2vh;
+    }
+
+
+
+    .gr_image1 {
+
+        width: auto;
+        height: 70vh;
+        margin-top: 4vh;
+
+
+    }
+
+    .item-ev {
+        width: 100%;
+    }
+
+
+    ul,
+    li {
+        list-style-type: none;
+    }
+
+    .p {
+
+        line-break: auto;
+        word-wrap: break-word;
+    }
+
+    .ev_header {
+        font-size: 1.6rem;
+        margin-top: -1vh;
+    }
+
+    .courier_text {
+
+        font-size: 1.1rem;
+        max-width: 80%;
+    }
+
+    .ev_list{
+      margin-top: -2.5vh;
+      font-size: 1.1rem ;
+    }
+
+}
+
+
+
+
 
 /* DESKTOP VERSION */
 @media screen and (width >=500px) and (height >=501px) {
