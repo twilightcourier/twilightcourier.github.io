@@ -240,6 +240,15 @@ html {
 
 }
 
+@media screen and (480px < width <= 600px) and (height > 600px) {
+
+
+    .nav ul {
+        margin-left: 2.9vw;
+    }
+
+}
+
 
 
 /*
