@@ -1,73 +1,101 @@
-* {
-    box-sizing: border-box;
-    font-family: 'Noto Serif', serif;
-    color: #777
-  
+:root {
+    --margin_menu_col1_flex: 22vw;
+}
+
+.overflow_box_hide {
+    display: hide;
 
 }
+
 /* size determined by size of content and borders and margins */
 
-:root {
-    --margin_top: 1.2vh;
-  }
-  
-  
 
-
-html,
-body {
-  padding: 0;
-  margin: 0;
-  height: 100%;
-  font-family: 'Noto Serif', serif;
-  font-size: 15px;
-  padding-top: var(--margin_top);
-
-
-}
 
 
 /* MOBILE VERSION */
-  @media screen and (width <= 499px) and (height <= 950px) {
-    
-    .nav ul {
-        font-size: 1.3rem;
-        position: fixed;
-        top: -1.3vh;
-        display: flex;
-        justify-content: left;
-        flex-direction: row;
-        margin-left: -6.4vw;
-        padding-top: 2vh;
-        flex-wrap: nowrap;
-        gap: 1.7vw;
-        z-index: 3;
+@media screen and (width <=499px) and (height <=950px) {
 
-        
-    }
+    .g-container {
+        display: grid;
+        width: 100%;
 
-        
-  }
-
-
-  /* DESKTOP VERSION */
-  @media screen and (width >= 500px) and (height >= 501px) {
-
-    .nav ul {
-        margin: 0;
-        font-size: 1.6rem;
-        position: fixed;
-        max-width: 21%;
-        display: flex;
-        flex-direction: column;
-        margin-left: -1.8vw;
-        flex-wrap: wrap;
-        overflow-wrap: break-word;
-    
-       
-    }
-
-
+        padding-left: 2vw;
+        margin-right: 10vw;
    
-}
+
+        justify-content: center;
+    
+        gap: 2vh;
+    }
+
+    .g-item {
+
+    
+
+
+    }
+
+    .flex_image {
+        margin-top: 15vw;
+        width: auto;
+        height: 45vw;
+    
+    }
+
+        .e_test {
+            height: 70vh;
+            width: 100%;
+            background-color: grey;
+        }
+
+    }
+
+
+
+
+
+/* DESKTOP VERSION */
+@media screen and (width >=500px) and (height >=501px) {
+
+
+    .g-container {
+        display: grid;
+        width: 100%;
+        left: 30vw;
+        padding-left: 20vw;
+        margin-right: 20vw;
+   
+        background-color: blue;
+        justify-content: center;
+    
+        gap: 2vh;
+    }
+
+    .g-item {
+
+ 
+
+
+    }
+
+    .flex_image {
+
+        width: auto;
+        height: 60vh;
+    
+
+        align-items: flex-start;
+    }
+
+        .e_test {
+            height: 70vh;
+            width: 100%;
+            background-color: grey;
+        }
+
+    }
+
+
+
+
 
