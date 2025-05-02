@@ -5,8 +5,66 @@
 
   .overflow_box_hide{
     display: hide;
-   
 
+  }
+
+/* MOBILE VERSION */
+  @media screen and (width <= 499px) and (height <= 950px) {
+    .flexbox-container-top {
+        display: flex;
+     
+        flex-direction: row;
+        background-color: blue;
+    }
+       
+        .nav ul {
+            margin: 0;
+            font-size: 1.6rem;
+            position: fixed;
+            max-width: 21%;
+            display: flex;
+            flex-direction: row;
+            margin-left: -1.5vw;
+            flex-wrap: wrap;
+            overflow-wrap: break-word;
+            transform-origin: left top;
+            transform: scale(1.6);
+        
+           
+        }
+        
+        .test11 {
+            background-color: blue;
+            width: 5vw;
+            height: 2vw;
+        }
+    
+
+        
+  }
+
+
+  /* DESKTOP VERSION */
+  @media screen and (width >= 500px) and (height >= 501px) {
+
+    .nav ul {
+        margin: 0;
+        font-size: 1.6rem;
+        position: fixed;
+        max-width: 21%;
+        display: flex;
+        flex-direction: column;
+        margin-left: -1.5vw;
+        flex-wrap: wrap;
+        overflow-wrap: break-word;
+        transform-origin: left top;
+        transform: scale(1.6);
+        background-color: gold;
+    
+       
+    }
+
+        
   }
   
   .flexbox-container-top {
