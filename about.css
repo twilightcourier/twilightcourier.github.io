@@ -19,7 +19,7 @@
         display: grid;
         width: 100%;
 
-        padding-left: 2vw;
+        padding-left: 7vw;
         margin-right: 10vw;
 
 
@@ -43,13 +43,6 @@
         width: 100%;
     }
 
-    .e_test {
-        height: 70vh;
-        width: 100%;
-        background-color: grey;
-    }
-
-
 
     ul,
     li {
@@ -62,7 +55,23 @@
         word-wrap: break-word;
     }
 
+    .ev_header {
+        font-size: 1.6rem;
+        margin-top: -1vh;
+    }
+
+    .courier_text {
+
+        font-size: 1.0rem;
+        max-width: 80%;
+    }
+
+    .ev_list{
+      margin-top: -2.5vh;
+    }
+
 }
+
 
 
 
@@ -101,7 +110,7 @@
         height: 60vh;
         align-items: flex-start;
         grid-column-start: 1;
-        grid-row-start: 1;
+    grid-row-start: 1;
     }
 
 
