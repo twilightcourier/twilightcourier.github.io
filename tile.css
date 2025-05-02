@@ -1,5 +1,8 @@
 
+.tile-single {
+    margin-bottom: 1vh;
 
+}
 
 /* Mobile VERSION */
 
@@ -496,6 +499,14 @@
     
     }
 
+   
+
+    .tile-single {
+        margin-bottom: 35vh;
+    
+    }
+    
+
 
 }
 
@@ -614,10 +625,7 @@
 
 }
 
-.tile-single {
-    margin-bottom: 1vh;
 
-}
 
 .tile-content {
     line-height: 1.5;
