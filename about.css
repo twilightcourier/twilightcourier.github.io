@@ -179,6 +179,7 @@
     .ev_header {
         font-size: 1.6rem;
         margin-top: -1vh;
+        max-width: 40%;
     }
 
     .courier_text {
@@ -263,8 +264,16 @@
 
     .g-container {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: 
+        "image bio"
+        "header bio"
+        "list bio";
+
+        grid-template-columns: 1fr 1fr;
+  
         grid-template-rows: repeat(2, 1fr);
+
+        grid-auto-rows: minmax(3vh, auto);
 
         width: 100%;
         left: 30vw;
@@ -282,16 +291,14 @@
         width: auto;
         height: 60vh;
         align-items: flex-start;
-        grid-column-start: 1;
-        grid-row-start: 1;
+        grid-area: image;
     }
 
 
     .ev_header {
         font-size: 1.6rem;
-        grid-column: span 2 / span 2;
-        grid-column-start: 1;
-        grid-row-start: 2;
+        grid-area: header;
+    
     }
 
 
@@ -309,19 +316,18 @@
     }
 
     .ev_list {
-        grid-column: span 2 / span 2;
-        grid-column-start: 1;
-        grid-row-start: 3;
+        grid-area: list;
         margin-top: -55vh;
+
     }
 
     .courier_text {
 
-        grid-column-start: 2;
-        grid-row-start: 1;
+      
         width: 90%;
         margin-left: 3vh;
         font-size: 1.1rem;
+        grid-area: bio;
     }
 
 }
