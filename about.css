@@ -278,7 +278,7 @@
 
         grid-template-columns: 1fr 1fr;
   
-        grid-template-rows: repeat(2, 1fr);
+    
 
         grid-auto-rows: minmax(3vh, auto);
 
@@ -286,6 +286,7 @@
         left: 30vw;
         padding-left: 20vw;
         margin-right: 20vw;
+        
 
         justify-content: center;
 
@@ -296,15 +297,17 @@
     .gr_image1 {
 
         width: auto;
-        height: 60vh;
+        height: 58vh;
         align-items: flex-start;
         grid-area: image;
+        margin-top: 1vh;
     }
 
 
     .ev_header {
         font-size: 1.6rem;
         grid-area: header;
+       
     
     }
 
@@ -330,8 +333,14 @@
 
     .ev_list {
         grid-area: list;
-        margin-top: -55vh;
+        margin-top: -2vh;
+        font-size: 1.1rem;
+        
 
+    }
+
+    .ev_list li {
+        padding-bottom: 1vh;
     }
 
     .courier_text {
@@ -341,7 +350,7 @@
         margin-left: 3vh;
         font-size: 1.1rem;
         grid-area: bio;
-        align-content: start
+   
     }
 
 }
