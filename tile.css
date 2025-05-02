@@ -293,13 +293,52 @@
 }
 
 /* WEB VERSION  WINDOW NARROW FROM TOP to BOTTOM 1 */
-@media screen and (480px < width) and (height <= 500px) {
+@media screen and (449px <= width) and (100px <= height <= 500px) {
 
-    
     .tile-group {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(15.36vw, 1fr));
+        grid-auto-rows: auto;
+        gap: 1vw;
+        font-family: sans-serif;
+        margin-bottom: 100vh;
+        margin-left: 0.1vw;
+        max-width: 50vw;
+        display: grid;
+        gap: 2vw;
+        padding-bottom: 48vh;
+        transform-origin: left top;
+        transform: scale(1.4);
         background-color: blue;
+        
+    
+    
+    }
+
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+        flex-direction: flex-start;
+        margin: 0 auto;
+        padding: 0vw 45.9vw;
 
     }
+
+    .tile-group * {
+        box-sizing: border-box;
+    
+    
+    }
+    
+    
+    .tile-image {
+        max-width: 100%;
+        height: 18vh;
+        object-fit: cover;
+        display: block;
+    
+    }
+
 
 }
 

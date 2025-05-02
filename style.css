@@ -148,7 +148,7 @@ html {
     }
 }
 /* WEB VERSION  WINDOW NARROW FROM RIGHT to LEFT 1*/
-@media screen and (600px < width <= 1240px) and (height > 600px){
+@media screen and (968px <= width) and (height >= 501px){
 
     .nav ul {
     margin: 0;
@@ -249,7 +249,10 @@ html {
 
 }
 
+/* WEB VERSION  WINDOW NARROW FROM TOP to BOTTOM 1 */
+@media screen and (449px <= width) and (100px <= height <= 500px) {
 
+}
 
 /*
 @media all and (max-width: 297px), and (max-height: 134px) {
