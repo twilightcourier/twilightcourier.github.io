@@ -514,8 +514,8 @@ html {
 
 }
 
-/* WEB VERSION  WINDOW NARROW FROM TOP to BOTTOM 5 */
-@media screen and (width <= 581px) and (height <= 280px) {
+/* WEB VERSION  WINDOW NARROW FROM TOP to BOTTOM 6 */
+@media screen and (510<= width <= 581px) and (height <= 280px) {
 
     .nav ul {
         margin: 0;
@@ -560,6 +560,63 @@ html {
             width: 5vw;
             height: 3vh;
             margin-top: 320vh;
+
+    
+        }
+           
+        
+        
+
+        
+
+}
+
+/* WEB VERSION  WINDOW NARROW FROM TOP to BOTTOM 5 */
+@media screen and (width <= 509px) and (height <= 280px) {
+
+    .nav ul {
+        margin: 0;
+        font-size: 1.6rem;
+        position: fixed;
+        max-width: 21%;
+        display: flex;
+        flex-direction: column;
+        margin-left: -1.8vw;
+        flex-wrap: wrap;
+        overflow-wrap: break-word;
+        margin-top: 7vh;
+    
+       
+    }
+    
+    
+        .overflow_box_hide{
+    
+            display:none;
+    
+        }
+    
+        .content-section{
+            margin-top: -1vh;
+            font-size: 2.5rem;
+            color: #777;
+        }
+        
+        .content-section1{
+        
+            font-size: 2.5rem;
+            color: #777;
+            padding-top: 2.1vh;
+            margin-top: 0.1vh;
+            min-height: 3vh;
+            padding-bottom: 10vh;
+           
+        }
+
+        .link_event_promo{
+            width: 5vw;
+            height: 3vh;
+            margin-top: 380vh;
 
     
         }
