@@ -189,7 +189,7 @@ html {
 
 
 /* WEB VERSION  WINDOW NARROW FROM RIGHT to LEFT 2 */
-@media screen and (600px < width <= 967px) and (height > 600px) {
+@media screen and (713px <= width <= 967px) and (height >= 501px) {
 
     .nav ul {
         margin: 0;
@@ -230,6 +230,184 @@ html {
         
 
 }
+
+/* WEB VERSION  WINDOW NARROW FROM RIGHT to LEFT 3 */
+@media screen and (601px <= width <= 712px) and (height >= 501px) {
+
+    .nav ul {
+        margin: 0;
+        font-size: 1.6rem;
+        position: fixed;
+        max-width: 21%;
+        display: flex;
+        flex-direction: column;
+        margin-left: -1.8vw;
+        flex-wrap: wrap;
+        overflow-wrap: break-word;
+    
+       
+    }
+    
+    
+        .overflow_box_hide{
+    
+            display:none;
+    
+        }
+    
+        .content-section{
+            margin-top: -1vh;
+            font-size: 2.5rem;
+            color: #777;
+        }
+        
+        .content-section1{
+        
+            font-size: 2.5rem;
+            color: #777;
+            padding-top: 0.1vh;
+            margin-top: 0.1vh;
+           
+        }
+
+        
+
+}
+
+
+/* WEB VERSION  WINDOW NARROW FROM RIGHT to LEFT 4 */
+@media screen and (480px <= width <= 600px) and (height >= 501px) {
+
+    .nav ul {
+        margin: 0;
+        font-size: 1.6rem;
+        position: fixed;
+        max-width: 21%;
+        display: flex;
+        flex-direction: column;
+        margin-left: -1.8vw;
+        flex-wrap: wrap;
+        overflow-wrap: break-word;
+    
+       
+    }
+    
+    
+        .overflow_box_hide{
+    
+            display:none;
+    
+        }
+    
+        .content-section{
+            margin-top: -1vh;
+            font-size: 2.5rem;
+            color: #777;
+        }
+        
+        .content-section1{
+        
+            font-size: 2.5rem;
+            color: #777;
+            padding-top: 0.1vh;
+            margin-top: 0.1vh;
+           
+        }
+
+        
+
+}
+
+/* WEB VERSION  WINDOW NARROW FROM TOP to BOTTOM 1 */
+@media screen and (449px <= width) and (172px <= height <= 500px) {
+
+    .nav ul {
+        margin: 0;
+        font-size: 1.6rem;
+        position: fixed;
+        max-width: 21%;
+        display: flex;
+        flex-direction: column;
+        margin-left: -1.8vw;
+        flex-wrap: wrap;
+        overflow-wrap: break-word;
+    
+       
+    }
+    
+    
+        .overflow_box_hide{
+    
+            display:none;
+    
+        }
+    
+        .content-section{
+            margin-top: -1vh;
+            font-size: 2.5rem;
+            color: #777;
+        }
+        
+        .content-section1{
+        
+            font-size: 2.5rem;
+            color: #777;
+            padding-top: 0.1vh;
+            margin-top: 0.1vh;
+           
+        }
+
+        
+
+}
+
+
+/* WEB VERSION  WINDOW NARROW FROM TOP to BOTTOM 1 */
+@media screen and (449px <= width) and (height <= 171px) {
+
+    .nav ul {
+        margin: 0;
+        font-size: 1.6rem;
+        position: fixed;
+        max-width: 21%;
+        display: flex;
+        flex-direction: column;
+        margin-left: -1.8vw;
+        flex-wrap: wrap;
+        overflow-wrap: break-word;
+    
+       
+    }
+    
+    
+        .overflow_box_hide{
+    
+            display:none;
+    
+        }
+    
+        .content-section{
+            margin-top: -1vh;
+            font-size: 2.5rem;
+            color: #777;
+        }
+        
+        .content-section1{
+        
+            font-size: 2.5rem;
+            color: #777;
+            padding-top: 0.1vh;
+            margin-top: 0.1vh;
+           
+        }
+
+        
+
+}
+
+
+
+
 
 @media screen and (600px < width <= 712px) and (height > 600px) {
 
