@@ -312,7 +312,7 @@
         grid-column: span 2 / span 2;
         grid-column-start: 1;
         grid-row-start: 3;
-        margin-top: -48vh;
+        margin-top: -55vh;
     }
 
     .courier_text {
@@ -447,7 +447,7 @@
         grid-column: span 2 / span 2;
         grid-column-start: 1;
         grid-row-start: 3;
-        margin-top: -35vh;
+        margin-top: -48vh;
     }
 
     .courier_text {
@@ -515,7 +515,7 @@
         display: flex;
         flex-direction: column;
         margin-left: -1.8vw;
-        
+        top: 4vh;
         overflow-wrap: break-word;
     
        
