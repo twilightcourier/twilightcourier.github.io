@@ -124,7 +124,6 @@ html {
         flex-wrap: nowrap;
         gap: 0.1vw;
         z-index: 3;
-        align-content: flex-start;
         
        
 
@@ -1056,7 +1055,54 @@ html {
 }
 
 
+/* WEB VERSION NARROW 1 ABOUT PAGE */
 
+@media screen and (497px <= width <= 891px) and (height >=501px)  {
+
+    
+    
+    .nav ul {
+        font-size: 1.3rem;
+        position: fixed;
+        top: -1.3vh;
+        display: flex;
+        justify-content: left;
+        flex-direction: row;
+        margin-left: -7.4vw;
+        padding-top: 2vh;
+        flex-wrap: nowrap;
+        gap: 1.7vw;
+        z-index: 3;
+
+        
+    }
+
+    .content-section{
+        margin-top: 5vh;
+        font-size: 2.5rem;
+        color: #777;
+    }
+    
+    .content-section1{
+        font-size: 2.5rem;
+        color: #777;
+        padding-top: 3vh;
+        margin-top: 5vh;
+       
+    }
+
+
+.overflow_box_hide{
+    background-color:#ffffff;
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+   
+
+  }
+}
 
 @media screen and (600px < width <= 712px) and (height > 600px) {
 
