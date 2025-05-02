@@ -97,7 +97,7 @@
 }
 
 /* WEB VERSION  WINDOW NARROW FROM RIGHT to LEFT  1*/
-@media screen and (600px < width <= 1240px) and (height > 600px) {
+@media screen and (968px <= width) and (height >= 501px) {
 
     .tile-group {
         display: grid;
@@ -113,6 +113,8 @@
         padding-bottom: 48vh;
         transform-origin: left top;
         transform: scale(1.4);
+      
+      
     
     }
 
@@ -144,7 +146,7 @@
 
 
 /* WEB VERSION  WINDOW NARROW FROM RIGHT to LEFT 2 */
-@media screen and (600px < width <= 967px) and (height > 600px) {
+@media screen and (713px <= width <= 967px) and (height >= 501px) {
 
     
     .tile-group {
@@ -193,7 +195,7 @@
 
 
 /* WEB VERSION  WINDOW NARROW FROM RIGHT to LEFT 3 */
-@media screen and (600px < width <= 712px) and (height > 600px) {
+@media screen and (601px <= width <= 712px) and (height >= 501px) {
 
     
     .tile-group {
@@ -242,7 +244,7 @@
 
 
 /* WEB VERSION  WINDOW NARROW FROM RIGHT to LEFT 4 */
-@media screen and (480px < width <= 600px) and (height > 600px) {
+@media screen and (480px <= width <= 600px) and (height >= 501px) {
 
     
     .tile-group {
@@ -259,7 +261,7 @@
         padding-bottom: 48vh;
         transform-origin: left top;
         transform: scale(1.4);
-        background-color: rgba(128, 128, 128, 0.89);
+        
     
     
     }
@@ -290,12 +292,16 @@
 
 }
 
+/* WEB VERSION  WINDOW NARROW FROM TOP to BOTTOM 1 */
+@media screen and (480px < width) and (height <= 500px) {
 
+    
+    .tile-group {
+        background-color: blue;
 
+    }
 
-
-
-
+}
 
 
 
