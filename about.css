@@ -7,6 +7,13 @@
 
 }
 
+.dj_list{
+    padding-left: 0;
+    margin-left: 0;
+    width: 100%;
+  
+}
+
 /* size determined by size of content and borders and margins */
 
 
@@ -301,12 +308,18 @@
     
     }
 
-
-
+    .dj_list{
+        padding-left: 0;
+        margin-left: 0;
+        width: 100%;
+      
+    }
+  
     ul,
     li {
         list-style-type: none;
         width: 60%;
+       
     }
 
     .p {
@@ -328,6 +341,7 @@
         margin-left: 3vh;
         font-size: 1.1rem;
         grid-area: bio;
+        align-content: start
     }
 
 }
