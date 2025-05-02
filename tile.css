@@ -65,7 +65,7 @@
         max-width: 58vw;
         display: grid;
         gap: 2vw;
-        padding-bottom: 40vh;
+        padding-bottom: 48vh;
         transform-origin: left top;
         transform: scale(1.4)
     }
