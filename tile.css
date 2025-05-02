@@ -500,6 +500,60 @@
 }
 
 
+/* WEB VERSION  WINDOW NARROW FROM TOP to BOTTOM 5 */
+@media screen and (width <= 820px) and (height <= 171px) {
+
+    .tile-group {
+        display: grid;
+    
+        grid-auto-rows: auto;
+        gap: 1vw;
+        font-family: sans-serif;
+        margin-bottom: 100vh;
+        margin-left: 0.1vw;
+        max-width: 75vw;
+        min-width: 20vw;
+        display: grid;
+        gap: 2vw;
+        padding-bottom: 48vh;
+        transform-origin: left top;
+        transform: scale(1.8);
+        background-color: rgb(157, 255, 0);
+      
+     
+        
+    
+    
+    }
+
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+        flex-direction: flex-start;
+        margin: 0 auto;
+        padding: 0vw 45.9vw;
+
+    }
+
+    .tile-group * {
+        box-sizing: border-box;
+    
+    
+    }
+    
+    
+    .tile-image {
+        max-width: 100%;
+        height: 18vh;
+        object-fit: cover;
+        display: block;
+    
+    }
+
+
+}
+
+
 /* WEB VERSION  WINDOW NARROW FROM TOP to BOTTOM 2 MOST SHORT */
 @media screen and (449px <= width) and (height <= 171px) {
 
