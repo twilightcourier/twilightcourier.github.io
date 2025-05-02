@@ -231,6 +231,15 @@ html {
 
 }
 
+@media screen and (600px < width <= 712px) and (height > 600px) {
+
+    .nav ul {
+        margin-left: 1.7vw;
+    }
+
+
+}
+
 
 
 /*
