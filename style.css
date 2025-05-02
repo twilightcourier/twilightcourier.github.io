@@ -362,7 +362,140 @@ html {
 }
 
 
-/* WEB VERSION  WINDOW NARROW FROM TOP to BOTTOM 1 */
+/* WEB VERSION  WINDOW NARROW FROM TOP to BOTTOM 3 */
+@media screen and (449px <= width <= 979px) and (172px <= height <= 500px) {
+
+    .nav ul {
+        margin: 0;
+        font-size: 1.6rem;
+        position: fixed;
+        max-width: 21%;
+        display: flex;
+        flex-direction: column;
+        margin-left: -1.8vw;
+        flex-wrap: wrap;
+        overflow-wrap: break-word;
+    
+       
+    }
+    
+    
+        .overflow_box_hide{
+    
+            display:none;
+    
+        }
+    
+        .content-section{
+            margin-top: -1vh;
+            font-size: 2.5rem;
+            color: #777;
+        }
+        
+        .content-section1{
+        
+            font-size: 2.5rem;
+            color: #777;
+            padding-top: 0.1vh;
+            margin-top: 0.1vh;
+           
+        }
+
+        
+
+}
+
+/* WEB VERSION  WINDOW NARROW FROM TOP to BOTTOM 2 */
+@media screen and (743px <= width <= 979px) and (172px <= height <= 500px) {
+
+    .nav ul {
+        margin: 0;
+        font-size: 1.6rem;
+        position: fixed;
+        max-width: 21%;
+        display: flex;
+        flex-direction: column;
+        margin-left: -1.8vw;
+        flex-wrap: wrap;
+        overflow-wrap: break-word;
+    
+       
+    }
+    
+    
+        .overflow_box_hide{
+    
+            display:none;
+    
+        }
+    
+        .content-section{
+            margin-top: -1vh;
+            font-size: 2.5rem;
+            color: #777;
+        }
+        
+        .content-section1{
+        
+            font-size: 2.5rem;
+            color: #777;
+            padding-top: 0.1vh;
+            margin-top: 0.1vh;
+           
+        }
+
+        
+
+}
+
+
+/* WEB VERSION  WINDOW NARROW FROM TOP to BOTTOM 4 */
+@media screen and (200px <= width <= 624px) and (172px <= height <= 500px) {
+
+    .nav ul {
+        margin: 0;
+        font-size: 1.6rem;
+        position: fixed;
+        max-width: 21%;
+        display: flex;
+        flex-direction: column;
+        margin-left: -1.8vw;
+        flex-wrap: wrap;
+        overflow-wrap: break-word;
+        margin-top: 7vh;
+    
+       
+    }
+    
+    
+        .overflow_box_hide{
+    
+            display:none;
+    
+        }
+    
+        .content-section{
+            margin-top: -1vh;
+            font-size: 2.5rem;
+            color: #777;
+        }
+        
+        .content-section1{
+        
+            font-size: 2.5rem;
+            color: #777;
+            padding-top: 0.1vh;
+            margin-top: 0.1vh;
+           
+        }
+
+        
+
+}
+
+
+
+/* WEB VERSION  WINDOW NARROW FROM TOP to BOTTOM 2 MOST SHORT */
 @media screen and (449px <= width) and (height <= 171px) {
 
     .nav ul {
