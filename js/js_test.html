@@ -1,0 +1,46 @@
+<link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="tile.css" />
+<script>
+
+
+const products = [
+  { name: 'Product A', price: 10 },
+  { name: 'Product B', price: 15 },
+  { name: 'Product C', price: 20 }
+];
+
+const productList = document.createElement('ul');
+
+for (let i = 0; i < products.length; i++) {
+  const product = products[i];
+  const listItem = document.createElement('li');
+  listItem.textContent = product.name;
+  productList.appendChild(listItem);
+}
+
+document.body.appendChild(productList);
+
+</script>
+
+
+<div class="tile-group">
+
+    <div class="tile-single">
+        <a target="_blank" href="https://www.youtube.com/watch?v=lLciJDopqYE"><img class="tile-image"
+                src="VJ_Demo_Photos/dragon_hardcore2.jpg"> </a>
+
+        <div class=tile-content>
+            <div <span class="tile-name"> <a target="_blank" href="https://www.youtube.com/watch?v=lLciJDopqYE">
+                   dragon_hardcore2</a> </span>
+            </div>
+
+            <div <p class="tile-description"> Nosferatu - No God To Us (37 RUFFNECK'S MIX -
+                 DJ PANIK OLSKOOL HARDCORE CLASSIC'S 95'—97') </p>
+            </div>
+
+
+            <div class="tile-links">
+                <a target="_blank" href="https://gumroad.com/discover"> </a>
+            </div>
+        </div>
+    </div>
