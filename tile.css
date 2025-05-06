@@ -681,6 +681,7 @@
         flex-direction: flex-start;
         margin: 0 auto;
         padding: 0vw 45.9vw;
+       
 
     }
 
@@ -744,7 +745,6 @@
         padding: 0vw 20.9vw;
 
     }
-
     .tile-group * {
         box-sizing: border-box;
     
@@ -893,3 +893,12 @@
 
 
 
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    flex-direction: flex-start;
+    margin: 0 auto;
+    gap: 3.5vh;
+
+}
