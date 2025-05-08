@@ -52,7 +52,7 @@ html {
 .link_event_promo{
     width: 0.1vw;
     height: 1vh;
-    margin-top: 1vh;
+    margin-top: 2vh;
 }
 
 
@@ -199,6 +199,10 @@ html {
         padding-top: var(--margin_top);
         margin-top: 1vh;
        
+    }
+
+    .link_event_promo{
+        margin-top: 6.5vh;
     }
 }
 
@@ -1189,7 +1193,7 @@ font-weight: lighter;
 
 .container {
     max-width: 70vw;
-	padding-bottom: 3vh;
+
  
 }
 
@@ -1198,6 +1202,8 @@ font-weight: lighter;
     width: 40%;
     margin: 15vh;
 }
+
+
 
 
 

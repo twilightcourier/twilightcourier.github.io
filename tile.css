@@ -1,6 +1,6 @@
 
 .tile-single {
-    margin-bottom: 1vh;
+    margin-bottom: 0vh;
 
 }
 
@@ -899,6 +899,11 @@
     flex-direction: column;
     flex-direction: flex-start;
     margin: 0 auto;
-    gap: 3.5vh;
+    gap: 10.0vh;
+
+}
+
+.tile-group {
+    column-gap: 0.2vw;
 
 }
