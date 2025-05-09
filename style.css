@@ -1203,7 +1203,17 @@ font-weight: lighter;
     margin: 15vh;
 }
 
+.footer {
 
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin-top: 18.5vh;
+    padding-bottom: 3vh;
+    font-size: 0.8rem;
+
+}
 
 
 
