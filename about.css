@@ -19,6 +19,10 @@ a:hover {
     font-weight: lighter;
 }
 
+.service_text {
+    margin-top: -3vh;
+}
+
 
 /* size determined by size of content and borders and margins */
 
@@ -46,7 +50,7 @@ a:hover {
     .gr_image1 {
 
         width: auto;
-        height: 22vh;
+        height: 21.5vh;
         margin-top: 5vh;
 
 
@@ -70,13 +74,14 @@ a:hover {
 
     .ev_header {
         font-size: 1.28rem;
-        margin-top: -1vh;
+        margin-top: 0.1vh;
     }
 
     .courier_text {
 
         font-size: 1.0rem;
-        max-width: 80%;
+        max-width: 97%;
+        margin-top: -2vh;
     }
 
     .ev_list {
