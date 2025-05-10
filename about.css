@@ -72,7 +72,7 @@ a:hover {
         word-wrap: break-word;
     }
 
-    .ev_header {
+    .header_email {
         font-size: 1.28rem;
         margin-top: 0.1vh;
     }
@@ -86,6 +86,12 @@ a:hover {
 
     .ev_list {
         margin-top: -2.5vh;
+    }
+
+    .header_live_performance {
+        font-size: 1.28rem;
+        margin-top: -1vh;
+
     }
 
 }
@@ -135,9 +141,14 @@ a:hover {
         word-wrap: break-word;
     }
 
-    .ev_header {
-        font-size: 1.8rem;
+    .header_email  {
+        font-size: 1.rem;
         margin-top: -1vh;
+    }
+
+       .header_email22 {
+        font-size: 1.28rem;
+        margin-top: 0.1vh;
     }
 
     .courier_text {
