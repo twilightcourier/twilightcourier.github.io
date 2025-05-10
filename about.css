@@ -14,6 +14,11 @@
   
 }
 
+a:hover {
+font-weight: lighter;
+}
+
+
 /* size determined by size of content and borders and margins */
 
 
