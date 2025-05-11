@@ -412,13 +412,13 @@ li {
 
     .courier_text {
 
-        font-size: 1.1rem;
+        font-size: 1.2rem;
         max-width: 80%;
     }
 
     .ev_list {
         margin-top: -2.5vh;
-        font-size: 1.1rem;
+        font-size: 1.2rem;
     }
 
     .header_email {
@@ -428,7 +428,7 @@ li {
 
 
     .header_live_performance {
-        font-size: 1.28rem;
+        font-size: 1.5rem;
         margin-top: -1vh;
 
     }
@@ -512,16 +512,10 @@ li {
 @media screen and (761px <=width <=810px) and (height <=360px) {
 
     .g-container {
-        display: grid;
-        width: 100%;
 
         padding-left: 36vw;
         margin-right: 10vw;
 
-
-        justify-content: center;
-
-        gap: 2vh;
 
     }
 
@@ -529,28 +523,12 @@ li {
 
     .gr_image1 {
 
-        width: auto;
         height: 75vh;
         margin-top: 4vh;
 
 
     }
 
-    .item-ev {
-        width: 100%;
-    }
-
-
-    ul,
-    li {
-        list-style-type: none;
-    }
-
-    .p {
-
-        line-break: auto;
-        word-wrap: break-word;
-    }
 
 
     .header_email {
@@ -673,23 +651,15 @@ li {
 
 
     .g-container {
-        display: grid;
-        width: 100%;
 
         padding-left: 32vw;
         margin-right: 10vw;
-
-
-        justify-content: center;
-
-        gap: 2vh;
     }
 
 
 
     .gr_image1 {
 
-        width: auto;
         height: 37.5vh;
         margin-top: 0.8vh;
 
@@ -697,21 +667,6 @@ li {
 
     }
 
-    .item-ev {
-        width: 100%;
-    }
-
-
-    ul,
-    li {
-        list-style-type: none;
-    }
-
-    .p {
-
-        line-break: auto;
-        word-wrap: break-word;
-    }
 
     .header_email {
         font-size: 1.5rem;
@@ -720,18 +675,18 @@ li {
 
     .courier_text {
 
-        font-size: 1.3rem;
-        max-width: 97%;
+        font-size: 1.4rem;
+        max-width: 93%;
         margin-top: -2vh;
     }
 
     .ev_list {
         margin-top: -2.5vh;
-        font-size: 1.2rem;
+        font-size: 1.4rem;
     }
 
     .header_live_performance {
-        font-size: 1.6rem;
+        font-size: 1.7rem;
         margin-top: -1vh;
 
     }
