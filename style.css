@@ -820,13 +820,13 @@ ul {
 
 }
 
-/* WEB VERSION */
+/* DESKTOP VERSION */
 
 @media screen and (width >=1301px) and (height >=501px) {
 
     .nav ul {
         margin: 0;
-        font-size: 1.6rem;
+        font-size: 1.5rem;
         position: fixed;
         max-width: 21%;
         display: flex;
@@ -834,6 +834,7 @@ ul {
         margin-left: -1.8vw;
         flex-wrap: wrap;
         overflow-wrap: break-word;
+        top: 2.2vh;
 
 
     }
