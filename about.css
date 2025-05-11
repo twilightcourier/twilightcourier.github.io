@@ -340,6 +340,163 @@ a:hover {
 
 } 
 
+/* MOBILE VERSION GALAXY S20 Vertical */
+
+@media screen and (width <=360px) and (761px<= height <=810px) {
+
+     .g-container {
+        display: grid;
+        width: 100%;
+
+        padding-left: 9vw;
+        margin-right: 10vw;
+
+
+        justify-content: center;
+
+        gap: 2vh;
+    }
+
+
+
+    .gr_image1 {
+
+        width: auto;
+        height: 24vh;
+        margin-top: 5vh;
+
+
+    }
+
+    .item-ev {
+        width: 100%;
+    }
+
+
+    ul,
+    li {
+        list-style-type: none;
+    }
+
+    .p {
+
+        line-break: auto;
+        word-wrap: break-word;
+    }
+
+    .ev_header {
+        font-size: 1.6rem;
+        margin-top: -1vh;
+    }
+
+    .courier_text {
+
+        font-size: 1.0rem;
+        max-width: 80%;
+    }
+
+    .ev_list {
+        margin-top: -2.5vh;
+    }
+
+     .header_email {
+        font-size: 1.1rem;
+        margin-top: 0.1vh;
+    }
+
+    
+    .header_live_performance {
+        font-size: 1.28rem;
+        margin-top: -1vh;
+
+    }
+
+    .media_links {
+        margin-top: -2vh;
+    }
+
+
+}
+
+/* MOBILE VERSION GALAXY S20 Horizontal */
+
+@media screen and  (761px <= width <=810px) and (height <=360px) {
+
+    .g-container {
+        display: grid;
+        width: 100%;
+
+        padding-left: 36vw;
+        margin-right: 10vw;
+
+
+        justify-content: center;
+
+        gap: 2vh;
+
+    }
+
+
+
+    .gr_image1 {
+
+        width: auto;
+        height: 75vh;
+        margin-top: 4vh;
+
+
+    }
+
+    .item-ev {
+        width: 100%;
+    }
+
+
+    ul,
+    li {
+        list-style-type: none;
+    }
+
+    .p {
+
+        line-break: auto;
+        word-wrap: break-word;
+    }
+
+
+    .header_email {
+        font-size: 1.28rem;
+        margin-top: 0.1vh;
+    }
+
+
+    .header_live_performance {
+        font-size: 1.5rem;
+    }
+
+    .courier_text {
+
+        font-size: 1.4rem;
+        max-width: 80%;
+    }
+
+    .ev_list {
+        margin-top: -2.5vh;
+        font-size: 1.4rem;
+    }
+
+    .service_text {
+        font-size: 1.3rem;
+
+    }
+
+    .media_links {
+        font-size: 1.1rem;
+    }
+
+} 
+
+
 
 
 /* DESKTOP VERSION */
