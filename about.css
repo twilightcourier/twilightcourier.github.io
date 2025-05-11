@@ -94,6 +94,11 @@ a:hover {
 
     }
 
+    .media_links {
+        margin-top: -2vh;
+    }
+
+
 }
 
 
@@ -141,12 +146,14 @@ a:hover {
         word-wrap: break-word;
     }
 
-    .header_email  {
-        font-size: 1.rem;
-        margin-top: -1vh;
+
+        .header_email {
+        font-size: 1.28rem;
+        margin-top: 0.1vh;
     }
 
-       .header_email22 {
+
+    .header_email22 {
         font-size: 1.28rem;
         margin-top: 0.1vh;
     }
@@ -162,12 +169,19 @@ a:hover {
         font-size: 1.4rem;
     }
 
+    .service_text{
+        font-size: 1.3rem;
 
+    }
+
+    .media_links{
+        font-size: 1.1rem;
+    }
 
 
 
 }
-}
+
 
 
 
@@ -228,6 +242,7 @@ a:hover {
     .ev_list {
         margin-top: -2.5vh;
     }
+
 
 
 
