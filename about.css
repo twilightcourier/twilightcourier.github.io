@@ -23,77 +23,78 @@ a:hover {
     margin-top: -3vh;
 }
 
- .g-container {
-        display: grid;
-        width: 100%;
+.g-container {
+    display: grid;
+    width: 100%;
 
-        padding-left: 34vw;
-        margin-right: 10vw;
-
-
-        justify-content: center;
-
-        gap: 2vh;
-
-    }
+    padding-left: 34vw;
+    margin-right: 10vw;
 
 
+    justify-content: center;
 
-    .gr_image1 {
+    gap: 2vh;
 
-        width: auto;
-        height: 75vh;
-        margin-top: 4vh;
-
-
-    }
-
-    .item-ev {
-        width: 100%;
-    }
+}
 
 
-    ul,
-    li {
-        list-style-type: none;
-    }
 
-    .p {
+.gr_image1 {
 
-        line-break: auto;
-        word-wrap: break-word;
-    }
+    width: auto;
+    height: 75vh;
+    margin-top: 4vh;
 
 
-    .header_email {
-        font-size: 1.28rem;
-        margin-top: 0.1vh;
-    }
+}
+
+.item-ev {
+    width: 100%;
+}
 
 
-    .header_live_performance {
-        font-size: 1.5rem;
-    }
+ul,
+li {
+    list-style-type: none;
+}
 
-    .courier_text {
+.p {
 
-        font-size: 1.4rem;
-        max-width: 80%;
-    }
+    line-break: auto;
+    word-wrap: break-word;
+}
 
-    .ev_list {
-        margin-top: -2.5vh;
-        font-size: 1.4rem;
-    }
 
-    .service_text {
-        font-size: 1.3rem;
+.header_email {
+    font-size: 1.28rem;
+    margin-top: 0.1vh;
+}
 
-    }
 
-    .media_links {
-        font-size: 1.1rem;
-    }
+.header_live_performance {
+    font-size: 1.5rem;
+}
+
+.courier_text {
+
+    font-size: 1.4rem;
+    max-width: 80%;
+}
+
+.ev_list {
+    margin-top: -2.5vh;
+    font-size: 1.4rem;
+    max-width: 90%;
+}
+
+.service_text {
+    font-size: 1.3rem;
+
+}
+
+.media_links {
+    font-size: 1.1rem;
+}
 
 
 
@@ -109,44 +110,22 @@ a:hover {
 @media screen and (361px <=width <=499px) and (761px <=height <=950px) {
 
     .g-container {
-        display: grid;
-        width: 100%;
 
         padding-left: 12vw;
         margin-right: 10vw;
-
-
-        justify-content: center;
-
-        gap: 2vh;
     }
 
 
 
     .gr_image1 {
 
-        width: auto;
+
         height: 21.5vh;
         margin-top: 5vh;
 
 
     }
 
-    .item-ev {
-        width: 100%;
-    }
-
-
-    ul,
-    li {
-        list-style-type: none;
-    }
-
-    .p {
-
-        line-break: auto;
-        word-wrap: break-word;
-    }
 
     .header_email {
         font-size: 1.28rem;
@@ -155,13 +134,14 @@ a:hover {
 
     .courier_text {
 
-        font-size: 1.0rem;
-        max-width: 97%;
+        font-size: 1.2rem;
+        max-width: 85%;
         margin-top: -2vh;
     }
 
     .ev_list {
         margin-top: -2.5vh;
+        max-width: 90%;
     }
 
     .header_live_performance {
@@ -174,6 +154,11 @@ a:hover {
         margin-top: -2vh;
     }
 
+    .service_text {
+        font-size: 1.2rem;
+
+    }
+
 
 }
 
@@ -182,16 +167,10 @@ a:hover {
 @media screen and (851px <=width <=950px) and (361px <=height <=450px) {
 
     .g-container {
-        display: grid;
-        width: 100%;
+
 
         padding-left: 34vw;
         margin-right: 10vw;
-
-
-        justify-content: center;
-
-        gap: 2vh;
 
     }
 
@@ -199,28 +178,14 @@ a:hover {
 
     .gr_image1 {
 
-        width: auto;
         height: 75vh;
         margin-top: 4vh;
 
 
     }
 
-    .item-ev {
-        width: 100%;
-    }
+  
 
-
-    ul,
-    li {
-        list-style-type: none;
-    }
-
-    .p {
-
-        line-break: auto;
-        word-wrap: break-word;
-    }
 
 
     .header_email {
@@ -570,7 +535,7 @@ a:hover {
         margin-top: -2vh;
     }
 
-    .service_text{
+    .service_text {
         font-size: 1.1rem;
     }
 
@@ -764,7 +729,7 @@ a:hover {
         width: auto;
         height: 25.5vh;
         margin-top: 0.8vh;
-   
+
 
 
     }
@@ -811,10 +776,12 @@ a:hover {
     .media_links {
         margin-top: -2vh;
     }
+
     .service_text {
         font-size: 1.2rem;
     }
-    .media_links{
+
+    .media_links {
         font-size: 1.0rem;
     }
 
@@ -822,7 +789,7 @@ a:hover {
 }
 
 /* MOBILE VERSION IPAD HORIZONTAL */
-@media screen and (831px <=width <= 1100px) and (800px <=height <=830px) {
+@media screen and (831px <=width <=1100px) and (800px <=height <=830px) {
 
 
     .g-container {
@@ -845,7 +812,7 @@ a:hover {
         width: auto;
         height: 37.5vh;
         margin-top: 0.8vh;
-   
+
 
 
     }
@@ -893,10 +860,11 @@ a:hover {
         margin-top: -2vh;
         font-size: 1.2rem;
     }
+
     .service_text {
         font-size: 1.3rem;
     }
- 
+
 
 
 }
@@ -905,7 +873,7 @@ a:hover {
 
 
 /* DESKTOP VERSION */
-@media screen and (500px <= width <= 799px) and (501px <= height <= 989px) {
+@media screen and (500px <=width <=799px) and (501px <=height <=989px) {
 
 
     .g-container {
