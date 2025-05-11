@@ -714,14 +714,113 @@ ul {
 
 /* MOBILE VERSION Kindle Fire HDX VERTICAL */
 @media screen and (780px <=width <=830px) and (1086px <=height <= 1350px){
+      
+    .nav ul {
+        font-size: 1.4rem;
+        position: fixed;
+        display: flex;
+        justify-content: left;
+        flex-direction: column;
+        margin-left: -3.4vw;
+        top: 0.5vh;
+
+        flex-wrap: nowrap;
+        gap: 1.7vw;
+        z-index: 3;
+        margin-top: vh;
+
+
+    }
+
+    .content-section {
+        margin-top: 5vh;
+        font-size: 2.5rem;
+        color: #777;
+    }
+
+    .content-section1 {
+        font-size: 2.5rem;
+        color: #777;
+        padding-top: 3vh;
+        margin-top: 5vh;
+
+    }
+
+
+    .overflow_box_hide {
+        background-color: #ffffff;
+        width: 100%;
+        height: 3vh;
+        position: fixed;
+        top: 0;
+        z-index: 2;
+    }
+    
+    
     .footer{
         font-size: 0.9rem;
     }
 }
 
+
+/* MOBILE VERSION Kindle Fire HDX HORIZONTAL */
+@media screen and (1101px <=width <=1300px) and (750px <=height <=830px){
+     
+    .footer{
+        font-size: 0.9rem;
+    }
+
+    .nav ul{
+        top: 2.5vh;
+    }
+
+    
+    .nav ul {
+        font-size: 1.3rem;
+        position: fixed;
+        display: flex;
+        justify-content: left;
+        flex-direction: column;
+        margin-left: -3.4vw;
+        top: 4.5vh;
+
+        flex-wrap: nowrap;
+        gap: 1.7vw;
+        z-index: 3;
+        margin-top: vh;
+
+
+    }
+
+    .content-section {
+        margin-top: 5vh;
+        font-size: 2.5rem;
+        color: #777;
+    }
+
+    .content-section1 {
+        font-size: 2.5rem;
+        color: #777;
+        padding-top: 3vh;
+        margin-top: 5vh;
+
+    }
+
+
+    .overflow_box_hide {
+        background-color: #ffffff;
+        width: 100%;
+        height: 11vh;
+        position: fixed;
+        top: 0;
+        z-index: 2;
+    }
+
+}
+
 /* WEB VERSION */
 
-@media screen and (width >=500px) and (height >=501px) {
+@media screen and (width >=1301px) and (height >=501px) {
 
     .nav ul {
         margin: 0;

@@ -803,7 +803,7 @@ li {
 
     .g-container {
 
-        padding-left: 32vw;
+        padding-left: 33vw;
         margin-right: 10vw;
 
 
@@ -815,7 +815,7 @@ li {
 
     .gr_image1 {
 
-        height: 25.5vh;
+        height: 22.5vh;
         margin-top: 0.8vh;
 
 
@@ -831,7 +831,7 @@ li {
     .courier_text {
 
         font-size: 1.4rem;
-        max-width: 97%;
+        max-width: 80%;
         margin-top: -2vh;
     }
 
@@ -861,6 +861,63 @@ li {
 
 }
 
+/* MOBILE VERSION Kindle Fire HDX HORIZONTAL */
+@media screen and (1101px <=width <=1301px) and (750px <=height <=830px) {
+
+
+    .g-container {
+
+        padding-left: 32vw;
+        margin-right: 10vw;
+    }
+
+
+
+    .gr_image1 {
+
+        height: 45vh;
+        margin-top: 1.2vh;
+
+
+
+    }
+
+
+    .header_email {
+        font-size: 1.6rem;
+        margin-top: 0.1vh;
+    }
+
+    .courier_text {
+
+        font-size: 1.5rem;
+        max-width: 75%;
+        margin-top: -2vh;
+    }
+
+    .ev_list {
+        margin-top: -2.5vh;
+        font-size: 1.5rem;
+    }
+
+    .header_live_performance {
+        font-size: 1.9rem;
+        margin-top: -1vh;
+
+    }
+
+    .media_links {
+        margin-top: -2vh;
+        font-size: 1.2rem;
+    }
+
+    .service_text {
+        font-size: 1.4rem;
+    }
+
+
+
+}
 
 
 /* DESKTOP VERSION */
@@ -1144,7 +1201,7 @@ li {
 
 }
 
-@media screen and (497px <=width <=891px) and (height >=501px) {
+@media screen and (497px <=width <=891px) and (height >= 1301px) {
 
 
 
