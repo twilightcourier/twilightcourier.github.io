@@ -502,12 +502,12 @@ a:hover {
 /* MOBILE VERSION IPAD VERTICAL */
 @media screen and (800px <=width <=830px) and (990px <=height <=1085px) {
 
+
     .g-container {
-        display: flex;
-        flex-direction: column;
+        display: grid;
         width: 100%;
 
-        padding-left: 12vw;
+        padding-left: 32vw;
         margin-right: 10vw;
 
 
@@ -521,15 +521,11 @@ a:hover {
     .gr_image1 {
 
         width: auto;
-        height: 21.5vh;
-        margin-top: 5vh;
-        order: 1;
+        height: 25.5vh;
+        margin-top: 0.8vh;
+   
 
 
-    }
-
-    .service_text{
-        order: 3;
     }
 
     .item-ev {
@@ -551,7 +547,6 @@ a:hover {
     .header_email {
         font-size: 1.28rem;
         margin-top: 0.1vh;
-        order: 2;
     }
 
     .courier_text {
@@ -559,26 +554,21 @@ a:hover {
         font-size: 1.0rem;
         max-width: 97%;
         margin-top: -2vh;
-        order: 5;
     }
 
     .ev_list {
         margin-top: -2.5vh;
-        order: 7;
     }
 
     .header_live_performance {
         font-size: 1.28rem;
         margin-top: -1vh;
-        order: 6;
 
     }
 
     .media_links {
         margin-top: -2vh;
-        order: 4;
     }
-
 
 
 }
