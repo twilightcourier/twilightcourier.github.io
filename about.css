@@ -704,6 +704,121 @@ li {
 
 }
 
+/* MOBILE VERSION Iphone SE 2ndg Vertical */
+@media screen and (361px <=width <=499px) and (650px <=height <=760px) {
+
+    .g-container {
+
+        padding-left: 11vw;
+        margin-right: 10vw;
+    }
+
+
+
+    .gr_image1 {
+
+
+        height: 25vh;
+        margin-top: 7vh;
+
+
+    }
+
+
+    .header_email {
+        font-size: 1.28rem;
+        margin-top: 0.1vh;
+    }
+
+    .courier_text {
+
+        font-size: 1.2rem;
+        max-width: 85%;
+        margin-top: -2vh;
+    }
+
+    .ev_list {
+        margin-top: -2.5vh;
+        max-width: 90%;
+        font-size: 1.2rem;
+    }
+
+    .header_live_performance {
+        font-size: 1.4rem;
+        margin-top: -1vh;
+
+    }
+
+    .media_links {
+        margin-top: -2vh;
+    }
+
+    .service_text {
+        font-size: 1.2rem;
+
+    }
+
+
+}
+
+/* MOBILE VERSION Iphone SE 2ndg Horizontal */
+@media screen and (650px <=width <=760px) and (361px <=height <=380px) {
+
+    .g-container {
+
+
+        padding-left: 33vw;
+        margin-right: 10vw;
+
+    }
+
+
+
+    .gr_image1 {
+
+        height: 55vh;
+        margin-top: 4vh;
+
+
+    }
+
+
+
+    .header_email {
+        font-size: 1.28rem;
+        margin-top: 0.1vh;
+    }
+
+
+    .header_live_performance {
+        font-size: 1.5rem;
+    }
+
+    .courier_text {
+
+        font-size: 1.4rem;
+        max-width: 80%;
+    }
+
+    .ev_list {
+        margin-top: -2.5vh;
+        font-size: 1.4rem;
+        max-width: 85%;
+    }
+
+    .service_text {
+        font-size: 1.3rem;
+
+    }
+
+    .media_links {
+        font-size: 1.1rem;
+    }
+
+
+
+}
+
 
 
 
@@ -800,7 +915,7 @@ li {
 
 
 /* MOBILE VERSION Iphone SE 2nd*/
-@media screen and (370px <=width <=380px) and (660px <=height <=670px) {
+@media screen and (370px <=width <=380px) and (660px <=height <=666px) {
 
     .g-container {
         display: grid;
