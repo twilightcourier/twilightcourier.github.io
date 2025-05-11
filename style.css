@@ -67,7 +67,7 @@ ul {
 
 /* MOBILE VERSION GALAXY NOTE ANDROID 11 Vertical */
 
-@media screen and (361px <=width <=499px) and (761px <=height <=950px) {
+@media screen and (386px <=width <=499px) and (761px <=height <=950px) {
 
 
 
@@ -166,7 +166,12 @@ ul {
         z-index: 2;
 
     }
-
+    
+    .footer {
+        font-size: 0.9rem;
+        padding-bottom: 7vh;
+        margin-top: 8vh;
+    }
 
 }
 
@@ -330,7 +335,61 @@ ul {
 
 }
 
+/* MOBILE VERSION GALAXY S20+ Vertical */
 
+@media screen and (361px<= width <=385px) and (840px<=height <=860px) {
+    .nav ul {
+        font-size: 1.2rem;
+        position: fixed;
+        top: -1.3vh;
+        display: flex;
+        justify-content: left;
+        flex-direction: row;
+        margin-left: -10.4vw;
+        padding-top: 2vh;
+        flex-wrap: nowrap;
+        gap: 0vw;
+        z-index: 3;
+
+
+    }
+
+    .content-section {
+        margin-top: 5vh;
+        font-size: 2.5rem;
+        color: #777;
+    }
+
+    .content-section1 {
+        font-size: 2.5rem;
+        color: #777;
+        padding-top: 3vh;
+        margin-top: 5vh;
+
+    }
+
+
+    .overflow_box_hide {
+        background-color: #ffffff;
+        width: 100%;
+        height: 10vh;
+        position: fixed;
+        top: 0;
+        z-index: 2;
+
+
+    }
+
+    .footer {
+
+        margin-top: 4.5vh;
+
+    }
+
+
+}
+
+/* MOBILE VERSION GALAXY S20 Horizontal */
 @media screen and (761px <=width <=810px) and (height <=360px) {
 
     .nav ul {
