@@ -947,7 +947,7 @@ li {
     .gr_image1 {
 
         width: auto;
-        height: 58vh;
+        height: 51vh;
         align-items: flex-start;
         grid-area: image;
         margin-top: 1vh;
@@ -965,36 +965,41 @@ li {
     .ev_list {
         grid-area: list;
         margin-top: -2vh;
-        font-size: 1.1rem;
+        font-size: 1.3rem;
         grid-area: events;
 
 
     }
 
-    .ev_list li {
-        padding-bottom: 1vh;
-    }
 
     .courier_text {
 
 
         width: 90%;
         margin-left: 3vh;
-        font-size: 1.1rem;
+        font-size: 1.2rem;
         grid-area: bio;
+        margin-top: -5vh;
 
     }
 
     .media_links{
         grid-area: links;
+        font-size: 1.2rem;
+        margin-top: -3.0vh;
     }
 
     .header_live_performance{
         grid-area: live_header;
+        font-size: 1.7rem;
     }
 
     .header_email{
         grid-area: email;
+        font-size: 1.6rem;
+    }
+    .service_text{
+        font-size: 1.4rem;
     }
 
 }
