@@ -242,12 +242,12 @@ a:hover {
         margin-top: -2.5vh;
     }
 
-     .header_email {
+    .header_email {
         font-size: 1.1rem;
         margin-top: 0.1vh;
     }
 
-    
+
     .header_live_performance {
         font-size: 1.28rem;
         margin-top: -1vh;
@@ -338,13 +338,13 @@ a:hover {
         font-size: 1.1rem;
     }
 
-} 
+}
 
 /* MOBILE VERSION GALAXY S20 Vertical */
 
-@media screen and (width <=360px) and (761px<= height <=810px) {
+@media screen and (width <=360px) and (761px<=height <=810px) {
 
-     .g-container {
+    .g-container {
         display: grid;
         width: 100%;
 
@@ -399,12 +399,12 @@ a:hover {
         margin-top: -2.5vh;
     }
 
-     .header_email {
+    .header_email {
         font-size: 1.1rem;
         margin-top: 0.1vh;
     }
 
-    
+
     .header_live_performance {
         font-size: 1.28rem;
         margin-top: -1vh;
@@ -418,9 +418,12 @@ a:hover {
 
 }
 
+
+
+
 /* MOBILE VERSION GALAXY S20 Horizontal */
 
-@media screen and  (761px <= width <=810px) and (height <=360px) {
+@media screen and (761px <=width <=810px) and (height <=360px) {
 
     .g-container {
         display: grid;
@@ -494,13 +497,97 @@ a:hover {
         font-size: 1.1rem;
     }
 
-} 
+}
+
+/* MOBILE VERSION IPAD VERTICAL */
+@media screen and (800px <=width <=830px) and (990px <=height <=1085px) {
+
+    .g-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+        padding-left: 12vw;
+        margin-right: 10vw;
+
+
+        justify-content: center;
+
+        gap: 2vh;
+    }
+
+
+
+    .gr_image1 {
+
+        width: auto;
+        height: 21.5vh;
+        margin-top: 5vh;
+        order: 1;
+
+
+    }
+
+    .service_text{
+        order: 3;
+    }
+
+    .item-ev {
+        width: 100%;
+    }
+
+
+    ul,
+    li {
+        list-style-type: none;
+    }
+
+    .p {
+
+        line-break: auto;
+        word-wrap: break-word;
+    }
+
+    .header_email {
+        font-size: 1.28rem;
+        margin-top: 0.1vh;
+        order: 2;
+    }
+
+    .courier_text {
+
+        font-size: 1.0rem;
+        max-width: 97%;
+        margin-top: -2vh;
+        order: 5;
+    }
+
+    .ev_list {
+        margin-top: -2.5vh;
+        order: 7;
+    }
+
+    .header_live_performance {
+        font-size: 1.28rem;
+        margin-top: -1vh;
+        order: 6;
+
+    }
+
+    .media_links {
+        margin-top: -2vh;
+        order: 4;
+    }
+
+
+
+}
 
 
 
 
 /* DESKTOP VERSION */
-@media screen and (width >=500px) and (height >=501px) {
+@media screen and (500px <= width <= 799px) and (501px <= height <= 989px) {
 
 
     .g-container {
@@ -589,69 +676,7 @@ a:hover {
 
 }
 
-/* MOBILE VERSION IPAD */
-@media screen and (800px <=width <=830px) and (990px <=height <=1085px) {
 
-    .g-container {
-        display: grid;
-        width: 100%;
-
-        padding-left: 30vw;
-        margin-right: 10vw;
-
-
-        justify-content: center;
-
-        gap: 1vh;
-    }
-
-
-
-    .gr_image1 {
-
-        width: auto;
-        height: 20vh;
-        margin-top: 4vh;
-        transform: scale();
-
-
-    }
-
-    .item-ev {
-        width: 100%;
-    }
-
-
-    ul,
-    li {
-        list-style-type: none;
-    }
-
-    .p {
-
-        line-break: auto;
-        word-wrap: break-word;
-    }
-
-    .ev_header {
-        font-size: 1.6rem;
-        margin-top: -3vh;
-    }
-
-    .courier_text {
-
-        font-size: 1.1rem;
-        max-width: 80%;
-        margin-top: 3.57vh;
-    }
-
-    .ev_list {
-        margin-top: -30.5vh;
-        font-size: 1.1rem;
-    }
-
-
-}
 
 /* MOBILE VERSION Iphone SE 2nd*/
 @media screen and (370px <=width <=380px) and (660px <=height <=670px) {
@@ -729,80 +754,6 @@ a:hover {
 }
 
 
-/* MOBILE VERSION Ipad2*/
-@media screen and (800px <=width <=815px) and (1070px <=height <=1090px) {
-
-    .g-container {
-        display: grid;
-        width: 100%;
-
-        padding-left: 30vw;
-        margin-right: 10vw;
-
-
-        justify-content: center;
-
-        gap: 1vh;
-    }
-
-
-
-    .gr_image1 {
-
-        width: auto;
-        height: 20vh;
-        margin-top: -5vh;
-        transform: scale();
-
-
-    }
-
-    .item-ev {
-        width: 100%;
-    }
-
-
-    ul,
-    li {
-        list-style-type: none;
-    }
-
-    .p {
-
-        line-break: auto;
-        word-wrap: break-word;
-    }
-
-    .ev_header {
-        font-size: 1.6rem;
-        margin-top: -3vh;
-    }
-
-    .courier_text {
-
-        font-size: 1.1rem;
-        max-width: 80%;
-        margin-top: 3.57vh;
-    }
-
-    .ev_list {
-        margin-top: 0vh;
-        font-size: 1.1rem;
-    }
-
-
-    .nav {
-        margin-bottom: 10vh;
-
-
-    }
-
-    .nav ul {
-        margin-left: -14.4vw;
-    }
-
-
-}
 
 
 /* DESKTOP  NARROW WIDTH 1 */
