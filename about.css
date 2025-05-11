@@ -23,6 +23,82 @@ a:hover {
     margin-top: -3vh;
 }
 
+ .g-container {
+        display: grid;
+        width: 100%;
+
+        padding-left: 34vw;
+        margin-right: 10vw;
+
+
+        justify-content: center;
+
+        gap: 2vh;
+
+    }
+
+
+
+    .gr_image1 {
+
+        width: auto;
+        height: 75vh;
+        margin-top: 4vh;
+
+
+    }
+
+    .item-ev {
+        width: 100%;
+    }
+
+
+    ul,
+    li {
+        list-style-type: none;
+    }
+
+    .p {
+
+        line-break: auto;
+        word-wrap: break-word;
+    }
+
+
+    .header_email {
+        font-size: 1.28rem;
+        margin-top: 0.1vh;
+    }
+
+
+    .header_live_performance {
+        font-size: 1.5rem;
+    }
+
+    .courier_text {
+
+        font-size: 1.4rem;
+        max-width: 80%;
+    }
+
+    .ev_list {
+        margin-top: -2.5vh;
+        font-size: 1.4rem;
+    }
+
+    .service_text {
+        font-size: 1.3rem;
+
+    }
+
+    .media_links {
+        font-size: 1.1rem;
+    }
+
+
+
+
+
 
 /* size determined by size of content and borders and margins */
 
