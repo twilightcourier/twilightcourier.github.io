@@ -712,6 +712,12 @@ ul {
     }
 }
 
+/* MOBILE VERSION Kindle Fire HDX VERTICAL */
+@media screen and (780px <=width <=830px) and (1086px <=height <= 1350px){
+    .footer{
+        font-size: 0.9rem;
+    }
+}
 
 /* WEB VERSION */
 

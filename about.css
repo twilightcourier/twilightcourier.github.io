@@ -568,23 +568,16 @@ li {
 
 
     .g-container {
-        display: grid;
-        width: 100%;
+
 
         padding-left: 32vw;
         margin-right: 10vw;
 
-
-        justify-content: center;
-
-        gap: 2vh;
     }
 
 
 
     .gr_image1 {
-
-        width: auto;
         height: 25.5vh;
         margin-top: 0.8vh;
 
@@ -592,21 +585,6 @@ li {
 
     }
 
-    .item-ev {
-        width: 100%;
-    }
-
-
-    ul,
-    li {
-        list-style-type: none;
-    }
-
-    .p {
-
-        line-break: auto;
-        word-wrap: break-word;
-    }
 
     .header_email {
         font-size: 1.4rem;
@@ -819,6 +797,69 @@ li {
 
 }
 
+/* MOBILE VERSION Kindle Fire HDX VERTICAL */
+@media screen and (780px <=width <=830px) and (1086px <=height <= 1350px) {
+
+
+    .g-container {
+
+        padding-left: 32vw;
+        margin-right: 10vw;
+
+
+        justify-content: center;
+
+    }
+
+
+
+    .gr_image1 {
+
+        height: 25.5vh;
+        margin-top: 0.8vh;
+
+
+
+    }
+
+
+    .header_email {
+        font-size: 1.5rem;
+        margin-top: 0.1vh;
+    }
+
+    .courier_text {
+
+        font-size: 1.4rem;
+        max-width: 97%;
+        margin-top: -2vh;
+    }
+
+    .ev_list {
+        margin-top: -2.5vh;
+        font-size: 1.4rem;
+    }
+
+    .header_live_performance {
+        font-size: 1.9rem;
+        margin-top: -1vh;
+
+    }
+
+    .media_links {
+        margin-top: -2vh;
+    }
+
+    .service_text {
+        font-size: 1.4rem;
+    }
+
+    .media_links {
+        font-size: 1.1rem;
+    }
+
+
+}
 
 
 
