@@ -166,7 +166,7 @@ ul {
         z-index: 2;
 
     }
-    
+
     .footer {
         font-size: 0.9rem;
         padding-bottom: 7vh;
@@ -337,7 +337,7 @@ ul {
 
 /* MOBILE VERSION GALAXY S20+ Vertical */
 
-@media screen and (361px<= width <=385px) and (840px<=height <=860px) {
+@media screen and (361px<=width <=385px) and (840px<=height <=860px) {
     .nav ul {
         font-size: 1.2rem;
         position: fixed;
@@ -386,6 +386,111 @@ ul {
 
     }
 
+
+}
+
+/* MOBILE VERSION IPAD VERTICAL */
+@media screen and (800px <=width <=830px) and (990px <=height <=1085px) {
+
+    .nav ul {
+        font-size: 1.3rem;
+        position: fixed;
+        display: flex;
+        justify-content: left;
+        flex-direction: column;
+        margin-left: -3.4vw;
+        top: 4.5vh;
+
+        flex-wrap: nowrap;
+        gap: 1.7vw;
+        z-index: 3;
+        margin-top: vh;
+
+
+    }
+
+    .content-section {
+        margin-top: 5vh;
+        font-size: 2.5rem;
+        color: #777;
+    }
+
+    .content-section1 {
+        font-size: 2.5rem;
+        color: #777;
+        padding-top: 3vh;
+        margin-top: 5vh;
+
+    }
+
+
+    .overflow_box_hide {
+        background-color: #ffffff;
+        width: 100%;
+        height: 11vh;
+        position: fixed;
+        top: 0;
+        z-index: 2;
+
+    }
+
+    .footer {
+        font-size: 0.9rem;
+        padding-bottom: 1.5vh;
+        margin-top: 5vh;
+    }
+
+}
+
+/* MOBILE VERSION IPAD HORIZONTAL */
+@media screen and (831px <=width <=1100px) and (800px <=height <=830px) {
+    .nav ul {
+        font-size: 1.3rem;
+        position: fixed;
+        display: flex;
+        justify-content: left;
+        flex-direction: column;
+        margin-left: -3.4vw;
+        top: 4.5vh;
+
+        flex-wrap: nowrap;
+        gap: 1.7vw;
+        z-index: 3;
+        margin-top: vh;
+
+
+    }
+
+    .content-section {
+        margin-top: 5vh;
+        font-size: 2.5rem;
+        color: #777;
+    }
+
+    .content-section1 {
+        font-size: 2.5rem;
+        color: #777;
+        padding-top: 3vh;
+        margin-top: 5vh;
+
+    }
+
+
+    .overflow_box_hide {
+        background-color: #ffffff;
+        width: 100%;
+        height: 11vh;
+        position: fixed;
+        top: 0;
+        z-index: 2;
+
+    }
+
+    .footer {
+        font-size: 0.9rem;
+        padding-bottom: 1.5vh;
+        margin-top: 5vh;
+    }
 
 }
 

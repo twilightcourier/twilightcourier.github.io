@@ -545,23 +545,24 @@ a:hover {
     }
 
     .header_email {
-        font-size: 1.28rem;
+        font-size: 1.4rem;
         margin-top: 0.1vh;
     }
 
     .courier_text {
 
-        font-size: 1.0rem;
+        font-size: 1.2rem;
         max-width: 97%;
         margin-top: -2vh;
     }
 
     .ev_list {
         margin-top: -2.5vh;
+        font-size: 1.2rem;
     }
 
     .header_live_performance {
-        font-size: 1.28rem;
+        font-size: 1.6rem;
         margin-top: -1vh;
 
     }
@@ -569,6 +570,92 @@ a:hover {
     .media_links {
         margin-top: -2vh;
     }
+    .service_text {
+        font-size: 1.2rem;
+    }
+    .media_links{
+        font-size: 1.0rem;
+    }
+
+
+}
+
+/* MOBILE VERSION IPAD HORIZONTAL */
+@media screen and (831px <=width <= 1100px) and (800px <=height <=830px) {
+
+
+    .g-container {
+        display: grid;
+        width: 100%;
+
+        padding-left: 32vw;
+        margin-right: 10vw;
+
+
+        justify-content: center;
+
+        gap: 2vh;
+    }
+
+
+
+    .gr_image1 {
+
+        width: auto;
+        height: 37.5vh;
+        margin-top: 0.8vh;
+   
+
+
+    }
+
+    .item-ev {
+        width: 100%;
+    }
+
+
+    ul,
+    li {
+        list-style-type: none;
+    }
+
+    .p {
+
+        line-break: auto;
+        word-wrap: break-word;
+    }
+
+    .header_email {
+        font-size: 1.5rem;
+        margin-top: 0.1vh;
+    }
+
+    .courier_text {
+
+        font-size: 1.3rem;
+        max-width: 97%;
+        margin-top: -2vh;
+    }
+
+    .ev_list {
+        margin-top: -2.5vh;
+        font-size: 1.2rem;
+    }
+
+    .header_live_performance {
+        font-size: 1.6rem;
+        margin-top: -1vh;
+
+    }
+
+    .media_links {
+        margin-top: -2vh;
+        font-size: 1.2rem;
+    }
+    .service_text {
+        font-size: 1.3rem;
+    }
+ 
 
 
 }
