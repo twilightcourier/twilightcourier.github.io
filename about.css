@@ -103,13 +103,13 @@ a:hover {
 
 
 /* MOBILE VERSION GALAXY NOTE ANDROID 11 Horizontal */
-@media screen and (761px <=width <=950px) and (361px <=height <=450px) {
+@media screen and (851px <=width <=950px) and (361px <=height <=450px) {
 
     .g-container {
         display: grid;
         width: 100%;
 
-        padding-left: 36vw;
+        padding-left: 34vw;
         margin-right: 10vw;
 
 
@@ -497,6 +497,87 @@ a:hover {
     .service_text{
         font-size: 1.1rem;
     }
+
+
+}
+
+
+/* MOBILE VERSION Iphone 12/13 Horizontal */
+@media screen and (761px <=width <=850px) and (361px <=height <=450px) {
+
+    .g-container {
+        display: grid;
+        width: 100%;
+
+        padding-left: 32vw;
+        margin-right: 10vw;
+
+
+        justify-content: center;
+
+        gap: 2vh;
+
+    }
+
+
+
+    .gr_image1 {
+
+        width: auto;
+        height: 61vh;
+        margin-top: 4vh;
+
+
+    }
+
+    .item-ev {
+        width: 100%;
+    }
+
+
+    ul,
+    li {
+        list-style-type: none;
+    }
+
+    .p {
+
+        line-break: auto;
+        word-wrap: break-word;
+    }
+
+
+    .header_email {
+        font-size: 1.28rem;
+        margin-top: 0.1vh;
+    }
+
+
+    .header_live_performance {
+        font-size: 1.5rem;
+    }
+
+    .courier_text {
+
+        font-size: 1.4rem;
+        max-width: 80%;
+    }
+
+    .ev_list {
+        margin-top: -2.5vh;
+        font-size: 1.4rem;
+        max-width: 85%;
+    }
+
+    .service_text {
+        font-size: 1.3rem;
+
+    }
+
+    .media_links {
+        font-size: 1.1rem;
+    }
+
 
 
 }
