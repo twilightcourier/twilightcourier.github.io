@@ -864,6 +864,10 @@ ul {
     .link_event_promo {
         margin-top: 6.5vh;
     }
+
+    .footer{
+        font-size: 1rem;
+    }
 }
 
 /* WEB VERSION LARGE */
