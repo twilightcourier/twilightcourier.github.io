@@ -27,8 +27,10 @@ a:hover {
     display: grid;
     width: 100%;
 
+
     padding-left: 34vw;
     margin-right: 10vw;
+    margin-top: 0vh;
 
 
     justify-content: center;
@@ -241,6 +243,65 @@ li {
     }
 }
 
+/* DESKTOP  NARROW 2 VERSION */
+@media screen and (width <=610px) and (height >=501px) {
+
+
+    .g-container {
+
+        padding-left: 66vw;
+        margin-right: 10vw;
+        margin-top: 5vh;
+        max-width: 60%;
+    }
+
+
+
+    .gr_image1 {
+
+
+        height: 35.5vh;
+        margin-top: 4vh;
+
+
+    }
+
+
+    .header_email {
+        font-size: 1.28rem;
+        margin-top: 0.1vh;
+    }
+
+    .courier_text {
+
+        font-size: 1.2rem;
+        max-width: 85%;
+        margin-top: -2vh;
+    }
+
+    .ev_list {
+        margin-top: -2.5vh;
+        max-width: 90%;
+        font-size: 1.2rem;
+    }
+
+    .header_live_performance {
+        font-size: 1.4rem;
+        margin-top: -1vh;
+
+    }
+
+    .media_links {
+        margin-top: -2vh;
+    }
+
+    .service_text {
+        font-size: 1.2rem;
+
+    }
+
+
+}
 
 
 
@@ -249,7 +310,7 @@ li {
 @media screen and (361px <=width <=499px) and (761px <=height <=950px) {
 
     .g-container {
-
+        max-width: 100%;
         padding-left: 12vw;
         margin-right: 10vw;
     }
@@ -300,6 +361,12 @@ li {
 
     }
 
+    .overflow_box_hide {
+        display: block;
+    }
+
+
+
 
 }
 
@@ -309,7 +376,7 @@ li {
 
     .g-container {
 
-
+        max-width: 100%;
         padding-left: 34vw;
         margin-right: 10vw;
 
@@ -359,6 +426,9 @@ li {
         font-size: 1.1rem;
     }
 
+    .overflow_box_hide {
+        display: hide;
+    }
 
 
 }
@@ -370,7 +440,7 @@ li {
 @media screen and (width <=360px) and (height <=760px) {
 
     .g-container {
-
+         max-width: 100%;
         padding-left: 9vw;
         margin-right: 10vw;
 
@@ -419,7 +489,9 @@ li {
         font-size: 1.2rem;
     }
 
-
+    .overflow_box_hide {
+        display: block;
+    }
 
 }
 
@@ -477,6 +549,9 @@ li {
         font-size: 1.1rem;
     }
 
+    .overflow_box_hide {
+        display: hide;
+    }
 }
 
 /* MOBILE VERSION GALAXY S20 Vertical */
@@ -531,6 +606,10 @@ li {
 
     .service_text {
         font-size: 1.1rem;
+    }
+
+    .overflow_box_hide {
+        display: hide;
     }
 
 
@@ -593,6 +672,9 @@ li {
         font-size: 1.1rem;
     }
 
+    .overflow_box_hide {
+        display: hide;
+    }
 
 }
 
@@ -650,6 +732,10 @@ li {
 
     .media_links {
         font-size: 1.1rem;
+    }
+
+    .overflow_box_hide {
+        display: hide;
     }
 
 
@@ -715,6 +801,10 @@ li {
         font-size: 1.1rem;
     }
 
+    .overflow_box_hide {
+        display: hide;
+    }
+
 }
 
 /* MOBILE VERSION IPAD VERTICAL */
@@ -776,6 +866,9 @@ li {
         font-size: 1.0rem;
     }
 
+    .overflow_box_hide {
+        display: hide;
+    }
 
 }
 
@@ -834,6 +927,9 @@ li {
         font-size: 1.3rem;
     }
 
+    .overflow_box_hide {
+        display: hide;
+    }
 
 
 }
@@ -891,6 +987,10 @@ li {
     .service_text {
         font-size: 1.2rem;
 
+    }
+
+    .overflow_box_hide {
+        display: hide;
     }
 
 
@@ -951,7 +1051,9 @@ li {
         font-size: 1.1rem;
     }
 
-
+    .overflow_box_hide {
+        display: hide;
+    }
 
 }
 
@@ -1017,6 +1119,9 @@ li {
         font-size: 1.1rem;
     }
 
+    .overflow_box_hide {
+        display: hide;
+    }
 
 }
 
@@ -1076,6 +1181,9 @@ li {
     }
 
 
+    .overflow_box_hide {
+        display: hide;
+    }
 
 }
 
@@ -1153,5 +1261,8 @@ li {
         margin-left: -14.4vw;
     }
 
+    .overflow_box_hide {
+        display: hide;
+    }
 
 }
