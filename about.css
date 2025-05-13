@@ -440,7 +440,7 @@ li {
 @media screen and (width <=360px) and (height <=760px) {
 
     .g-container {
-         max-width: 100%;
+        max-width: 100%;
         padding-left: 9vw;
         margin-right: 10vw;
 
@@ -500,7 +500,7 @@ li {
 @media screen and (width <=760px) and (height <=360px) {
 
     .g-container {
-
+        max-width: 100%;
 
         padding-left: 36vw;
         margin-right: 10vw;
@@ -550,7 +550,7 @@ li {
     }
 
     .overflow_box_hide {
-        display: hide;
+        display: none;
     }
 }
 
@@ -620,6 +620,7 @@ li {
 @media screen and (386px<=width <=395px) and (801px<=height <=860px) {
 
     .g-container {
+        max-width: 100%;
 
         padding-left: 8vw;
         margin-right: 10vw;
@@ -673,7 +674,7 @@ li {
     }
 
     .overflow_box_hide {
-        display: hide;
+        display: block;
     }
 
 }
@@ -683,7 +684,7 @@ li {
 @media screen and (761px <=width <=850px) and (361px <=height <=450px) {
 
     .g-container {
-
+        max-width: 100%;
 
         padding-left: 32vw;
         margin-right: 10vw;
@@ -751,7 +752,7 @@ li {
 @media screen and (761px <=width <=810px) and (height <=360px) {
 
     .g-container {
-
+        max-width: 100%;
         padding-left: 36vw;
         margin-right: 10vw;
 
@@ -813,7 +814,7 @@ li {
 
     .g-container {
 
-
+        max-width: 100%;
         padding-left: 32vw;
         margin-right: 10vw;
 
@@ -867,7 +868,7 @@ li {
     }
 
     .overflow_box_hide {
-        display: hide;
+        display: block;
     }
 
 }
@@ -877,7 +878,7 @@ li {
 
 
     .g-container {
-
+        max-width: 100%;
         padding-left: 32vw;
         margin-right: 10vw;
     }
@@ -938,7 +939,7 @@ li {
 @media screen and (361px <=width <=499px) and (650px <=height <=760px) {
 
     .g-container {
-
+        max-width: 100%;
         padding-left: 11vw;
         margin-right: 10vw;
     }
