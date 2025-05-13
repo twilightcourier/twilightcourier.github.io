@@ -115,6 +115,90 @@ ul {
 
 }
 
+
+/* DESKTOP VERSION */
+@media screen and (840px <=width) and (height >=501px) {
+
+    .nav ul {
+        margin: 0;
+        font-size: 1.5rem;
+        max-width: 21%;
+        margin-left: -1.8vw;
+        top: 2.2vh;
+
+
+    }
+
+
+    .overflow_box_hide {
+
+        display: none;
+
+    }
+
+    .content-section {
+        margin-top: -1vh;
+    }
+
+    .content-section1 {
+
+        font-size: 2.5rem;
+        padding-top: var(--margin_top);
+        margin-top: 1vh;
+
+    }
+
+    .link_event_promo {
+        margin-top: 6.5vh;
+    }
+
+    .footer {
+        font-size: 1rem;
+    }
+}
+
+
+/* DESKTOP VERSION NARROW 1 */
+@media screen and (width <=840px) and (height >=501px) {
+
+    .nav ul {
+
+        top: 2vh;
+        margin-left: -5.5vw;
+
+
+    }
+
+
+    .overflow_box_hide {
+
+        display: none;
+
+    }
+
+    .content-section {
+        margin-top: -1vh;
+    }
+
+    .content-section1 {
+
+        font-size: 2.5rem;
+        padding-top: var(--margin_top);
+        margin-top: 1vh;
+
+    }
+
+    .link_event_promo {
+        margin-top: 6.5vh;
+    }
+
+    .footer {
+        font-size: 1rem;
+    }
+}
+
+
+
 /* MOBILE VERSION GALAXY NOTE ANDROID 11 Vertical */
 
 @media screen and (386px <=width <=499px) and (761px <=height <=950px) {
@@ -124,6 +208,8 @@ ul {
     .nav ul {
 
         flex-direction: row;
+        top: -1.3vh;
+        margin-left: -7.4vw;
 
 
     }
@@ -168,11 +254,12 @@ ul {
         margin-left: -14.4vw;
         padding-top: 2vh;
         gap: 1vw;
+        top: -1.3vh;
 
 
     }
 
-    
+
 
     .footer {
 
@@ -219,6 +306,7 @@ ul {
         flex-direction: row;
         margin-left: -14.4vw;
         gap: 1vw;
+        top: -1.3vh;
 
 
     }
@@ -241,7 +329,7 @@ ul {
         flex-direction: row;
         margin-left: -10.4vw;
         gap: 0vw;
-        z-index: 3;
+        top: -1.3vh;
 
 
     }
@@ -265,6 +353,7 @@ ul {
         flex-direction: row;
         margin-left: -10.4vw;
         gap: 0vw;
+        top: -1.3vh;
 
 
     }
@@ -306,7 +395,7 @@ ul {
 /* MOBILE VERSION IPAD HORIZONTAL */
 @media screen and (831px <=width <=1100px) and (800px <=height <=830px) {
     .nav ul {
-    
+
         margin-left: -3.4vw;
         top: 4.5vh;
 
@@ -314,11 +403,11 @@ ul {
 
     }
 
-   
+
 
 
     .overflow_box_hide {
-       
+
         height: 11vh;
 
     }
@@ -362,6 +451,7 @@ ul {
         font-size: 1.25rem;
         flex-direction: row;
         margin-left: -12.4vw;
+        top: -1.3vh;
 
     }
 
@@ -375,6 +465,11 @@ ul {
 
 /* MOBILE VERSION Iphone SE 2ndg Horizontal */
 @media screen and (650px <=width <=760px) and (361px <=height <=380px) {
+    .nav ul {
+        top: -1.3vh;
+        margin-left: -7.4vw;
+    }
+
 
     .footer {
         font-size: 0.8rem;
@@ -410,6 +505,7 @@ ul {
 
     .nav ul {
         top: 2.5vh;
+        
     }
 
 
@@ -421,7 +517,7 @@ ul {
 
 
     .overflow_box_hide {
-      
+
         height: 3vh;
     }
 
@@ -431,47 +527,8 @@ ul {
 
 }
 
-/* DESKTOP VERSION */
-
-@media screen and (width >=1301px) and (height >=501px) {
-
-    .nav ul {
-        margin: 0;
-        font-size: 1.5rem;
-        max-width: 21%;
-        margin-left: -1.8vw;
-        top: 2.2vh;
 
 
-    }
-
-
-    .overflow_box_hide {
-
-        display: none;
-
-    }
-
-    .content-section {
-        margin-top: -1vh;
-    }
-
-    .content-section1 {
-
-        font-size: 2.5rem;
-        padding-top: var(--margin_top);
-        margin-top: 1vh;
-
-    }
-
-    .link_event_promo {
-        margin-top: 6.5vh;
-    }
-
-    .footer{
-        font-size: 1rem;
-    }
-}
 
 /* WEB VERSION LARGE */
 
