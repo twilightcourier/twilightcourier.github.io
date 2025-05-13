@@ -473,7 +473,147 @@ ul {
     }
 }
 
-/* WEB VERSION LARGE */
+/* DESKTOP VERSION  Zoom 110%*/
+@media screen and (1100px <= width) and (height <= 601px){
+
+     .nav ul {
+        margin: 0;
+        font-size: 1.5rem;
+        max-width: 21%;
+        margin-left: -1.8vw;
+        top: 2.2vh;
+
+
+    }
+
+
+    .overflow_box_hide {
+
+        display: none;
+
+    }
+
+    .content-section {
+        margin-top: -1vh;
+    }
+
+    .content-section1 {
+
+        font-size: 2.5rem;
+        padding-top: var(--margin_top);
+        margin-top: 1vh;
+
+    }
+
+    .link_event_promo {
+        margin-top: 6.5vh;
+    }
+
+    .footer{
+        font-size: 1rem;
+    }
+
+}
+
+/* DESKTOP VERSION  Zoom 130%*/
+@media screen and (800px <= width <= 1099px) and (height <= 601px){
+
+     .nav ul {
+        margin: 0;
+        font-size: 1.5rem;
+        max-width: 21%;
+        margin-left: -1.8vw;
+        top: 2.2vh;
+
+
+    }
+
+
+    .overflow_box_hide {
+
+        display: none;
+
+    }
+
+    .content-section {
+        margin-top: -1vh;
+    }
+
+    .content-section1 {
+
+        font-size: 2.5rem;
+        padding-top: var(--margin_top);
+        margin-top: 1vh;
+
+    }
+
+    .link_event_promo {
+        margin-top: 6.5vh;
+    }
+
+    .footer{
+        font-size: 1rem;
+    }
+
+}
+
+/* DESKTOP Narrow1*/
+@media screen and (width <= 676px) and (height <= 601px){
+     .nav ul {
+        margin: 0;
+        font-size: 1.5rem;
+        max-width: 21%;
+        margin-left: -1.8vw;
+        top: 2.2vh;
+
+
+    }
+
+
+    .overflow_box_hide {
+
+        display: none;
+
+    }
+
+    .content-section {
+        margin-top: -1vh;
+    }
+
+    .content-section1 {
+
+        font-size: 2.5rem;
+        padding-top: var(--margin_top);
+        margin-top: 1vh;
+
+    }
+
+    .link_event_promo {
+        margin-top: 6.5vh;
+    }
+
+    .footer{
+        font-size: 1rem;
+    }
+
+}
+@media screen and (width <= 514px) and (height <= 601px){
+    .nav ul {
+    font-size: 1.3rem;
+    
+    top: 2.2vh;
+   
+    margin-left: -7.4vw;
+    padding-top: 2vh;
+    gap: 1.7vw;
+
+}
+
+}
+
+
+
+/* DESKTOP VERSION LARGE */
 
 @media screen and (2500px <=width) and (height >=501px) {
 

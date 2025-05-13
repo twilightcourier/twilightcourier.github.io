@@ -920,6 +920,81 @@ li {
 }
 
 
+/* MOBILE VERSION Iphone SE 2nd*/
+@media screen and (370px <=width <=380px) and (660px <=height <=666px) {
+
+    .g-container {
+        display: grid;
+        width: 100%;
+
+        padding-left: 30vw;
+        margin-right: 10vw;
+
+
+        justify-content: center;
+
+        gap: 1vh;
+    }
+
+
+
+    .gr_image1 {
+
+        width: auto;
+        height: 20vh;
+        margin-top: 4vh;
+        transform: scale();
+
+
+    }
+
+    .item-ev {
+        width: 100%;
+    }
+
+
+    ul,
+    li {
+        list-style-type: none;
+    }
+
+    .p {
+
+        line-break: auto;
+        word-wrap: break-word;
+    }
+
+    .ev_header {
+        font-size: 1.6rem;
+        margin-top: -3vh;
+    }
+
+    .courier_text {
+
+        font-size: 1.1rem;
+        max-width: 80%;
+        margin-top: 3.57vh;
+    }
+
+    .ev_list {
+        margin-top: -30.5vh;
+        font-size: 1.1rem;
+    }
+
+
+    .nav {
+        margin-bottom: 10vh;
+
+
+    }
+
+    .nav ul {
+        margin-left: -14.4vw;
+    }
+
+
+}
+
 /* DESKTOP VERSION */
 @media screen and (width >=1301px) and (height >=501px) {
 
@@ -1004,32 +1079,192 @@ li {
 
 }
 
+/* DESKTOP VERSION  Zoom 110%*/
+@media screen and (1100px <= width) and (601px <= height) {
 
 
-/* MOBILE VERSION Iphone SE 2nd*/
-@media screen and (370px <=width <=380px) and (660px <=height <=666px) {
 
     .g-container {
         display: grid;
+        grid-template-areas:
+            "image bio"
+            "email bio"
+            "services bio"
+            "links bio"
+            "live_header bio"
+             "events bio";
+
+        grid-template-columns: 1fr 1fr;
+        grid-auto-rows: minmax(3vh, auto);
+        left: 30vw;
+        padding-left: 22vw;
+        margin-right: 20vw;
+
+    }
+
+
+    .gr_image1 {
+
+        width: auto;
+        height: 51vh;
+        align-items: flex-start;
+        grid-area: image;
+        margin-top: 1vh;
+    }
+
+
+    .dj_list {
+        padding-left: 0;
+        margin-left: 0;
         width: 100%;
 
-        padding-left: 30vw;
+    }
+
+
+    .ev_list {
+        grid-area: list;
+        margin-top: -2vh;
+        font-size: 1.3rem;
+        grid-area: events;
+
+
+    }
+
+
+    .courier_text {
+
+
+        width: 90%;
+        margin-left: 3vh;
+        font-size: 1.2rem;
+        grid-area: bio;
+        margin-top: -5vh;
+
+    }
+
+    .media_links{
+        grid-area: links;
+        font-size: 1.2rem;
+        margin-top: -3.0vh;
+    }
+
+    .header_live_performance{
+        grid-area: live_header;
+        font-size: 1.7rem;
+    }
+
+    .header_email{
+        grid-area: email;
+        font-size: 1.6rem;
+    }
+    .service_text{
+        font-size: 1.4rem;
+    }
+
+}
+
+/* DESKTOP VERSION  Zoom 130%*/
+@media screen and (800px <= width <= 1099px) and (height <= 601px) {
+
+
+
+    .g-container {
+        display: grid;
+        grid-template-areas:
+            "image bio"
+            "email bio"
+            "services bio"
+            "links bio"
+            "live_header bio"
+             "events bio";
+
+        grid-template-columns: 1fr 1fr;
+        grid-auto-rows: minmax(3vh, auto);
+        left: 30vw;
+        padding-left: 22vw;
+        margin-right: 20vw;
+
+    }
+
+
+    .gr_image1 {
+
+        width: auto;
+        height: 51vh;
+        align-items: flex-start;
+        grid-area: image;
+        margin-top: 1vh;
+    }
+
+
+    .dj_list {
+        padding-left: 0;
+        margin-left: 0;
+        width: 100%;
+
+    }
+
+
+    .ev_list {
+        grid-area: list;
+        margin-top: -2vh;
+        font-size: 1.3rem;
+        grid-area: events;
+
+
+    }
+
+
+    .courier_text {
+
+
+        width: 90%;
+        margin-left: 3vh;
+        font-size: 1.2rem;
+        grid-area: bio;
+        margin-top: -5vh;
+
+    }
+
+    .media_links{
+        grid-area: links;
+        font-size: 1.2rem;
+        margin-top: -3.0vh;
+    }
+
+    .header_live_performance{
+        grid-area: live_header;
+        font-size: 1.7rem;
+    }
+
+    .header_email{
+        grid-area: email;
+        font-size: 1.6rem;
+    }
+    .service_text{
+        font-size: 1.4rem;
+    }
+
+}
+
+/* DESKTOP Narrow1*/
+@media screen and (515px width <= 676px) and (height <= 601px) {
+
+
+ .g-container {
+
+        padding-left: 40vw;
         margin-right: 10vw;
-
-
-        justify-content: center;
-
-        gap: 1vh;
+        padding-top: 15vh;
     }
 
 
 
     .gr_image1 {
 
-        width: auto;
-        height: 20vh;
-        margin-top: 4vh;
-        transform: scale();
+        height: 23.8vh;
+        margin-top: 5vh;
+        display: none;
 
 
     }
@@ -1039,47 +1274,113 @@ li {
     }
 
 
-    ul,
-    li {
-        list-style-type: none;
-    }
-
-    .p {
-
-        line-break: auto;
-        word-wrap: break-word;
-    }
-
-    .ev_header {
-        font-size: 1.6rem;
-        margin-top: -3vh;
-    }
-
     .courier_text {
 
-        font-size: 1.1rem;
+        font-size: 1.2rem;
         max-width: 80%;
-        margin-top: 3.57vh;
     }
 
     .ev_list {
-        margin-top: -30.5vh;
+        margin-top: -2.5vh;
+        font-size: 1.2rem;
+    }
+
+    .header_email {
+        font-size: 1.25rem;
+        margin-top: 0.1vh;
+    }
+
+
+    .header_live_performance {
+        font-size: 1.5rem;
+        margin-top: -1vh;
+
+    }
+
+    .media_links {
+        margin-top: -2vh;
+    }
+
+    .service_text {
         font-size: 1.1rem;
     }
-
-
-    .nav {
-        margin-bottom: 10vh;
-
-
-    }
-
-    .nav ul {
-        margin-left: -14.4vw;
+       .overflow_box_hide {
+      
+        height: 0.2vh;
     }
 
 
 }
+
+/* DESKTOP Narrow2*/
+@media screen and (width <= 514px) and (height <= 601px) {
+
+
+ .g-container {
+
+        padding-left: 40vw;
+        margin-right: 10vw;
+
+    }
+
+
+
+    .gr_image1 {
+
+        height: 23.8vh;
+        margin-top: 5vh;
+        display: none;
+
+
+    }
+
+    .item-ev {
+        width: 100%;
+    }
+
+
+    .courier_text {
+
+        font-size: 1.2rem;
+        max-width: 80%;
+    }
+
+    .ev_list {
+        margin-top: -2.5vh;
+        font-size: 1.2rem;
+    }
+
+    .header_email {
+        font-size: 1.15rem;
+        margin-top: 0.1vh;
+    }
+
+
+    .header_live_performance {
+        font-size: 1.5rem;
+        margin-top: -1vh;
+
+    }
+
+    .media_links {
+        margin-top: -2vh;
+    }
+
+    .service_text {
+        font-size: 1.1rem;
+    }
+       .overflow_box_hide {
+      
+        height: 0.2vh;
+    }
+
+
+}
+
+
+
+
+
 
 
 
