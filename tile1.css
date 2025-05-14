@@ -1,0 +1,125 @@
+ .g-container {
+     display: grid;
+     grid-template-areas:
+         "vjdemo_header_"
+         "vjdemo_videos_"
+         "evpromo_header_"
+         "evpromo_videos_";
+
+     grid-template-columns: 1fr;
+     grid-auto-rows: minmax(3vh, auto);
+     padding-left: 30vw;
+     margin-right: 20vw;
+     left: 30vw;
+     gap: 9vh;
+ }
+
+ .tile-group {
+     display: grid;
+     grid-template-columns: repeat(auto-fill, minmax(11.36vw, 1fr));
+     grid-auto-rows: auto;
+     font-family: sans-serif;
+     margin-bottom: 5vh;
+     max-width: 56vw;
+     gap: 2vw;
+     transform-origin: left top;
+     column-gap: 0.2vw;
+ }
+
+ .tile-group * {
+     box-sizing: border-box;
+ }
+
+ .tile-single {
+     display: grid;
+     grid-template-areas:
+         "img"
+         "title"
+         "description"
+         "links";
+
+     grid-template-columns: 1fr;
+     grid-auto-rows: minmax(3vh, auto);
+     margin-bottom: 0vh;
+
+ }
+
+.tile-image {
+    max-width: 100%;
+    height: 18vh;
+    object-fit: cover;
+    display: block;
+    grid-area: img;
+
+}
+
+
+ .tile-single img:hover {
+     filter: brightness(150%);
+
+ }
+
+
+ .tile-title {
+    grid-area: title;
+    width: 100%;
+    height: auto;
+    margin-bottom: 1.3vh;
+
+ }
+
+ 
+.tile-title a {
+    font-style: italic;
+    font-size: 0.97rem;
+    font-weight: bold;
+    color: #ff015d;
+    font-style: italic;
+    text-decoration: underline;
+
+
+}
+
+.tile-title a:hover {
+    filter: brightness(150%);
+}
+
+
+.tile-descriptions {
+    grid-area: description;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Noto Serif', serif;
+    font-size: 0.96rem;
+    height: auto;
+}
+
+.tile-links{
+    grid-area: links;
+    
+    display: block;
+    justify-content: space-between;
+}
+
+.tile-links a:hover {
+    color: #ff015d;
+    filter: brightness(150%);
+}
+
+
+
+ .vjdemo_header {
+     grid-area: vjdemo_header_;
+ }
+
+ .vjdemo_videos {
+     grid-area: vjdemo_videos_;
+ }
+
+ .evpromo_header {
+     grid-area: evpromo_header_;
+ }
+
+ .evpromo_videos {
+     grid-area: evpromo_videos_;
+ }
