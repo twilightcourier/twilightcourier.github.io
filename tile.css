@@ -98,7 +98,6 @@
     max-width: 56vw;
     display: grid;
     gap: 2vw;
-    padding-bottom: 48vh;
     transform-origin: left top;
     transform: scale(1.4);
     column-gap: 0.2vw;
@@ -169,7 +168,9 @@
     .tile-group {
         grid-template-columns: repeat(auto-fill, minmax(22.36vw, 1fr));
         max-width: 61vw;
-        padding-bottom: 50vh;
+        margin-bottom: 20vh;
+        gap: 0.4vw;
+        padding-bottom: 2vh;
 
     }
 
@@ -178,23 +179,28 @@
         flex-direction: column;
         flex-direction: flex-start;
         margin: 0 auto;
-        padding: 0vw 9.9vw;
-
+        padding: 0vw 6.9vw;
+        gap: 8vh;
     }
 
-
-
-
     .tile-image {
-
         height: 8.5vh;
-
     }
 
     .overflow_box_hide{
         display: block;
     }
+    .content-section1 {
+        font-size: 2.5rem;
+        color: #777;
+        padding-top: 1vh;
+        margin-top: 20vh;
+    
 
+    }
 
+    .link_event_promo{
+        margin-top: 5vh;
+    }
 
 }
