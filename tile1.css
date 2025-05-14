@@ -3,6 +3,7 @@
      grid-template-areas:
          "vjdemo_header_"
          "vjdemo_videos_"
+         "event_link"
          "evpromo_header_"
          "evpromo_videos_"
          "footer";
@@ -119,6 +120,7 @@
      margin-top: 1.5vh;
      font-size: 2.5rem;
      color: #777;
+     z-index: 5;
  }
 
  .vjdemo_videos {
@@ -137,9 +139,67 @@
  .evpromo_videos {
      grid-area: evpromo_videos_;
  }
+
  .footer {
-    grid-area: footer;
-    margin-top: 10.5vh;
-    padding-top: 2.5vh;
-    padding-bottom: 4vh;
+     grid-area: footer;
+     margin-top: 10.5vh;
+     padding-top: 2.5vh;
+     padding-bottom: 4vh;
+ }
+
+ .event_promo_link {
+    background: #ffffff;
+    grid-area: event_link;
+    height: 2vh;
+    width: 100%;
+ }
+
+ /* MOBILE VERSION GALAXY NOTE ANDROID 11 Vertical */
+ @media screen and (361px <=width <=499px) and (761px <=height <=950px) {
+
+     .g-container {
+         margin-left: 1.4vh;
+         margin-right: 0.5vh;
+     }
+
+     .tile-group {
+         grid-template-columns: repeat(auto-fill, minmax(38.36vw, 1fr));
+         gap: 3vw;
+     }
+
+     .tile-image {
+         height: 14vh;
+     }
+
+     .overflow_box_hide {
+         display: block;
+     }
+
+     .vjdemo_header {
+         margin-top: 4vh;
+         margin-bottom: -5vh;
+         margin-left: 3vw;
+     }
+
+     .evpromo_header {
+         margin-bottom: -5vh;
+         margin-left: 3vw;
+         margin-top: -5vh;
+      
+     }
+     .evpromo_videos{
+    
+     }
+
+     .event_promo_link{
+        height: 1vh;
+ 
+
+     }
+
+     .tile-title {
+         max-width: 90%;
+         word-wrap: break-word
+     }
+
  }
