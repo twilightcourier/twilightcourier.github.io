@@ -264,12 +264,12 @@ li {
 }
 
 /* DESKTOP  NARROW 2 VERSION */
-@media screen and (533px<=width <=610px) and (height >=210px) {
+@media screen and (533px<=width <=650px) and (height >=210px) {
 
 
     .g-container {
 
-        padding-left: 66vw;
+        padding-left: 69.2vw;
         margin-right: 10vw;
         margin-top: 5vh;
         max-width: 60%;
@@ -394,7 +394,7 @@ li {
         max-width: 100%;
         padding-left: 30vw;
         margin-right: 10vw;
-        margin-top: 6vh;
+        margin-top: 9vh;
 
         grid-template-areas:
             "email"
@@ -460,6 +460,83 @@ li {
 
 
 }
+
+/* DESKTOP NARROW, short 1 VERSION */
+@media screen and (width <= 532px) and (height <=350px) {
+
+    .g-container {
+
+        padding-left: 65vw;
+        margin-right: 10vw;
+    
+        margin-top: 9vh;
+        max-width: 30%;
+
+        grid-template-areas:
+            "email"
+            "services"
+            "links"
+            "bio"
+            "live_header"
+            "events";
+    
+    grid-template-columns: 1fr;
+}
+
+
+
+.gr_image1 {
+
+
+    height: 21.5vh;
+    margin-top: 5vh;
+    display: hide;
+
+
+}
+
+
+.header_email {
+    font-size: 1.18rem;
+    margin-top: 0.1vh;
+}
+
+.courier_text {
+
+    font-size: 1.2rem;
+    max-width: 65%;
+    margin-top: -2vh;
+}
+
+.ev_list {
+    margin-top: -2.5vh;
+    max-width: 90%;
+    font-size: 1.2rem;
+}
+
+.header_live_performance {
+    font-size: 1.4rem;
+    margin-top: -1vh;
+
+}
+
+.media_links {
+    margin-top: -2vh;
+}
+
+.service_text {
+    font-size: 1.2rem;
+
+}
+
+.overflow_box_hide {
+    display: block;
+}
+
+
+
+}
+
 
 
 
@@ -630,7 +707,7 @@ li {
 
 /* MOBILE VERSION GALAXY S10 Horizontal */
 
-@media screen and (width <=760px) and (350px <= height <=360px) {
+@media screen and (650px <= width <=760px) and (350px <= height <=360px) {
 
     .g-container {
         max-width: 100%;
