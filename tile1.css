@@ -122,7 +122,6 @@
      margin-top: 1.5vh;
      font-size: 2.5rem;
      color: #777;
-     z-index: 5;
  }
 
  .vjdemo_videos {
@@ -154,6 +153,10 @@
      grid-area: event_link;
      height: 2vh;
      width: 100%;
+ }
+
+ .overflow_box_hide {
+     height: 7vh;
  }
 
  /* MOBILE VERSION GALAXY NOTE ANDROID 11 Vertical */
