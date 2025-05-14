@@ -315,7 +315,48 @@ ul {
     }
 }
 
+/* DESKTOP short 2 VERSION */
+@media screen and (height <=210px){
+
+      .nav ul {
+        flex-direction: column;
+        top: -2vh;
+        margin-left: 1vw;
+        max-width: 20%;
+        position: sticky;
+
+
+    }
+
+
+    .overflow_box_hide {
+
+        display: none;
+
+    }
+
+    .content-section {
+        margin-top: -1vh;
+    }
+
+    .content-section1 {
+
+        font-size: 2.5rem;
+        padding-top: var(--margin_top);
+        margin-top: 1vh;
+
+    }
+
+    .link_event_promo {
+        margin-top: 6.5vh;
+    }
+
+    .footer {
+        font-size: 1rem;
+    }
 }
+
+
 
 
 /* MOBILE VERSION GALAXY NOTE ANDROID 11 Vertical */
