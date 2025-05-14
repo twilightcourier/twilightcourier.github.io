@@ -250,11 +250,12 @@ li {
         display: grid;
         grid-template-areas:
 
-            "email bio"
-            "services bio"
-            "links bio"
-            "live_header bio"
-            "events bio";
+            "email"
+            "services"
+            "links"
+            "bio"
+            "live_header"
+            "events";
     }
 
     .gr_image1 {
