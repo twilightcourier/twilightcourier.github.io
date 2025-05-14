@@ -89,7 +89,14 @@ li {
 }
 
 
+@media screen and (height <=170px){
 
+    .header_email{
+        font-size: 1.0rem;
+    }
+
+
+}
 
 
 /* DESKTOP VERSION */
@@ -497,8 +504,9 @@ li {
 
 
 .header_email {
-    font-size: 1.18rem;
+    font-size: 1.10rem;
     margin-top: 0.1vh;
+    padding-right: 10vh;
 }
 
 .courier_text {
@@ -647,7 +655,7 @@ li {
 
 
 /* MOBILE VERSION GALAXY S10 Vertical */
-@media screen and (width <=360px) and (height <=760px) {
+@media screen and (width <=360px) and (700px<= height <=760px) {
 
     .g-container {
         max-width: 100%;

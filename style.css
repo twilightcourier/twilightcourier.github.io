@@ -406,7 +406,7 @@ ul {
 }
 
 /* MOBILE VERSION GALAXY S10 Vertical */
-@media screen and (width <=360px) and (height <=760px) {
+@media screen and (width <=360px) and (700px<= height <=760px) {
 
     .nav ul {
         font-size: 1.2rem;
