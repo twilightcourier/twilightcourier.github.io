@@ -89,9 +89,9 @@ li {
 }
 
 
-@media screen and (height <=170px){
+@media screen and (height <=170px) {
 
-    .header_email{
+    .header_email {
         font-size: 1.0rem;
     }
 
@@ -410,72 +410,72 @@ li {
             "bio"
             "live_header"
             "events";
-    
-    grid-template-columns: 1fr;
-}
+
+        grid-template-columns: 1fr;
+    }
 
 
 
-.gr_image1 {
+    .gr_image1 {
 
 
-    height: 21.5vh;
-    margin-top: 5vh;
-    display: hide;
+        height: 21.5vh;
+        margin-top: 5vh;
+        display: hide;
 
 
-}
+    }
 
 
-.header_email {
-    font-size: 1.28rem;
-    margin-top: 0.1vh;
-}
+    .header_email {
+        font-size: 1.28rem;
+        margin-top: 0.1vh;
+    }
 
-.courier_text {
+    .courier_text {
 
-    font-size: 1.2rem;
-    max-width: 65%;
-    margin-top: -2vh;
-}
+        font-size: 1.2rem;
+        max-width: 65%;
+        margin-top: -2vh;
+    }
 
-.ev_list {
-    margin-top: -2.5vh;
-    max-width: 90%;
-    font-size: 1.2rem;
-}
+    .ev_list {
+        margin-top: -2.5vh;
+        max-width: 90%;
+        font-size: 1.2rem;
+    }
 
-.header_live_performance {
-    font-size: 1.4rem;
-    margin-top: -1vh;
+    .header_live_performance {
+        font-size: 1.4rem;
+        margin-top: -1vh;
 
-}
+    }
 
-.media_links {
-    margin-top: -2vh;
-}
+    .media_links {
+        margin-top: -2vh;
+    }
 
-.service_text {
-    font-size: 1.2rem;
+    .service_text {
+        font-size: 1.2rem;
 
-}
+    }
 
-.overflow_box_hide {
-    display: block;
-}
+    .overflow_box_hide {
+        display: block;
+    }
 
 
 
 }
 
 /* DESKTOP NARROW, short 1 VERSION */
-@media screen and (width <= 532px) and (height <=350px) {
+@media screen and (width <=532px) and (height <=350px) {
 
     .g-container {
 
         padding-left: 65vw;
         margin-right: 10vw;
-    
+
         margin-top: 9vh;
         max-width: 30%;
 
@@ -486,60 +486,60 @@ li {
             "bio"
             "live_header"
             "events";
-    
-    grid-template-columns: 1fr;
-}
+
+        grid-template-columns: 1fr;
+    }
 
 
 
-.gr_image1 {
+    .gr_image1 {
 
 
-    height: 21.5vh;
-    margin-top: 5vh;
-    display: hide;
+        height: 21.5vh;
+        margin-top: 5vh;
+        display: hide;
 
 
-}
+    }
 
 
-.header_email {
-    font-size: 1.10rem;
-    margin-top: 0.1vh;
-    padding-right: 10vh;
-}
+    .header_email {
+        font-size: 1.10rem;
+        margin-top: 0.1vh;
+        padding-right: 10vh;
+    }
 
-.courier_text {
+    .courier_text {
 
-    font-size: 1.2rem;
-    max-width: 65%;
-    margin-top: -2vh;
-}
+        font-size: 1.2rem;
+        max-width: 65%;
+        margin-top: -2vh;
+    }
 
-.ev_list {
-    margin-top: -2.5vh;
-    max-width: 90%;
-    font-size: 1.2rem;
-}
+    .ev_list {
+        margin-top: -2.5vh;
+        max-width: 90%;
+        font-size: 1.2rem;
+    }
 
-.header_live_performance {
-    font-size: 1.4rem;
-    margin-top: -1vh;
+    .header_live_performance {
+        font-size: 1.4rem;
+        margin-top: -1vh;
 
-}
+    }
 
-.media_links {
-    margin-top: -2vh;
-}
+    .media_links {
+        margin-top: -2vh;
+    }
 
-.service_text {
-    font-size: 1.2rem;
+    .service_text {
+        font-size: 1.2rem;
 
-}
+    }
 
-.overflow_box_hide {
-    display: block;
-}
+    .overflow_box_hide {
+        display: block;
+    }
 
 
 
@@ -611,6 +611,16 @@ li {
         padding-left: 34vw;
         margin-right: 10vw;
         margin-top: 0vh;
+        grid-template-areas:
+            "image"
+            "email"
+            "services"
+            "links"
+            "bio"
+            "live_header"
+            "events";
+        grid-template-columns: 1fr;
+
     }
 
     .gr_image1 {
@@ -655,7 +665,7 @@ li {
 
 
 /* MOBILE VERSION GALAXY S10 Vertical */
-@media screen and (width <=360px) and (700px<= height <=760px) {
+@media screen and (width <=360px) and (700px<=height <=760px) {
 
     .g-container {
         max-width: 100%;
@@ -715,7 +725,7 @@ li {
 
 /* MOBILE VERSION GALAXY S10 Horizontal */
 
-@media screen and (650px <= width <=760px) and (350px <= height <=360px) {
+@media screen and (650px <=width <=760px) and (350px <=height <=360px) {
 
     .g-container {
         max-width: 100%;
@@ -936,7 +946,7 @@ li {
 
 /* MOBILE VERSION GALAXY S20 Horizontal */
 
-@media screen and (761px <=width <=810px) and (351px <= height <=360px) {
+@media screen and (761px <=width <=810px) and (351px <=height <=360px) {
     .g-container {
         max-width: 100%;
         padding-left: 36vw;
@@ -1046,6 +1056,15 @@ li {
         padding-left: 32vw;
         margin-right: 10vw;
         margin-top: 3vh;
+        grid-template-areas:
+            "image"
+            "email"
+            "services"
+            "links"
+            "bio"
+            "live_header"
+            "events";
+        grid-template-columns: 1fr;
     }
 
     .gr_image1 {
@@ -1267,6 +1286,15 @@ li {
         padding-left: 32vw;
         margin-right: 10vw;
         margin-top: 0vh;
+        grid-template-areas:
+            "image"
+            "email"
+            "services"
+            "links"
+            "bio"
+            "live_header"
+            "events";
+        grid-template-columns: 1fr;
     }
 
     .gr_image1 {
