@@ -276,9 +276,9 @@ ul {
 
 
 /* DESKTOP NARROW, short 1 VERSION */
-@media screen and (width <= 532px) and (height <=350px){
+@media screen and (width <=532px) and (height <=350px) {
 
-      .nav ul {
+    .nav ul {
         flex-direction: column;
         top: -2vh;
         margin-left: -9vw;
@@ -316,9 +316,9 @@ ul {
 }
 
 /* DESKTOP short 2 VERSION */
-@media screen and (height <=210px){
+@media screen and (height <=210px) {
 
-      .nav ul {
+    .nav ul {
         flex-direction: column;
         top: -2vh;
         margin-left: 1vw;
@@ -374,6 +374,19 @@ ul {
 
     }
 
+    .content-section {
+        margin-top: 5vh;
+
+    }
+
+    .content-section1 {
+        font-size: 2.5rem;
+        color: #777;
+        padding-top: 3vh;
+        margin-top: 5vh;
+
+    }
+
 
 
 }
@@ -406,7 +419,7 @@ ul {
 }
 
 /* MOBILE VERSION GALAXY S10 Vertical */
-@media screen and (width <=360px) and (700px<= height <=760px) {
+@media screen and (width <=360px) and (700px<=height <=760px) {
 
     .nav ul {
         font-size: 1.2rem;
@@ -432,7 +445,7 @@ ul {
 
 /* MOBILE VERSION GALAXY S10 Horizontal */
 
-@media screen and (533px <= width <=760px) and (height <=360px) {
+@media screen and (533px <=width <=760px) and (height <=360px) {
 
     .nav ul {
 
