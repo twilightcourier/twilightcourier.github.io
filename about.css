@@ -245,11 +245,11 @@ li {
 
 /* DESKTOP  NO IMAGE IF TOO SHORT */
 @media screen and (height <=350px) {
-    
+
     .g-container {
         display: grid;
         grid-template-areas:
-            
+
             "email bio"
             "services bio"
             "links bio"
@@ -257,967 +257,1041 @@ li {
             "events bio";
     }
 
-        .gr_image1 {
-            display: none;
-        }
+    .gr_image1 {
+        display: none;
+    }
+}
+
+/* DESKTOP  NARROW 2 VERSION */
+@media screen and (533px<=width <=610px) and (height >=210px) {
+
+
+    .g-container {
+
+        padding-left: 66vw;
+        margin-right: 10vw;
+        margin-top: 5vh;
+        max-width: 60%;
     }
 
-    /* DESKTOP  NARROW 2 VERSION */
-    @media screen and (533px<=width <=610px) and (height >=210px) {
 
 
-        .g-container {
-
-            padding-left: 66vw;
-            margin-right: 10vw;
-            margin-top: 5vh;
-            max-width: 60%;
-        }
+    .gr_image1 {
 
 
-
-        .gr_image1 {
-
-
-            height: 35.5vh;
-            margin-top: 4vh;
-
-
-        }
-
-
-        .header_email {
-            font-size: 1.28rem;
-            margin-top: 0.1vh;
-        }
-
-        .courier_text {
-
-            font-size: 1.2rem;
-            max-width: 85%;
-            margin-top: -2vh;
-        }
-
-        .ev_list {
-            margin-top: -2.5vh;
-            max-width: 90%;
-            font-size: 1.2rem;
-        }
-
-        .header_live_performance {
-            font-size: 1.4rem;
-            margin-top: -1vh;
-
-        }
-
-        .media_links {
-            margin-top: -2vh;
-        }
-
-        .service_text {
-            font-size: 1.2rem;
-
-        }
-
-
-    }
-
-    /* DESKTOP  NARROW 3 VERSION */
-    @media screen and (width <=532px) and (height >=210px) {
-
-        .g-container {
-            max-width: 100%;
-            padding-left: 12vw;
-            margin-right: 10vw;
-            margin-top: 12vh;
-        }
-
-
-
-        .gr_image1 {
-
-
-            height: 21.5vh;
-            margin-top: 5vh;
-            display: hide;
-
-
-        }
-
-
-        .header_email {
-            font-size: 1.28rem;
-            margin-top: 0.1vh;
-        }
-
-        .courier_text {
-
-            font-size: 1.2rem;
-            max-width: 85%;
-            margin-top: -2vh;
-        }
-
-        .ev_list {
-            margin-top: -2.5vh;
-            max-width: 90%;
-            font-size: 1.2rem;
-        }
-
-        .header_live_performance {
-            font-size: 1.4rem;
-            margin-top: -1vh;
-
-        }
-
-        .media_links {
-            margin-top: -2vh;
-        }
-
-        .service_text {
-            font-size: 1.2rem;
-
-        }
-
-        .overflow_box_hide {
-            display: block;
-        }
-
+        height: 35.5vh;
+        margin-top: 4vh;
 
 
     }
 
 
-
-
-
-    /* MOBILE VERSION GALAXY NOTE ANDROID 11 Vertical */
-    @media screen and (361px <=width <=499px) and (761px <=height <=950px) {
-
-        .g-container {
-            max-width: 100%;
-            padding-left: 12vw;
-            margin-right: 10vw;
-            margin-top: 0vh;
-        }
-
-        .gr_image1 {
-            height: 21.5vh;
-            margin-top: 5vh;
-            display: block;
-        }
-
-        .header_email {
-            font-size: 1.28rem;
-            margin-top: 0.1vh;
-        }
-
-        .courier_text {
-            font-size: 1.2rem;
-            max-width: 85%;
-            margin-top: -2vh;
-        }
-
-        .ev_list {
-            margin-top: -2.5vh;
-            max-width: 90%;
-            font-size: 1.2rem;
-        }
-
-        .header_live_performance {
-            font-size: 1.4rem;
-            margin-top: -1vh;
-        }
-
-        .media_links {
-            margin-top: -2vh;
-        }
-
-        .service_text {
-            font-size: 1.2rem;
-
-        }
-
-        .overflow_box_hide {
-            display: block;
-        }
+    .header_email {
+        font-size: 1.28rem;
+        margin-top: 0.1vh;
     }
 
+    .courier_text {
 
-    /* MOBILE VERSION GALAXY NOTE ANDROID 11 Horizontal */
-    @media screen and (851px <=width <=950px) and (361px <=height <=450px) {
-
-        .g-container {
-            max-width: 100%;
-            padding-left: 34vw;
-            margin-right: 10vw;
-            margin-top: 0vh;
-        }
-
-        .gr_image1 {
-            height: 75vh;
-            margin-top: 4vh;
-            display: block;
-        }
-
-        .header_email {
-            font-size: 1.28rem;
-            margin-top: 0.1vh;
-        }
-
-        .header_live_performance {
-            font-size: 1.5rem;
-        }
-
-        .courier_text {
-            font-size: 1.4rem;
-            max-width: 80%;
-        }
-
-        .ev_list {
-            margin-top: -2.5vh;
-            font-size: 1.4rem;
-        }
-
-        .service_text {
-            font-size: 1.3rem;
-        }
-
-        .media_links {
-            font-size: 1.1rem;
-        }
-
-        .overflow_box_hide {
-            display: hide;
-        }
+        font-size: 1.2rem;
+        max-width: 85%;
+        margin-top: -2vh;
     }
 
-
-
-
-    /* MOBILE VERSION GALAXY S10 Vertical */
-    @media screen and (width <=360px) and (height <=760px) {
-
-        .g-container {
-            max-width: 100%;
-            padding-left: 9vw;
-            margin-right: 10vw;
-            margin-top: 0vh;
-
-        }
-
-
-
-        .gr_image1 {
-
-            height: 24vh;
-            margin-top: 5vh;
-            display: block;
-
-        }
-
-
-
-        .courier_text {
-
-            font-size: 1.1rem;
-            max-width: 80%;
-        }
-
-        .ev_list {
-            margin-top: -2.5vh;
-            font-size: 1.1rem;
-        }
-
-        .header_email {
-            font-size: 1.1rem;
-            margin-top: 0.1vh;
-        }
-
-
-        .header_live_performance {
-            font-size: 1.28rem;
-            margin-top: -1vh;
-
-        }
-
-        .media_links {
-            margin-top: -2vh;
-        }
-
-        .service_text {
-            font-size: 1.2rem;
-        }
-
-        .overflow_box_hide {
-            display: block;
-        }
+    .ev_list {
+        margin-top: -2.5vh;
+        max-width: 90%;
+        font-size: 1.2rem;
     }
 
-    /* MOBILE VERSION GALAXY S10 Horizontal */
-
-    @media screen and (width <=760px) and (height <=360px) {
-
-        .g-container {
-            max-width: 100%;
-            padding-left: 36vw;
-            margin-right: 10vw;
-            margin-top: 0vh;
-        }
-
-        .gr_image1 {
-            height: 75vh;
-            margin-top: 4vh;
-            display: block;
-        }
-
-        .header_email {
-            font-size: 1.28rem;
-            margin-top: 0.1vh;
-        }
-
-        .header_live_performance {
-            font-size: 1.5rem;
-        }
-
-        .courier_text {
-            font-size: 1.4rem;
-            max-width: 80%;
-        }
-
-        .ev_list {
-            margin-top: -2.5vh;
-            font-size: 1.4rem;
-        }
-
-        .service_text {
-            font-size: 1.3rem;
-
-        }
-
-        .media_links {
-            font-size: 1.1rem;
-        }
-
-        .overflow_box_hide {
-            display: none;
-        }
-    }
-
-    /* MOBILE VERSION GALAXY S20 Vertical */
-
-    @media screen and (width <=360px) and (761px<=height <=810px) {
-
-        .g-container {
-
-
-            padding-left: 9vw;
-            margin-right: 10vw;
-        }
-
-
-
-        .gr_image1 {
-
-            height: 24vh;
-            margin-top: -2vh;
-            display: block;
-
-        }
-
-
-
-        .courier_text {
-
-            font-size: 1.1rem;
-            max-width: 80%;
-        }
-
-        .ev_list {
-            margin-top: -2.5vh;
-            font-size: 1.1rem;
-        }
-
-        .header_email {
-            font-size: 1.1rem;
-            margin-top: 0.1vh;
-        }
-
-
-        .header_live_performance {
-            font-size: 1.28rem;
-            margin-top: -1vh;
-
-        }
-
-        .media_links {
-            margin-top: -2vh;
-        }
-
-        .service_text {
-            font-size: 1.1rem;
-        }
-
-        .overflow_box_hide {
-            display: hide;
-        }
-
+    .header_live_performance {
+        font-size: 1.4rem;
+        margin-top: -1vh;
 
     }
 
-    /* MOBILE VERSION Iphone 12/13 Vertical */
-
-    @media screen and (386px<=width <=395px) and (801px<=height <=860px) {
-
-        .g-container {
-            max-width: 100%;
-            padding-left: 8vw;
-            margin-right: 10vw;
-            margin-top: 0vh;
-        }
-
-
-
-        .gr_image1 {
-            height: 23.8vh;
-            margin-top: 5vh;
-            display: block;
-        }
-
-        .item-ev {
-            width: 100%;
-        }
-
-
-        .courier_text {
-            font-size: 1.2rem;
-            max-width: 80%;
-        }
-
-        .ev_list {
-            margin-top: -2.5vh;
-            font-size: 1.2rem;
-        }
-
-        .header_email {
-            font-size: 1.25rem;
-            margin-top: 0.1vh;
-        }
-
-
-        .header_live_performance {
-            font-size: 1.5rem;
-            margin-top: -1vh;
-
-        }
-
-        .media_links {
-            margin-top: -2vh;
-        }
-
-        .service_text {
-            font-size: 1.1rem;
-        }
-
-        .overflow_box_hide {
-            display: block;
-        }
+    .media_links {
+        margin-top: -2vh;
     }
 
-
-    /* MOBILE VERSION Iphone 12/13 Horizontal */
-    @media screen and (761px <=width <=850px) and (361px <=height <=450px) {
-
-        .g-container {
-            max-width: 100%;
-            padding-left: 32vw;
-            margin-right: 10vw;
-            margin-top: 0vh;
-        }
-
-        .gr_image1 {
-            height: 61vh;
-            margin-top: 4vh;
-            display: block;
-        }
-
-        .header_email {
-            font-size: 1.28rem;
-            margin-top: 0.1vh;
-        }
-
-        .header_live_performance {
-            font-size: 1.5rem;
-        }
-
-        .courier_text {
-            font-size: 1.4rem;
-            max-width: 80%;
-        }
-
-        .ev_list {
-            margin-top: -2.5vh;
-            font-size: 1.4rem;
-            max-width: 85%;
-        }
-
-        .service_text {
-            font-size: 1.3rem;
-
-        }
-
-        .media_links {
-            font-size: 1.1rem;
-        }
-
-        .overflow_box_hide {
-            display: hide;
-        }
-    }
-
-    /* MOBILE VERSION GALAXY S20 Horizontal */
-
-    @media screen and (761px <=width <=810px) and (height <=360px) {
-        .g-container {
-            max-width: 100%;
-            padding-left: 36vw;
-            margin-right: 10vw;
-            margin-top: 0vh;
-        }
-
-        .gr_image1 {
-            height: 75vh;
-            margin-top: 4vh;
-            display: block;
-        }
-
-        .header_email {
-            font-size: 1.28rem;
-            margin-top: 0.1vh;
-        }
-
-        .header_live_performance {
-            font-size: 1.5rem;
-        }
-
-        .courier_text {
-            font-size: 1.4rem;
-            max-width: 80%;
-        }
-
-        .ev_list {
-            margin-top: -2.5vh;
-            font-size: 1.4rem;
-        }
-
-        .service_text {
-            font-size: 1.3rem;
-
-        }
-
-        .media_links {
-            font-size: 1.1rem;
-        }
-
-        .overflow_box_hide {
-            display: hide;
-        }
-
-    }
-
-    /* MOBILE VERSION IPAD VERTICAL */
-    @media screen and (800px <=width <=830px) and (990px <=height <=1085px) {
-        .g-container {
-            max-width: 100%;
-            padding-left: 32vw;
-            margin-right: 10vw;
-            margin-top: 0vh;
-        }
-
-        .gr_image1 {
-            height: 25.5vh;
-            margin-top: 0.8vh;
-            display: block;
-        }
-
-        .header_email {
-            font-size: 1.4rem;
-            margin-top: 0.1vh;
-        }
-
-        .courier_text {
-            font-size: 1.2rem;
-            max-width: 97%;
-            margin-top: -2vh;
-        }
-
-        .ev_list {
-            margin-top: -2.5vh;
-            font-size: 1.2rem;
-        }
-
-        .header_live_performance {
-            font-size: 1.6rem;
-            margin-top: -1vh;
-        }
-
-        .media_links {
-            margin-top: -2vh;
-        }
-
-        .service_text {
-            font-size: 1.2rem;
-        }
-
-        .media_links {
-            font-size: 1.0rem;
-        }
-
-        .overflow_box_hide {
-            display: block;
-        }
-
-    }
-
-    /* MOBILE VERSION IPAD HORIZONTAL */
-    @media screen and (831px <=width <=1100px) and (800px <=height <=830px) {
-
-        .g-container {
-            max-width: 100%;
-            padding-left: 32vw;
-            margin-right: 10vw;
-            margin-top: 3vh;
-        }
-
-        .gr_image1 {
-
-            height: 37.5vh;
-            margin-top: 0.8vh;
-            display: block;
-        }
-
-        .header_email {
-            font-size: 1.5rem;
-            margin-top: 0.1vh;
-        }
-
-        .courier_text {
-            font-size: 1.4rem;
-            max-width: 93%;
-            margin-top: -2vh;
-        }
-
-        .ev_list {
-            margin-top: -2.5vh;
-            font-size: 1.4rem;
-        }
-
-        .header_live_performance {
-            font-size: 1.7rem;
-            margin-top: -1vh;
-
-        }
-
-        .media_links {
-            margin-top: -2vh;
-            font-size: 1.2rem;
-        }
-
-        .service_text {
-            font-size: 1.3rem;
-        }
-
-        .overflow_box_hide {
-            display: hide;
-        }
-
-
-    }
-
-    /* MOBILE VERSION Iphone SE 2ndg Vertical */
-    @media screen and (361px <=width <=499px) and (650px <=height <=760px) {
-
-        .g-container {
-            max-width: 100%;
-            padding-left: 11vw;
-            margin-right: 10vw;
-            margin-top: 0vh;
-        }
-
-        .gr_image1 {
-            height: 25vh;
-            margin-top: 7vh;
-            display: block;
-        }
-
-        .header_email {
-            font-size: 1.28rem;
-            margin-top: 0.1vh;
-        }
-
-        .courier_text {
-            font-size: 1.2rem;
-            max-width: 85%;
-            margin-top: -2vh;
-        }
-
-        .ev_list {
-            margin-top: -2.5vh;
-            max-width: 90%;
-            font-size: 1.2rem;
-        }
-
-        .header_live_performance {
-            font-size: 1.4rem;
-            margin-top: -1vh;
-
-        }
-
-        .media_links {
-            margin-top: -2vh;
-        }
-
-        .service_text {
-            font-size: 1.2rem;
-
-        }
-
-        .overflow_box_hide {
-            display: hide;
-        }
-
-
-    }
-
-    /* MOBILE VERSION Iphone SE 2ndg Horizontal */
-    @media screen and (650px <=width <=760px) and (361px <=height <=380px) {
-
-        .g-container {
-            padding-left: 33vw;
-            margin-right: 10vw;
-            margin-top: 0vh;
-        }
-
-        .gr_image1 {
-            height: 55vh;
-            margin-top: 4vh;
-            display: block;
-        }
-
-        .header_email {
-            font-size: 1.28rem;
-            margin-top: 0.1vh;
-        }
-
-
-        .header_live_performance {
-            font-size: 1.5rem;
-        }
-
-        .courier_text {
-
-            font-size: 1.4rem;
-            max-width: 80%;
-        }
-
-        .ev_list {
-            margin-top: -2.5vh;
-            font-size: 1.4rem;
-            max-width: 85%;
-        }
-
-        .service_text {
-            font-size: 1.3rem;
-
-        }
-
-        .media_links {
-            font-size: 1.1rem;
-        }
-
-        .overflow_box_hide {
-            display: block;
-        }
-
-    }
-
-    /* MOBILE VERSION Kindle Fire HDX VERTICAL */
-    @media screen and (780px <=width <=830px) and (1086px <=height <=1350px) {
-
-
-        .g-container {
-            padding-left: 33vw;
-            margin-right: 10vw;
-            margin-top: 0vh;
-            justify-content: center;
-        }
-
-        .gr_image1 {
-            height: 22.5vh;
-            margin-top: 0.5vh;
-            display: block;
-        }
-
-
-        .header_email {
-            font-size: 1.5rem;
-            margin-top: 0.1vh;
-        }
-
-        .courier_text {
-
-            font-size: 1.4rem;
-            max-width: 80%;
-            margin-top: -2vh;
-        }
-
-        .ev_list {
-            margin-top: -2.5vh;
-            font-size: 1.4rem;
-        }
-
-        .header_live_performance {
-            font-size: 1.9rem;
-            margin-top: -1vh;
-
-        }
-
-        .media_links {
-            margin-top: -2vh;
-        }
-
-        .service_text {
-            font-size: 1.4rem;
-        }
-
-        .media_links {
-            font-size: 1.1rem;
-        }
-
-        .overflow_box_hide {
-            display: hide;
-        }
-
-    }
-
-    /* MOBILE VERSION Kindle Fire HDX HORIZONTAL */
-    @media screen and (1101px <=width <=1301px) and (750px <=height <=830px) {
-
-
-        .g-container {
-            padding-left: 32vw;
-            margin-right: 10vw;
-            margin-top: 0vh;
-        }
-
-        .gr_image1 {
-            height: 45vh;
-            margin-top: 1.2vh;
-            display: block;
-        }
-
-        .header_email {
-            font-size: 1.6rem;
-            margin-top: 0.1vh;
-        }
-
-        .courier_text {
-            font-size: 1.5rem;
-            max-width: 75%;
-            margin-top: -2vh;
-        }
-
-        .ev_list {
-            margin-top: -2.5vh;
-            font-size: 1.5rem;
-        }
-
-        .header_live_performance {
-            font-size: 1.9rem;
-            margin-top: -1vh;
-
-        }
-
-        .media_links {
-            margin-top: -2vh;
-            font-size: 1.2rem;
-        }
-
-        .service_text {
-            font-size: 1.4rem;
-        }
-
-
-        .overflow_box_hide {
-            display: hide;
-        }
+    .service_text {
+        font-size: 1.2rem;
 
     }
 
 
-    /* MOBILE VERSION Iphone SE 2nd*/
-    @media screen and (370px <=width <=380px) and (660px <=height <=666px) {
+}
 
-        .g-container {
-            display: grid;
-            width: 100%;
-            padding-left: 30vw;
-            margin-right: 10vw;
-            margin-top: 0vh;
-            justify-content: center;
-            gap: 1vh;
-        }
+/* DESKTOP  NARROW 3 VERSION */
+@media screen and (width <=532px) and (height >=210px) {
 
-        .gr_image1 {
-            width: auto;
-            height: 20vh;
-            margin-top: 4vh;
-            transform: scale();
-            display: block;
-        }
-
-        .item-ev {
-            width: 100%;
-        }
+    .g-container {
+        max-width: 100%;
+        padding-left: 12vw;
+        margin-right: 10vw;
+        margin-top: 12vh;
+    }
 
 
-        ul,
-        li {
-            list-style-type: none;
-        }
 
-        .p {
+    .gr_image1 {
 
-            line-break: auto;
-            word-wrap: break-word;
-        }
 
-        .ev_header {
-            font-size: 1.6rem;
-            margin-top: -3vh;
-        }
+        height: 21.5vh;
+        margin-top: 5vh;
+        display: hide;
 
-        .courier_text {
-
-            font-size: 1.1rem;
-            max-width: 80%;
-            margin-top: 3.57vh;
-        }
-
-        .ev_list {
-            margin-top: -30.5vh;
-            font-size: 1.1rem;
-        }
-
-        .nav {
-            margin-bottom: 10vh;
-        }
-
-        .nav ul {
-            margin-left: -14.4vw;
-        }
-
-        .overflow_box_hide {
-            display: hide;
-        }
 
     }
+
+
+    .header_email {
+        font-size: 1.28rem;
+        margin-top: 0.1vh;
+    }
+
+    .courier_text {
+
+        font-size: 1.2rem;
+        max-width: 85%;
+        margin-top: -2vh;
+    }
+
+    .ev_list {
+        margin-top: -2.5vh;
+        max-width: 90%;
+        font-size: 1.2rem;
+    }
+
+    .header_live_performance {
+        font-size: 1.4rem;
+        margin-top: -1vh;
+
+    }
+
+    .media_links {
+        margin-top: -2vh;
+    }
+
+    .service_text {
+        font-size: 1.2rem;
+
+    }
+
+    .overflow_box_hide {
+        display: block;
+    }
+
+
+
+}
+
+/* DESKTOP Wide, short 1 VERSION */
+@media screen and (710px <=width) and (height <=350px) {
+
+    .g-container {
+        max-width: 100%;
+        padding-left: 30vw;
+        margin-right: 10vw;
+        margin-top: 6vh;
+
+        grid-template-areas:
+            "email"
+            "services"
+            "links"
+            "bio"
+            "live_header"
+            "events";
+    
+    grid-template-columns: 1fr;
+}
+
+
+
+.gr_image1 {
+
+
+    height: 21.5vh;
+    margin-top: 5vh;
+    display: hide;
+
+
+}
+
+
+.header_email {
+    font-size: 1.28rem;
+    margin-top: 0.1vh;
+}
+
+.courier_text {
+
+    font-size: 1.2rem;
+    max-width: 65%;
+    margin-top: -2vh;
+}
+
+.ev_list {
+    margin-top: -2.5vh;
+    max-width: 90%;
+    font-size: 1.2rem;
+}
+
+.header_live_performance {
+    font-size: 1.4rem;
+    margin-top: -1vh;
+
+}
+
+.media_links {
+    margin-top: -2vh;
+}
+
+.service_text {
+    font-size: 1.2rem;
+
+}
+
+.overflow_box_hide {
+    display: block;
+}
+
+
+
+}
+
+
+
+
+
+/* MOBILE VERSION GALAXY NOTE ANDROID 11 Vertical */
+@media screen and (361px <=width <=499px) and (761px <=height <=950px) {
+
+    .g-container {
+        max-width: 100%;
+        padding-left: 12vw;
+        margin-right: 10vw;
+        margin-top: 0vh;
+    }
+
+    .gr_image1 {
+        height: 21.5vh;
+        margin-top: 5vh;
+        display: block;
+    }
+
+    .header_email {
+        font-size: 1.28rem;
+        margin-top: 0.1vh;
+    }
+
+    .courier_text {
+        font-size: 1.2rem;
+        max-width: 85%;
+        margin-top: -2vh;
+    }
+
+    .ev_list {
+        margin-top: -2.5vh;
+        max-width: 90%;
+        font-size: 1.2rem;
+    }
+
+    .header_live_performance {
+        font-size: 1.4rem;
+        margin-top: -1vh;
+    }
+
+    .media_links {
+        margin-top: -2vh;
+    }
+
+    .service_text {
+        font-size: 1.2rem;
+
+    }
+
+    .overflow_box_hide {
+        display: block;
+    }
+}
+
+
+/* MOBILE VERSION GALAXY NOTE ANDROID 11 Horizontal */
+@media screen and (851px <=width <=950px) and (361px <=height <=450px) {
+
+    .g-container {
+        max-width: 100%;
+        padding-left: 34vw;
+        margin-right: 10vw;
+        margin-top: 0vh;
+    }
+
+    .gr_image1 {
+        height: 75vh;
+        margin-top: 4vh;
+        display: block;
+    }
+
+    .header_email {
+        font-size: 1.28rem;
+        margin-top: 0.1vh;
+    }
+
+    .header_live_performance {
+        font-size: 1.5rem;
+    }
+
+    .courier_text {
+        font-size: 1.4rem;
+        max-width: 80%;
+    }
+
+    .ev_list {
+        margin-top: -2.5vh;
+        font-size: 1.4rem;
+    }
+
+    .service_text {
+        font-size: 1.3rem;
+    }
+
+    .media_links {
+        font-size: 1.1rem;
+    }
+
+    .overflow_box_hide {
+        display: hide;
+    }
+}
+
+
+
+
+/* MOBILE VERSION GALAXY S10 Vertical */
+@media screen and (width <=360px) and (height <=760px) {
+
+    .g-container {
+        max-width: 100%;
+        padding-left: 9vw;
+        margin-right: 10vw;
+        margin-top: 0vh;
+
+    }
+
+
+
+    .gr_image1 {
+
+        height: 24vh;
+        margin-top: 5vh;
+        display: block;
+
+    }
+
+
+
+    .courier_text {
+
+        font-size: 1.1rem;
+        max-width: 80%;
+    }
+
+    .ev_list {
+        margin-top: -2.5vh;
+        font-size: 1.1rem;
+    }
+
+    .header_email {
+        font-size: 1.1rem;
+        margin-top: 0.1vh;
+    }
+
+
+    .header_live_performance {
+        font-size: 1.28rem;
+        margin-top: -1vh;
+
+    }
+
+    .media_links {
+        margin-top: -2vh;
+    }
+
+    .service_text {
+        font-size: 1.2rem;
+    }
+
+    .overflow_box_hide {
+        display: block;
+    }
+}
+
+/* MOBILE VERSION GALAXY S10 Horizontal */
+
+@media screen and (width <=760px) and (350px <= height <=360px) {
+
+    .g-container {
+        max-width: 100%;
+        padding-left: 36vw;
+        margin-right: 10vw;
+        margin-top: 0vh;
+    }
+
+    .gr_image1 {
+        height: 75vh;
+        margin-top: 4vh;
+        display: block;
+    }
+
+    .header_email {
+        font-size: 1.28rem;
+        margin-top: 0.1vh;
+    }
+
+    .header_live_performance {
+        font-size: 1.5rem;
+    }
+
+    .courier_text {
+        font-size: 1.4rem;
+        max-width: 80%;
+    }
+
+    .ev_list {
+        margin-top: -2.5vh;
+        font-size: 1.4rem;
+    }
+
+    .service_text {
+        font-size: 1.3rem;
+
+    }
+
+    .media_links {
+        font-size: 1.1rem;
+    }
+
+    .overflow_box_hide {
+        display: none;
+    }
+}
+
+/* MOBILE VERSION GALAXY S20 Vertical */
+
+@media screen and (width <=360px) and (761px<=height <=810px) {
+
+    .g-container {
+
+
+        padding-left: 9vw;
+        margin-right: 10vw;
+    }
+
+
+
+    .gr_image1 {
+
+        height: 24vh;
+        margin-top: -2vh;
+        display: block;
+
+    }
+
+
+
+    .courier_text {
+
+        font-size: 1.1rem;
+        max-width: 80%;
+    }
+
+    .ev_list {
+        margin-top: -2.5vh;
+        font-size: 1.1rem;
+    }
+
+    .header_email {
+        font-size: 1.1rem;
+        margin-top: 0.1vh;
+    }
+
+
+    .header_live_performance {
+        font-size: 1.28rem;
+        margin-top: -1vh;
+
+    }
+
+    .media_links {
+        margin-top: -2vh;
+    }
+
+    .service_text {
+        font-size: 1.1rem;
+    }
+
+    .overflow_box_hide {
+        display: hide;
+    }
+
+
+}
+
+/* MOBILE VERSION Iphone 12/13 Vertical */
+
+@media screen and (386px<=width <=395px) and (801px<=height <=860px) {
+
+    .g-container {
+        max-width: 100%;
+        padding-left: 8vw;
+        margin-right: 10vw;
+        margin-top: 0vh;
+    }
+
+
+
+    .gr_image1 {
+        height: 23.8vh;
+        margin-top: 5vh;
+        display: block;
+    }
+
+    .item-ev {
+        width: 100%;
+    }
+
+
+    .courier_text {
+        font-size: 1.2rem;
+        max-width: 80%;
+    }
+
+    .ev_list {
+        margin-top: -2.5vh;
+        font-size: 1.2rem;
+    }
+
+    .header_email {
+        font-size: 1.25rem;
+        margin-top: 0.1vh;
+    }
+
+
+    .header_live_performance {
+        font-size: 1.5rem;
+        margin-top: -1vh;
+
+    }
+
+    .media_links {
+        margin-top: -2vh;
+    }
+
+    .service_text {
+        font-size: 1.1rem;
+    }
+
+    .overflow_box_hide {
+        display: block;
+    }
+}
+
+
+/* MOBILE VERSION Iphone 12/13 Horizontal */
+@media screen and (761px <=width <=850px) and (361px <=height <=450px) {
+
+    .g-container {
+        max-width: 100%;
+        padding-left: 32vw;
+        margin-right: 10vw;
+        margin-top: 0vh;
+    }
+
+    .gr_image1 {
+        height: 61vh;
+        margin-top: 4vh;
+        display: block;
+    }
+
+    .header_email {
+        font-size: 1.28rem;
+        margin-top: 0.1vh;
+    }
+
+    .header_live_performance {
+        font-size: 1.5rem;
+    }
+
+    .courier_text {
+        font-size: 1.4rem;
+        max-width: 80%;
+    }
+
+    .ev_list {
+        margin-top: -2.5vh;
+        font-size: 1.4rem;
+        max-width: 85%;
+    }
+
+    .service_text {
+        font-size: 1.3rem;
+
+    }
+
+    .media_links {
+        font-size: 1.1rem;
+    }
+
+    .overflow_box_hide {
+        display: hide;
+    }
+}
+
+/* MOBILE VERSION GALAXY S20 Horizontal */
+
+@media screen and (761px <=width <=810px) and (351px <= height <=360px) {
+    .g-container {
+        max-width: 100%;
+        padding-left: 36vw;
+        margin-right: 10vw;
+        margin-top: 0vh;
+    }
+
+    .gr_image1 {
+        height: 75vh;
+        margin-top: 4vh;
+        display: block;
+    }
+
+    .header_email {
+        font-size: 1.28rem;
+        margin-top: 0.1vh;
+    }
+
+    .header_live_performance {
+        font-size: 1.5rem;
+    }
+
+    .courier_text {
+        font-size: 1.4rem;
+        max-width: 80%;
+    }
+
+    .ev_list {
+        margin-top: -2.5vh;
+        font-size: 1.4rem;
+    }
+
+    .service_text {
+        font-size: 1.3rem;
+
+    }
+
+    .media_links {
+        font-size: 1.1rem;
+    }
+
+    .overflow_box_hide {
+        display: hide;
+    }
+
+}
+
+/* MOBILE VERSION IPAD VERTICAL */
+@media screen and (800px <=width <=830px) and (990px <=height <=1085px) {
+    .g-container {
+        max-width: 100%;
+        padding-left: 32vw;
+        margin-right: 10vw;
+        margin-top: 0vh;
+    }
+
+    .gr_image1 {
+        height: 25.5vh;
+        margin-top: 0.8vh;
+        display: block;
+    }
+
+    .header_email {
+        font-size: 1.4rem;
+        margin-top: 0.1vh;
+    }
+
+    .courier_text {
+        font-size: 1.2rem;
+        max-width: 97%;
+        margin-top: -2vh;
+    }
+
+    .ev_list {
+        margin-top: -2.5vh;
+        font-size: 1.2rem;
+    }
+
+    .header_live_performance {
+        font-size: 1.6rem;
+        margin-top: -1vh;
+    }
+
+    .media_links {
+        margin-top: -2vh;
+    }
+
+    .service_text {
+        font-size: 1.2rem;
+    }
+
+    .media_links {
+        font-size: 1.0rem;
+    }
+
+    .overflow_box_hide {
+        display: block;
+    }
+
+}
+
+/* MOBILE VERSION IPAD HORIZONTAL */
+@media screen and (831px <=width <=1100px) and (800px <=height <=830px) {
+
+    .g-container {
+        max-width: 100%;
+        padding-left: 32vw;
+        margin-right: 10vw;
+        margin-top: 3vh;
+    }
+
+    .gr_image1 {
+
+        height: 37.5vh;
+        margin-top: 0.8vh;
+        display: block;
+    }
+
+    .header_email {
+        font-size: 1.5rem;
+        margin-top: 0.1vh;
+    }
+
+    .courier_text {
+        font-size: 1.4rem;
+        max-width: 93%;
+        margin-top: -2vh;
+    }
+
+    .ev_list {
+        margin-top: -2.5vh;
+        font-size: 1.4rem;
+    }
+
+    .header_live_performance {
+        font-size: 1.7rem;
+        margin-top: -1vh;
+
+    }
+
+    .media_links {
+        margin-top: -2vh;
+        font-size: 1.2rem;
+    }
+
+    .service_text {
+        font-size: 1.3rem;
+    }
+
+    .overflow_box_hide {
+        display: hide;
+    }
+
+
+}
+
+/* MOBILE VERSION Iphone SE 2ndg Vertical */
+@media screen and (361px <=width <=499px) and (650px <=height <=760px) {
+
+    .g-container {
+        max-width: 100%;
+        padding-left: 11vw;
+        margin-right: 10vw;
+        margin-top: 0vh;
+    }
+
+    .gr_image1 {
+        height: 25vh;
+        margin-top: 7vh;
+        display: block;
+    }
+
+    .header_email {
+        font-size: 1.28rem;
+        margin-top: 0.1vh;
+    }
+
+    .courier_text {
+        font-size: 1.2rem;
+        max-width: 85%;
+        margin-top: -2vh;
+    }
+
+    .ev_list {
+        margin-top: -2.5vh;
+        max-width: 90%;
+        font-size: 1.2rem;
+    }
+
+    .header_live_performance {
+        font-size: 1.4rem;
+        margin-top: -1vh;
+
+    }
+
+    .media_links {
+        margin-top: -2vh;
+    }
+
+    .service_text {
+        font-size: 1.2rem;
+
+    }
+
+    .overflow_box_hide {
+        display: hide;
+    }
+
+
+}
+
+/* MOBILE VERSION Iphone SE 2ndg Horizontal */
+@media screen and (650px <=width <=760px) and (361px <=height <=380px) {
+
+    .g-container {
+        padding-left: 33vw;
+        margin-right: 10vw;
+        margin-top: 0vh;
+    }
+
+    .gr_image1 {
+        height: 55vh;
+        margin-top: 4vh;
+        display: block;
+    }
+
+    .header_email {
+        font-size: 1.28rem;
+        margin-top: 0.1vh;
+    }
+
+
+    .header_live_performance {
+        font-size: 1.5rem;
+    }
+
+    .courier_text {
+
+        font-size: 1.4rem;
+        max-width: 80%;
+    }
+
+    .ev_list {
+        margin-top: -2.5vh;
+        font-size: 1.4rem;
+        max-width: 85%;
+    }
+
+    .service_text {
+        font-size: 1.3rem;
+
+    }
+
+    .media_links {
+        font-size: 1.1rem;
+    }
+
+    .overflow_box_hide {
+        display: block;
+    }
+
+}
+
+/* MOBILE VERSION Kindle Fire HDX VERTICAL */
+@media screen and (780px <=width <=830px) and (1086px <=height <=1350px) {
+
+
+    .g-container {
+        padding-left: 33vw;
+        margin-right: 10vw;
+        margin-top: 0vh;
+        justify-content: center;
+    }
+
+    .gr_image1 {
+        height: 22.5vh;
+        margin-top: 0.5vh;
+        display: block;
+    }
+
+
+    .header_email {
+        font-size: 1.5rem;
+        margin-top: 0.1vh;
+    }
+
+    .courier_text {
+
+        font-size: 1.4rem;
+        max-width: 80%;
+        margin-top: -2vh;
+    }
+
+    .ev_list {
+        margin-top: -2.5vh;
+        font-size: 1.4rem;
+    }
+
+    .header_live_performance {
+        font-size: 1.9rem;
+        margin-top: -1vh;
+
+    }
+
+    .media_links {
+        margin-top: -2vh;
+    }
+
+    .service_text {
+        font-size: 1.4rem;
+    }
+
+    .media_links {
+        font-size: 1.1rem;
+    }
+
+    .overflow_box_hide {
+        display: hide;
+    }
+
+}
+
+/* MOBILE VERSION Kindle Fire HDX HORIZONTAL */
+@media screen and (1101px <=width <=1301px) and (750px <=height <=830px) {
+
+
+    .g-container {
+        padding-left: 32vw;
+        margin-right: 10vw;
+        margin-top: 0vh;
+    }
+
+    .gr_image1 {
+        height: 45vh;
+        margin-top: 1.2vh;
+        display: block;
+    }
+
+    .header_email {
+        font-size: 1.6rem;
+        margin-top: 0.1vh;
+    }
+
+    .courier_text {
+        font-size: 1.5rem;
+        max-width: 75%;
+        margin-top: -2vh;
+    }
+
+    .ev_list {
+        margin-top: -2.5vh;
+        font-size: 1.5rem;
+    }
+
+    .header_live_performance {
+        font-size: 1.9rem;
+        margin-top: -1vh;
+
+    }
+
+    .media_links {
+        margin-top: -2vh;
+        font-size: 1.2rem;
+    }
+
+    .service_text {
+        font-size: 1.4rem;
+    }
+
+
+    .overflow_box_hide {
+        display: hide;
+    }
+
+}
+
+
+/* MOBILE VERSION Iphone SE 2nd*/
+@media screen and (370px <=width <=380px) and (660px <=height <=666px) {
+
+    .g-container {
+        display: grid;
+        width: 100%;
+        padding-left: 30vw;
+        margin-right: 10vw;
+        margin-top: 0vh;
+        justify-content: center;
+        gap: 1vh;
+    }
+
+    .gr_image1 {
+        width: auto;
+        height: 20vh;
+        margin-top: 4vh;
+        transform: scale();
+        display: block;
+    }
+
+    .item-ev {
+        width: 100%;
+    }
+
+
+    ul,
+    li {
+        list-style-type: none;
+    }
+
+    .p {
+
+        line-break: auto;
+        word-wrap: break-word;
+    }
+
+    .ev_header {
+        font-size: 1.6rem;
+        margin-top: -3vh;
+    }
+
+    .courier_text {
+
+        font-size: 1.1rem;
+        max-width: 80%;
+        margin-top: 3.57vh;
+    }
+
+    .ev_list {
+        margin-top: -30.5vh;
+        font-size: 1.1rem;
+    }
+
+    .nav {
+        margin-bottom: 10vh;
+    }
+
+    .nav ul {
+        margin-left: -14.4vw;
+    }
+
+    .overflow_box_hide {
+        display: hide;
+    }
+
+}
