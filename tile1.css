@@ -8,7 +8,7 @@
 
      grid-template-columns: 1fr;
      grid-auto-rows: minmax(3vh, auto);
- 
+
      margin-left: 21.5vw;
      margin-right: 1vw;
      padding-right: 3vw;
@@ -115,6 +115,9 @@
 
  .vjdemo_header {
      grid-area: vjdemo_header_;
+     margin-top: 5vh;
+     font-size: 2.5rem;
+     color: #777;
  }
 
  .vjdemo_videos {
@@ -123,6 +126,10 @@
 
  .evpromo_header {
      grid-area: evpromo_header_;
+     font-size: 2.5rem;
+     color: #777;
+     padding-top: 3vh;
+     margin-top: 5vh;
  }
 
  .evpromo_videos {
