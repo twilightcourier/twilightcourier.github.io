@@ -239,8 +239,93 @@
      }
  }
 
-  /* MOBILE VERSION GALAXY NOTE S20 UltraHorizontal */
+ /* MOBILE VERSION GALAXY NOTE S20 UltraHorizontal */
  @media screen and (860px <=width <=890px) and (361px <=height <=450px) {
+
+     .tile-group {
+         grid-template-columns: repeat(auto-fill, minmax(36.36vw, 1fr));
+         gap: 0vw;
+
+     }
+
+     .g-container {
+
+         margin-right: 0vw;
+         padding-right: 0vw;
+         padding-left: 2.3vw;
+
+     }
+
+     .tile-image {
+         height: 40vh;
+     }
+
+     .vjdemo_header {
+         margin-top: -2vh;
+     }
+
+     .evpromo_header {
+         margin-top: -11vh;
+     }
+ }
+
+ /* MOBILE VERSION GALAXY S10 Vertical */
+ @media screen and (width <=360px) and (700px<=height <=760px) {
+
+     .g-container {
+         margin-left: 1.4vh;
+         margin-right: 0.5vh;
+     }
+
+     .tile-group {
+         grid-template-columns: repeat(auto-fill, minmax(41.36vw, 1fr));
+         gap: 3vw;
+     }
+
+     .tile-image {
+         height: 19vh;
+     }
+
+     .overflow_box_hide {
+         display: block;
+     }
+
+     .vjdemo_header {
+         margin-top: 4vh;
+         margin-bottom: -5vh;
+         margin-left: 3vw;
+     }
+
+     .evpromo_header {
+         margin-bottom: -5vh;
+         margin-left: 3vw;
+         margin-top: -5vh;
+
+     }
+
+     .evpromo_videos {}
+
+     .event_promo_link {
+         height: 1vh;
+
+
+     }
+
+     .tile-title {
+         max-width: 90%;
+         word-wrap: break-word
+     }
+
+ }
+
+ /* MOBILE VERSION GALAXY S10 Horizontal */
+
+ @media screen and (650px <=width <=760px) and (350px <=height <=360px) {
+
+    .nav ul {
+        max-width: 25%;
+        margin-left: -4vw;
+    }
 
      .tile-group {
          grid-template-columns: repeat(auto-fill, minmax(36.36vw, 1fr));
