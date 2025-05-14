@@ -181,7 +181,7 @@ li {
 /* size determined by size of content and borders and margins */
 
 /* DESKTOP  NARROW 1 VERSION */
-@media screen and (width <=840px) and (height >=501px) {
+@media screen and (611px<=width <=840px) and (height >=501px) {
 
 
     .g-container {
@@ -244,7 +244,7 @@ li {
 }
 
 /* DESKTOP  NARROW 2 VERSION */
-@media screen and (width <=610px) and (height >=501px) {
+@media screen and (533px<=width <=610px) and (height >=501px) {
 
 
     .g-container {
@@ -303,16 +303,14 @@ li {
 
 }
 
-
-
-
-/* MOBILE VERSION GALAXY NOTE ANDROID 11 Vertical */
-@media screen and (361px <=width <=499px) and (761px <=height <=950px) {
+/* DESKTOP  NARROW 3 VERSION */
+@media screen and (width <=532px) and (height >=501px) {
 
     .g-container {
         max-width: 100%;
         padding-left: 12vw;
         margin-right: 10vw;
+        margin-top: 12vh;
     }
 
 
@@ -322,7 +320,7 @@ li {
 
         height: 21.5vh;
         margin-top: 5vh;
-        display: block;
+        display: hide;
 
 
     }
@@ -367,7 +365,62 @@ li {
 
 
 
+}
 
+
+
+
+
+/* MOBILE VERSION GALAXY NOTE ANDROID 11 Vertical */
+@media screen and (361px <=width <=499px) and (761px <=height <=950px) {
+
+    .g-container {
+        max-width: 100%;
+        padding-left: 12vw;
+        margin-right: 10vw;
+        margin-top: 0vh;
+    }
+
+    .gr_image1 {
+        height: 21.5vh;
+        margin-top: 5vh;
+        display: block;
+    }
+
+    .header_email {
+        font-size: 1.28rem;
+        margin-top: 0.1vh;
+    }
+
+    .courier_text {
+        font-size: 1.2rem;
+        max-width: 85%;
+        margin-top: -2vh;
+    }
+
+    .ev_list {
+        margin-top: -2.5vh;
+        max-width: 90%;
+        font-size: 1.2rem;
+    }
+
+    .header_live_performance {
+        font-size: 1.4rem;
+        margin-top: -1vh;
+    }
+
+    .media_links {
+        margin-top: -2vh;
+    }
+
+    .service_text {
+        font-size: 1.2rem;
+
+    }
+
+    .overflow_box_hide {
+        display: block;
+    }
 }
 
 
@@ -375,39 +428,28 @@ li {
 @media screen and (851px <=width <=950px) and (361px <=height <=450px) {
 
     .g-container {
-
         max-width: 100%;
         padding-left: 34vw;
         margin-right: 10vw;
-
+        margin-top: 0vh;
     }
 
-
-
     .gr_image1 {
-
         height: 75vh;
         margin-top: 4vh;
         display: block;
-
     }
-
-
-
-
 
     .header_email {
         font-size: 1.28rem;
         margin-top: 0.1vh;
     }
 
-
     .header_live_performance {
         font-size: 1.5rem;
     }
 
     .courier_text {
-
         font-size: 1.4rem;
         max-width: 80%;
     }
@@ -419,7 +461,6 @@ li {
 
     .service_text {
         font-size: 1.3rem;
-
     }
 
     .media_links {
@@ -429,8 +470,6 @@ li {
     .overflow_box_hide {
         display: hide;
     }
-
-
 }
 
 
@@ -443,6 +482,7 @@ li {
         max-width: 100%;
         padding-left: 9vw;
         margin-right: 10vw;
+        margin-top: 0vh;
 
     }
 
@@ -492,7 +532,6 @@ li {
     .overflow_box_hide {
         display: block;
     }
-
 }
 
 /* MOBILE VERSION GALAXY S10 Horizontal */
@@ -501,36 +540,27 @@ li {
 
     .g-container {
         max-width: 100%;
-
         padding-left: 36vw;
         margin-right: 10vw;
-
+        margin-top: 0vh;
     }
 
-
-
     .gr_image1 {
-
         height: 75vh;
         margin-top: 4vh;
         display: block;
-
-
     }
-
 
     .header_email {
         font-size: 1.28rem;
         margin-top: 0.1vh;
     }
 
-
     .header_live_performance {
         font-size: 1.5rem;
     }
 
     .courier_text {
-
         font-size: 1.4rem;
         max-width: 80%;
     }
@@ -570,7 +600,7 @@ li {
     .gr_image1 {
 
         height: 24vh;
-        margin-top: 5vh;
+        margin-top: -2vh;
         display: block;
 
     }
@@ -621,20 +651,17 @@ li {
 
     .g-container {
         max-width: 100%;
-
         padding-left: 8vw;
         margin-right: 10vw;
+        margin-top: 0vh;
     }
 
 
 
     .gr_image1 {
-
         height: 23.8vh;
         margin-top: 5vh;
         display: block;
-
-
     }
 
     .item-ev {
@@ -643,7 +670,6 @@ li {
 
 
     .courier_text {
-
         font-size: 1.2rem;
         max-width: 80%;
     }
@@ -676,7 +702,6 @@ li {
     .overflow_box_hide {
         display: block;
     }
-
 }
 
 
@@ -685,37 +710,27 @@ li {
 
     .g-container {
         max-width: 100%;
-
         padding-left: 32vw;
         margin-right: 10vw;
-
+        margin-top: 0vh;
     }
 
-
-
     .gr_image1 {
-
         height: 61vh;
         margin-top: 4vh;
         display: block;
-
-
     }
-
-
 
     .header_email {
         font-size: 1.28rem;
         margin-top: 0.1vh;
     }
 
-
     .header_live_performance {
         font-size: 1.5rem;
     }
 
     .courier_text {
-
         font-size: 1.4rem;
         max-width: 80%;
     }
@@ -738,52 +753,34 @@ li {
     .overflow_box_hide {
         display: hide;
     }
-
-
-
 }
-
-
-
-
 
 /* MOBILE VERSION GALAXY S20 Horizontal */
 
 @media screen and (761px <=width <=810px) and (height <=360px) {
-
     .g-container {
         max-width: 100%;
         padding-left: 36vw;
         margin-right: 10vw;
-
-
+        margin-top: 0vh;
     }
 
-
-
     .gr_image1 {
-
         height: 75vh;
         margin-top: 4vh;
         display: block;
-
-
     }
-
-
 
     .header_email {
         font-size: 1.28rem;
         margin-top: 0.1vh;
     }
 
-
     .header_live_performance {
         font-size: 1.5rem;
     }
 
     .courier_text {
-
         font-size: 1.4rem;
         max-width: 80%;
     }
@@ -810,27 +807,18 @@ li {
 
 /* MOBILE VERSION IPAD VERTICAL */
 @media screen and (800px <=width <=830px) and (990px <=height <=1085px) {
-
-
     .g-container {
-
         max-width: 100%;
         padding-left: 32vw;
         margin-right: 10vw;
-
+        margin-top: 0vh;
     }
-
-
 
     .gr_image1 {
         height: 25.5vh;
         margin-top: 0.8vh;
         display: block;
-
-
-
     }
-
 
     .header_email {
         font-size: 1.4rem;
@@ -838,7 +826,6 @@ li {
     }
 
     .courier_text {
-
         font-size: 1.2rem;
         max-width: 97%;
         margin-top: -2vh;
@@ -852,7 +839,6 @@ li {
     .header_live_performance {
         font-size: 1.6rem;
         margin-top: -1vh;
-
     }
 
     .media_links {
@@ -876,25 +862,19 @@ li {
 /* MOBILE VERSION IPAD HORIZONTAL */
 @media screen and (831px <=width <=1100px) and (800px <=height <=830px) {
 
-
     .g-container {
         max-width: 100%;
         padding-left: 32vw;
         margin-right: 10vw;
+        margin-top: 3vh;
     }
-
-
 
     .gr_image1 {
 
         height: 37.5vh;
         margin-top: 0.8vh;
         display: block;
-
-
-
     }
-
 
     .header_email {
         font-size: 1.5rem;
@@ -902,7 +882,6 @@ li {
     }
 
     .courier_text {
-
         font-size: 1.4rem;
         max-width: 93%;
         margin-top: -2vh;
@@ -942,20 +921,14 @@ li {
         max-width: 100%;
         padding-left: 11vw;
         margin-right: 10vw;
+        margin-top: 0vh;
     }
 
-
-
     .gr_image1 {
-
-
         height: 25vh;
         margin-top: 7vh;
         display: block;
-
-
     }
-
 
     .header_email {
         font-size: 1.28rem;
@@ -963,7 +936,6 @@ li {
     }
 
     .courier_text {
-
         font-size: 1.2rem;
         max-width: 85%;
         margin-top: -2vh;
@@ -1001,25 +973,16 @@ li {
 @media screen and (650px <=width <=760px) and (361px <=height <=380px) {
 
     .g-container {
-
-
         padding-left: 33vw;
         margin-right: 10vw;
-
+        margin-top: 0vh;
     }
 
-
-
     .gr_image1 {
-
         height: 55vh;
         margin-top: 4vh;
         display: block;
-
-
     }
-
-
 
     .header_email {
         font-size: 1.28rem;
@@ -1053,7 +1016,7 @@ li {
     }
 
     .overflow_box_hide {
-        display: hide;
+        display: block;
     }
 
 }
@@ -1063,25 +1026,16 @@ li {
 
 
     .g-container {
-
         padding-left: 33vw;
         margin-right: 10vw;
-
-
+        margin-top: 0vh;
         justify-content: center;
-
     }
 
-
-
     .gr_image1 {
-
         height: 22.5vh;
         margin-top: 0.5vh;
         display: block;
-
-
-
     }
 
 
@@ -1131,23 +1085,16 @@ li {
 
 
     .g-container {
-
         padding-left: 32vw;
         margin-right: 10vw;
+        margin-top: 0vh;
     }
 
-
-
     .gr_image1 {
-
         height: 45vh;
         margin-top: 1.2vh;
         display: block;
-
-
-
     }
-
 
     .header_email {
         font-size: 1.6rem;
@@ -1155,7 +1102,6 @@ li {
     }
 
     .courier_text {
-
         font-size: 1.5rem;
         max-width: 75%;
         margin-top: -2vh;
@@ -1195,27 +1141,19 @@ li {
     .g-container {
         display: grid;
         width: 100%;
-
         padding-left: 30vw;
         margin-right: 10vw;
-
-
+        margin-top: 0vh;
         justify-content: center;
-
         gap: 1vh;
     }
 
-
-
     .gr_image1 {
-
         width: auto;
         height: 20vh;
         margin-top: 4vh;
         transform: scale();
         display: block;
-
-
     }
 
     .item-ev {
@@ -1251,11 +1189,8 @@ li {
         font-size: 1.1rem;
     }
 
-
     .nav {
         margin-bottom: 10vh;
-
-
     }
 
     .nav ul {

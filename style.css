@@ -236,6 +236,44 @@ ul {
     }
 }
 
+/* DESKTOP  NARROW 3 VERSION */
+@media screen and (width <=532px) and (height >=501px) {
+    .nav ul {
+        flex-direction: row;
+        top: -2vh;
+        margin-left: -6.5vw;
+
+
+    }
+
+
+    .overflow_box_hide {
+
+        display: none;
+
+    }
+
+    .content-section {
+        margin-top: -1vh;
+    }
+
+    .content-section1 {
+
+        font-size: 2.5rem;
+        padding-top: var(--margin_top);
+        margin-top: 1vh;
+
+    }
+
+    .link_event_promo {
+        margin-top: 6.5vh;
+    }
+
+    .footer {
+        font-size: 1rem;
+    }
+}
+
 
 
 
@@ -413,7 +451,7 @@ ul {
 
     .nav ul {
         margin-left: -3.4vw;
-        top: 4.5vh;
+        top: 0vh;
 
     }
 
@@ -421,7 +459,7 @@ ul {
 
     .overflow_box_hide {
 
-        height: 11vh;
+        height: 3vh;
     }
 
     .footer {
