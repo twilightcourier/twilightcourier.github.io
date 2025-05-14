@@ -209,8 +209,8 @@
  }
 
 
- /* MOBILE VERSION GALAXY NOTE ANDROID 11 Horizontal */
- @media screen and (851px <=width <=950px) and (361px <=height <=450px) {
+ /* MOBILE VERSION GALAXY NOTE S20 Horizontal */
+ @media screen and (891px <=width <=950px) and (361px <=height <=450px) {
 
      .tile-group {
          grid-template-columns: repeat(auto-fill, minmax(36.36vw, 1fr));
@@ -222,7 +222,37 @@
 
          margin-right: 0vw;
          padding-right: 0vw;
-         padding-left: 2vw;
+         padding-left: 2.0vw;
+
+     }
+
+     .tile-image {
+         height: 40vh;
+     }
+
+     .vjdemo_header {
+         margin-top: -2vh;
+     }
+
+     .evpromo_header {
+         margin-top: -11vh;
+     }
+ }
+
+  /* MOBILE VERSION GALAXY NOTE S20 UltraHorizontal */
+ @media screen and (860px <=width <=890px) and (361px <=height <=450px) {
+
+     .tile-group {
+         grid-template-columns: repeat(auto-fill, minmax(36.36vw, 1fr));
+         gap: 0vw;
+
+     }
+
+     .g-container {
+
+         margin-right: 0vw;
+         padding-right: 0vw;
+         padding-left: 2.3vw;
 
      }
 
