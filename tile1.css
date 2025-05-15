@@ -400,8 +400,9 @@
      }
 
      .tile-title {
-         max-width: 90%;
+         max-width: 100%;
          word-wrap: break-word;
+         font-size: 1.15rem;
      }
 
 
@@ -620,4 +621,88 @@
 
 
 
+ }
+
+/* MOBILE VERSION Kindle Fire HDX VERTICAL */
+@media screen and (780px <=width <=830px) and (1086px <=height <=1350px) {
+
+     .tile-group {
+         grid-template-columns: repeat(auto-fill, minmax(36.36vw, 1fr));
+         gap: 1.5vw;
+         margin-top: -5vh;
+
+     }
+
+     .g-container {
+
+         margin-right: 0vw;
+         padding-right: 1vw;
+         padding-left: 3.0vw;
+
+     }
+
+     .tile-image {
+         height: 13vh;
+     }
+
+     .vjdemo_header {
+         margin-top: -0vh;
+         margin-left: 1vw;
+     }
+
+     .evpromo_header {
+         margin-top: -11vh;
+         margin-bottom: 0.5vh;
+         padding-bottom: -10vh;
+     }
+
+     .evpromo_videos {
+         margin-top: -3vh;
+     }
+
+     .nav ul {
+         max-width: 25%;
+     }
+ }
+
+
+/* MOBILE VERSION Kindle Fire HDX HORIZONTAL */
+@media screen and (1101px <=width <=1301px) and (750px <=height <=830px) {
+
+     .tile-group {
+         grid-template-columns: repeat(auto-fill, minmax(36.36vw, 1fr));
+         gap: 0vw;
+         margin-top: -3vh;
+
+     }
+
+     .g-container {
+
+         margin-right: 0vw;
+         padding-right: 0vw;
+         padding-left: 6.0vw;
+
+     }
+
+     .tile-image {
+         height: 26vh;
+     }
+
+     .vjdemo_header {
+         margin-top: -1vh;
+     }
+
+     .evpromo_header {
+         margin-top: -11vh;
+         margin-bottom: 0.5vh;
+         padding-bottom: -10vh;
+     }
+
+     .evpromo_videos {
+         margin-top: -3vh;
+     }
+
+     .nav ul {
+         max-width: 25%;
+     }
  }
