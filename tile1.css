@@ -160,7 +160,7 @@
  }
 
  /* MOBILE VERSION GALAXY NOTE ANDROID 11 Vertical */
- @media screen and (361px <=width <=499px) and (761px <=height <=950px) {
+ @media screen and (380px <=width <=499px) and (761px <=height <=950px) {
 
      .g-container {
          margin-left: 1.4vh;
@@ -193,7 +193,6 @@
 
      }
 
-     .evpromo_videos {}
 
      .event_promo_link {
          height: 1vh;
@@ -202,8 +201,14 @@
      }
 
      .tile-title {
-         max-width: 90%;
-         word-wrap: break-word
+         max-width: 100%;
+         word-wrap: break-word;
+         font-size: 1.2rem;
+
+     }
+
+     .tile-text-content {
+         margin-left: 2vw;
      }
 
  }
@@ -283,7 +288,7 @@
      }
 
      .tile-image {
-         height: 19vh;
+         height: 17vh;
      }
 
      .overflow_box_hide {
@@ -310,8 +315,9 @@
      }
 
      .tile-title {
-         max-width: 90%;
-         word-wrap: break-word
+         max-width: 100%;
+         word-wrap: break-word;
+         font-size: 1.1rem;
      }
 
  }
@@ -398,12 +404,12 @@
          word-wrap: break-word;
      }
 
-   
+
  }
 
  /* MOBILE VERSION GALAXY S20 Horizontal */
 
-@media screen and (761px <=width <=810px) and (351px <=height <=360px) {
+ @media screen and (761px <=width <=810px) and (351px <=height <=360px) {
 
      .nav ul {
          max-width: 25%;
@@ -437,9 +443,9 @@
      }
  }
 
-  /* MOBILE VERSION GALAXY S20+ Horizontal */
+ /* MOBILE VERSION GALAXY S20+ Horizontal */
 
-@media screen and (840px <=width <=858px) and (375px <=height <=390px) {
+ @media screen and (800px <=width <=858px) and (375px <=height <=390px) {
 
      .nav ul {
          max-width: 25%;
@@ -473,8 +479,8 @@
      }
  }
 
-/* MOBILE VERSION IPAD VERTICAL */
-@media screen and (800px <=width <=830px) and (990px <=height <=1085px) {
+ /* MOBILE VERSION IPAD VERTICAL */
+ @media screen and (800px <=width <=830px) and (990px <=height <=1085px) {
 
      .tile-group {
          grid-template-columns: repeat(auto-fill, minmax(36.36vw, 1fr));
@@ -505,17 +511,17 @@
          padding-bottom: -10vh;
      }
 
-     .evpromo_videos{
-        margin-top: -3vh;
+     .evpromo_videos {
+         margin-top: -3vh;
      }
 
      .nav ul {
-        max-width: 25%;
+         max-width: 25%;
      }
  }
 
-/* MOBILE VERSION IPAD HORIZONTAL */
-@media screen and (831px <=width <=1100px) and (800px <=height <=830px) {
+ /* MOBILE VERSION IPAD HORIZONTAL */
+ @media screen and (831px <=width <=1100px) and (800px <=height <=830px) {
 
      .tile-group {
          grid-template-columns: repeat(auto-fill, minmax(36.36vw, 1fr));
@@ -546,11 +552,72 @@
          padding-bottom: -10vh;
      }
 
-     .evpromo_videos{
-        margin-top: -3vh;
+     .evpromo_videos {
+         margin-top: -3vh;
      }
 
      .nav ul {
-        max-width: 25%;
+         max-width: 25%;
      }
+ }
+
+ /* MOBILE VERSION iphone 11 pro Vertical */
+ @media screen and (361px <=width <=379px) and (761px <=height <=950px) {
+
+     .g-container {
+         margin-left: 1.4vh;
+         margin-right: 0.5vh;
+     }
+
+     .tile-group {
+         grid-template-columns: repeat(auto-fill, minmax(38.36vw, 1fr));
+         gap: 3vw;
+     }
+
+     .tile-image {
+         height: 14vh;
+     }
+
+     .overflow_box_hide {
+         display: block;
+     }
+
+     .vjdemo_header {
+         margin-top: 4vh;
+         margin-bottom: -5vh;
+         margin-left: 3vw;
+     }
+
+     .evpromo_header {
+         margin-bottom: -5vh;
+         margin-left: 3vw;
+         margin-top: -5vh;
+
+     }
+
+
+     .event_promo_link {
+         height: 1vh;
+
+
+     }
+
+     .tile-title {
+         max-width: 100%;
+         word-wrap: break-word;
+         font-size: 1.2rem;
+     }
+
+     .tile-descriptions {
+         max-width: 100%;
+     }
+
+     .tile-text-content {
+         margin-left: 3vw;
+         max-width: 100%;
+
+     }
+
+
+
  }
