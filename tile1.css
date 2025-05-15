@@ -706,3 +706,66 @@
          max-width: 25%;
      }
  }
+
+/* MOBILE VERSION Iphone SE 2nd*/
+@media screen and (370px <=width <=380px) and (660px <=height <=670px){
+
+     .g-container {
+         margin-left: 1.4vh;
+         margin-right: 0.5vh;
+     }
+
+     .tile-group {
+         grid-template-columns: repeat(auto-fill, minmax(38.36vw, 1fr));
+         gap: 3vw;
+     }
+
+     .tile-image {
+         height: 14vh;
+     }
+
+     .overflow_box_hide {
+         display: block;
+     }
+
+     .vjdemo_header {
+         margin-top: 8vh;
+         margin-bottom: -5vh;
+         margin-left: 3vw;
+         font-size: 2.4rem;
+     }
+
+     .evpromo_header {
+         margin-bottom: -5vh;
+         margin-left: 3vw;
+         margin-top: -5vh;
+         font-size: 2.4rem;
+
+     }
+
+
+     .event_promo_link {
+         height: 1vh;
+
+
+     }
+
+     .tile-title {
+         max-width: 100%;
+         word-wrap: break-word;
+         font-size: 1.2rem;
+     }
+
+     .tile-descriptions {
+         max-width: 100%;
+     }
+
+     .tile-text-content {
+         margin-left: 3vw;
+         max-width: 100%;
+
+     }
+
+
+
+ }
