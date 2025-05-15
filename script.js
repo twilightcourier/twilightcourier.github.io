@@ -6,7 +6,7 @@ const rejectBtn =
     document.querySelector(".rejectButton");
 
 acceptBtn.onclick = () => {
-    document.cookie = "CookieBy=GeeksForGeeks; max-age="
+    document.cookie = "CookieBy=TwilightCourier; max-age="
         + 60 * 60 * 24;
     if (document.cookie) {
         consentBox.classList.add("hide");
@@ -25,6 +25,6 @@ rejectBtn.onclick = () => {
 };
 
 let checkCookie = 
-    document.cookie.indexOf("CookieBy=GeeksForGeeks");
+    document.cookie.indexOf("CookieBy=TwilightCourier");
 checkCookie !== -1 ? consentBox.classList.add("hide") :
     consentBox.classList.remove("hide");
