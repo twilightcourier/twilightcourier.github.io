@@ -623,8 +623,8 @@
 
  }
 
-/* MOBILE VERSION Kindle Fire HDX VERTICAL */
-@media screen and (780px <=width <=830px) and (1086px <=height <=1350px) {
+ /* MOBILE VERSION Kindle Fire HDX VERTICAL */
+ @media screen and (780px <=width <=830px) and (1086px <=height <=1350px) {
 
      .tile-group {
          grid-template-columns: repeat(auto-fill, minmax(36.36vw, 1fr));
@@ -666,8 +666,8 @@
  }
 
 
-/* MOBILE VERSION Kindle Fire HDX HORIZONTAL */
-@media screen and (1101px <=width <=1301px) and (750px <=height <=830px) {
+ /* MOBILE VERSION Kindle Fire HDX HORIZONTAL */
+ @media screen and (1101px <=width <=1301px) and (750px <=height <=830px) {
 
      .tile-group {
          grid-template-columns: repeat(auto-fill, minmax(36.36vw, 1fr));
@@ -707,8 +707,8 @@
      }
  }
 
-/* MOBILE VERSION Iphone SE 2nd*/
-@media screen and (370px <=width <=380px) and (660px <=height <=670px){
+ /* MOBILE VERSION Iphone SE 2nd VERTICAL*/
+ @media screen and (370px <=width <=380px) and (660px <=height <=670px) {
 
      .g-container {
          margin-left: 1.4vh;
@@ -768,4 +768,49 @@
 
 
 
+ }
+
+ /* MOBILE VERSION Iphone SE 2ndg Horizontal */
+ @media screen and (650px <=width <=760px) and (361px <=height <=380px) {
+
+     .nav ul {
+         max-width: 25%;
+         margin-left: -4vw;
+     }
+
+     .tile-group {
+         grid-template-columns: repeat(auto-fill, minmax(36.36vw, 1fr));
+         gap: 0vw;
+
+     }
+
+     .g-container {
+
+         margin-right: 0vw;
+         padding-right: 0vw;
+         padding-left: 5.3vw;
+
+     }
+
+     .tile-image {
+         height: 33vh;
+     }
+
+     .vjdemo_header {
+         margin-top: -2vh;
+     }
+
+     .evpromo_header {
+         margin-top: -11vh;
+     }
+
+     .tile-title {
+         max-width: 100%;
+         word-wrap: break-word;
+         font-size: 1.15rem;
+     }
+
+     .footer{
+        font-size: 1.0rem;
+     }
  }
