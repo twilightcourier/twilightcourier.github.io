@@ -160,7 +160,7 @@
  }
 
 /* DESKTOP  NARROW 1 VERSION */
-@media screen and (611px<=width <=1220px) and (height >=210px){
+@media screen and (1156px<=width <=1220px) and (height >=210px){
     .tile-group{
          grid-template-columns: repeat(auto-fill, minmax(20.36vw, 1fr));
     }
@@ -168,7 +168,7 @@
  }
 
  /* DESKTOP  NARROW 2 VERSION */
-@media screen and (611px<=width <=1155px) and (height >=210px){
+@media screen and (967px<=width <=1155px) and (height >=210px){
 
     .g-container{
         padding-right: 12vw;
@@ -181,7 +181,7 @@
  }
 
   /* DESKTOP  NARROW 3 VERSION */
-@media screen and (630px<=width <=950px) and (height >=210px){
+@media screen and (630px<=width <=966px) and (height >=210px){
 
     .g-container{
         padding-right: 12vw;
@@ -215,6 +215,11 @@
     .g-container{
         margin-top: 12vh;
         margin-left: -5vw;
+    }
+
+    .overflow_box_hide{
+        display: block;
+        height: 10.5vh;
     }
 
  }
