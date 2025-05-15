@@ -159,70 +159,103 @@
      height: 7vh;
  }
 
-/* DESKTOP  NARROW 1 VERSION */
-@media screen and (1156px<=width <=1220px) and (height >=210px){
-    .tile-group{
+ /* DESKTOP  NARROW 1 VERSION */
+ @media screen and (1156px<=width <=1220px) and (height >=210px) {
+     .tile-group {
          grid-template-columns: repeat(auto-fill, minmax(20.36vw, 1fr));
-    }
+     }
 
  }
 
  /* DESKTOP  NARROW 2 VERSION */
-@media screen and (967px<=width <=1155px) and (height >=210px){
+ @media screen and (967px<=width <=1155px) and (height >=210px) {
 
-    .g-container{
-        padding-right: 12vw;
-    }
+     .g-container {
+         padding-right: 12vw;
+     }
 
-    .tile-group{
+     .tile-group {
          grid-template-columns: repeat(auto-fill, minmax(26.36vw, 1fr));
-    }
+     }
 
  }
 
-  /* DESKTOP  NARROW 3 VERSION */
-@media screen and (630px<=width <=966px) and (height >=210px){
+ /* DESKTOP  NARROW 3 VERSION */
+ @media screen and (630px<=width <=966px) and (height >=210px) {
 
-    .g-container{
-        padding-right: 12vw;
-        padding-left: 14vw;
-    }
+     .g-container {
+         padding-right: 12vw;
+         padding-left: 14vw;
+     }
 
-    .tile-group{
+     .tile-group {
          grid-template-columns: repeat(auto-fill, minmax(36.36vw, 1fr));
-    }
+     }
 
  }
 
 
-   /* DESKTOP  NARROW 4 VERSION */
-@media screen and (width <=629px) and (height >=210px){
+ /* DESKTOP  NARROW 4 VERSION */
+ @media screen and (width <=629px) and (height >=210px) {
 
-    .g-container{
-        padding-right: 12vw;
-        padding-left: 18.5vw;
-    }
+     .g-container {
+         padding-right: 12vw;
+         padding-left: 18.5vw;
+     }
 
-    .tile-group{
+     .tile-group {
          grid-template-columns: repeat(auto-fill, minmax(36.36vw, 1fr));
-    }
+     }
 
  }
 
-    /* DESKTOP  NARROW 5 VERSION */
-@media screen and (width <=523px) and (height >=210px){
+ /* DESKTOP  NARROW 5 VERSION */
+ @media screen and (width <=523px) and (height >=210px) {
 
-    .g-container{
-        margin-top: 12vh;
-        margin-left: -5vw;
-    }
+     .g-container {
+         margin-top: 12vh;
+         margin-left: -5vw;
+     }
 
-    .overflow_box_hide{
-        display: block;
-        height: 10.5vh;
-    }
+     .overflow_box_hide {
+         display: block;
+         height: 10.5vh;
+     }
 
  }
+
+ /* DESKTOP SHORT 1 VERSION */
+ @media screen and (height <=310px) {
+
+     .tile-image {
+         display: none;
+     }
+
+     .overflow_box_hide {
+         display: block;
+     }
+ }
+
+ /* DESKTOP SHORT 1, NARROW VERSION */
+ @media screen and (width <=520px) {
+
+     .nav ul {
+         flex-direction: row;
+     }
+
+     .tile-image {
+         display: none;
+     }
+
+     .g-container {
+         margin-top: 40vh;
+     }
+
+     .overflow_box_hide {
+         display: block;
+     }
+ }
+
 
 
 
@@ -878,7 +911,7 @@
          font-size: 1.15rem;
      }
 
-     .footer{
-        font-size: 1.0rem;
+     .footer {
+         font-size: 1.0rem;
      }
  }
