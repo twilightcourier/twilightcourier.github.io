@@ -303,8 +303,6 @@
 
      }
 
-     .evpromo_videos {}
-
      .event_promo_link {
          height: 1vh;
 
@@ -322,10 +320,10 @@
 
  @media screen and (650px <=width <=760px) and (350px <=height <=360px) {
 
-    .nav ul {
-        max-width: 25%;
-        margin-left: -4vw;
-    }
+     .nav ul {
+         max-width: 25%;
+         margin-left: -4vw;
+     }
 
      .tile-group {
          grid-template-columns: repeat(auto-fill, minmax(36.36vw, 1fr));
@@ -343,6 +341,127 @@
 
      .tile-image {
          height: 40vh;
+     }
+
+     .vjdemo_header {
+         margin-top: -2vh;
+     }
+
+     .evpromo_header {
+         margin-top: -11vh;
+     }
+ }
+
+ /* MOBILE VERSION GALAXY S20 Vertical */
+ @media screen and (width <=360px) and (761px<=height <=810px) {
+
+
+     .g-container {
+         margin-left: 1.4vh;
+         margin-right: 0.5vh;
+     }
+
+     .tile-group {
+         grid-template-columns: repeat(auto-fill, minmax(41.36vw, 1fr));
+         gap: 3vw;
+     }
+
+     .tile-image {
+         height: 12vh;
+     }
+
+     .overflow_box_hide {
+         display: block;
+     }
+
+     .vjdemo_header {
+         margin-top: 4vh;
+         margin-bottom: -5vh;
+         margin-left: 3vw;
+     }
+
+     .evpromo_header {
+         margin-bottom: -5vh;
+         margin-left: 3vw;
+         margin-top: -5vh;
+
+     }
+
+     .event_promo_link {
+         height: 1vh;
+
+
+     }
+
+     .tile-title {
+         max-width: 90%;
+         word-wrap: break-word;
+     }
+
+   
+ }
+
+ /* MOBILE VERSION GALAXY S20 Horizontal */
+
+@media screen and (761px <=width <=810px) and (351px <=height <=360px) {
+
+     .nav ul {
+         max-width: 25%;
+         margin-left: -4vw;
+     }
+
+     .tile-group {
+         grid-template-columns: repeat(auto-fill, minmax(36.36vw, 1fr));
+         gap: 0vw;
+
+     }
+
+     .g-container {
+
+         margin-right: 0vw;
+         padding-right: 0vw;
+         padding-left: 2.6vw;
+
+     }
+
+     .tile-image {
+         height: 40vh;
+     }
+
+     .vjdemo_header {
+         margin-top: -2vh;
+     }
+
+     .evpromo_header {
+         margin-top: -11vh;
+     }
+ }
+
+  /* MOBILE VERSION GALAXY S20+ Horizontal */
+
+@media screen and (840px <=width <=858px) and (375px <=height <=390px) {
+
+     .nav ul {
+         max-width: 25%;
+         margin-left: -4vw;
+     }
+
+     .tile-group {
+         grid-template-columns: repeat(auto-fill, minmax(37.36vw, 1fr));
+         gap: 0vw;
+
+     }
+
+     .g-container {
+
+         margin-right: 0vw;
+         padding-right: 0vw;
+         padding-left: 4vw;
+
+     }
+
+     .tile-image {
+         height: 41vh;
      }
 
      .vjdemo_header {
