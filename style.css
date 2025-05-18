@@ -116,7 +116,7 @@ ul {
 }
 
 #consentBox {
-    background: #fff;
+    background:#ffffff;
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
@@ -135,10 +135,7 @@ ul {
     transition: all 0.3s ease;
 }
 
-::selection {
-    color: #fff;
-    background: #777;
-}
+
 
 #consentContent p {
     color:  #777;
@@ -157,7 +154,6 @@ ul {
     padding: 12px 30px;
     border: none;
     outline: none;
-    color: #fff;
     font-size: 16px;
     font-weight: 500;
     border-radius: 5px;
@@ -166,14 +162,13 @@ ul {
 }
 
 .consentButton {
-    background: #ff015d;;
+
+     color: #ff015d;
     margin-right: 10px;
 }
 
 .rejectButton {
-    color: #111211;
-    background: transparent;
-    border: 2px solid #099c2c;
+     color: #ff015d;
     text-decoration: none;
 }
 
@@ -187,7 +182,14 @@ ul {
     margin-top: 10px;
 }
 
-
+.privacy {
+    max-width: 70%;
+    font-size: 1.3rem;
+    margin-left: 25vw;
+    margin-top: 15vh;
+    padding-bottom: 10vh;
+   
+}
 
 
 
