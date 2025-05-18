@@ -137,7 +137,7 @@ ul {
 
 ::selection {
     color: #fff;
-    background: #229a0f;
+ 
 }
 
 #consentContent p {
@@ -166,7 +166,8 @@ ul {
 }
 
 .consentButton {
-    background: #2a910b;
+
+    border: 2px solid #099c2c;
     margin-right: 10px;
 }
 
