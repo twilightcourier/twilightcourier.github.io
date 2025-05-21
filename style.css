@@ -1,13 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@200;300&display=swap');
 
-
+@font-face {
+    font-family: NotoSerif1;
+    src: url(fonts/NotoSerif-Light.ttf);
+}
 
 * {
     box-sizing: border-box;
-    font-family: 'Noto Serif', serif;
+    font-family: 'NotoSerif1', serif;
     color: #777
 }
-
 /* size determined by size of content and borders and margins */
 
 :root {
@@ -22,7 +23,7 @@ body {
     padding: 0;
     margin: 0;
     height: 100%;
-    font-family: 'Noto Serif', serif;
+    font-family: 'NotoSerif1', serif;
     font-size: 15px;
     padding-top: var(--margin_top);
 
@@ -116,7 +117,7 @@ ul {
 }
 
 #consentBox {
-    background:#ffffff;
+    background: #ffffff;
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
@@ -138,7 +139,7 @@ ul {
 
 
 #consentContent p {
-    color:  #777;
+    color: #777;
     margin: 10px 0 20px 0;
 }
 
@@ -163,12 +164,12 @@ ul {
 
 .consentButton {
 
-     color: #ff015d;
+    color: #ff015d;
     margin-right: 10px;
 }
 
 .rejectButton {
-     color: #ff015d;
+    color: #ff015d;
     text-decoration: none;
 }
 
@@ -188,7 +189,7 @@ ul {
     margin-left: 25vw;
     margin-top: 15vh;
     padding-bottom: 10vh;
-   
+
 }
 
 
