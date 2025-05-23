@@ -244,11 +244,11 @@
      }
 
      .tile-image {
-         display: none;
+         display: block;
      }
 
      .g-container {
-         margin-top: 40vh;
+         margin-top: 18vh;
      }
 
      .overflow_box_hide {
@@ -256,6 +256,26 @@
      }
  }
 
+
+ /* DESKTOP SHORT 1, NARROW VERSION */
+ @media screen and (width <=500px) {
+
+     .nav ul {
+         flex-direction: row;
+     }
+
+     .tile-image {
+         display: none;
+     }
+
+     .g-container {
+         margin-top: 18vh;
+     }
+
+     .overflow_box_hide {
+         display: block;
+     }
+ }
 
 
 
