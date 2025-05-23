@@ -219,7 +219,7 @@
 
      .overflow_box_hide {
          display: block;
-         height: 10.5vh;
+         height: 20.5vh;
      }
 
  }
@@ -473,6 +473,7 @@
      .g-container {
          margin-left: 1.4vh;
          margin-right: 0.5vh;
+         margin-top: 5vh;
      }
 
      .tile-group {
@@ -681,6 +682,7 @@
      .g-container {
          margin-left: 1.4vh;
          margin-right: 0.5vh;
+         margin-top: 5vh;
      }
 
      .tile-group {
@@ -829,6 +831,7 @@
      .g-container {
          margin-left: 1.4vh;
          margin-right: 0.5vh;
+         margin-top: 5vh;
      }
 
      .tile-group {
