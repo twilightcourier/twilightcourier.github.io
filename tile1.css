@@ -195,7 +195,7 @@
  }
 
 
-/*  DESKTOP  NARROW 4 VERSION */
+ /*  DESKTOP  NARROW 4 VERSION */
  @media screen and (width <=629px) and (height >=210px) {
 
      .g-container {
@@ -248,12 +248,43 @@
      }
 
      .g-container {
-         margin-top: 18vh;
+         margin-top: 30vh;
      }
 
      .overflow_box_hide {
          display: block;
      }
+ }
+
+
+ /* DESKTOP SHORT 1, SHORT NARROW VERSION */
+ @media screen and (width <= 460px) and (height <= 205px) {
+
+     .nav ul {
+         flex-direction: row;
+     }
+
+     .tile-image {
+         display: block;
+     }
+
+     .g-container {
+         margin-top: 30vh;
+     }
+
+     .overflow_box_hide {
+         display: block;
+         height: 25vh;
+     }
+
+     .tile-group {
+         grid-template-columns: repeat(auto-fill, minmax(38.36vw, 1fr));
+         gap: 3vw;
+     }
+     .tile-image{
+        display: none;
+     }
+
  }
 
 
