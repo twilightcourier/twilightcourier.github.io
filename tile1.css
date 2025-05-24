@@ -196,7 +196,7 @@
 
 
  /* DESKTOP  NARROW 4 VERSION */
- @media screen and (width <=629px) and (height >=210px) {
+ @media screen and (524px <= width <=629px) and (height >=210px) {
 
      .g-container {
          padding-right: 12vw;
@@ -210,7 +210,7 @@
  }
 
  /* DESKTOP  NARROW 5 VERSION */
- @media screen and (width <=523px) and (height >=210px) {
+ @media screen and (400px<= width <=523px) and (height >=210px) {
 
      .g-container {
          margin-top: 12vh;
@@ -400,12 +400,12 @@
  }
 
  /* MOBILE VERSION GALAXY S10 Vertical */
- @media screen and (width <=360px) and (700px<=height <=760px) {
+ @media screen and (width <=360px) and (600px<=height <=760px) {
 
      .g-container {
          margin-left: 1.4vh;
          margin-right: 0.5vh;
-         margin-top: 5vh;
+         margin-top: 8vh;
      }
 
      .tile-group {

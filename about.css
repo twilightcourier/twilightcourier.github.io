@@ -330,8 +330,136 @@ li {
 
 }
 
+/*  ANDROID 14A NARROW 3 VERSION */
+@media screen and (341px <= width <=399px) and (height >=210px) {
+
+    .g-container {
+        max-width: 100%;
+        padding-left: 12vw;
+        margin-right: 10vw;
+        margin-top: 12vh;
+    }
+
+
+
+    .gr_image1 {
+
+
+        height: 21.5vh;
+        margin-top: 5vh;
+        display: block;
+
+
+    }
+
+
+    .header_email {
+        font-size: 1.28rem;
+        margin-top: 0.1vh;
+    }
+
+    .courier_text {
+
+        font-size: 1.2rem;
+        max-width: 85%;
+        margin-top: -2vh;
+    }
+
+    .ev_list {
+        margin-top: -2.5vh;
+        max-width: 90%;
+        font-size: 1.2rem;
+    }
+
+    .header_live_performance {
+        font-size: 1.4rem;
+        margin-top: -1vh;
+
+    }
+
+    .media_links {
+        margin-top: -2vh;
+    }
+
+    .service_text {
+        font-size: 1.2rem;
+
+    }
+
+    .overflow_box_hide {
+        display: block;
+    }
+
+
+
+}
+
 /* DESKTOP  NARROW 3 VERSION */
-@media screen and (width <=532px) and (height >=210px) {
+@media screen and (400px<= width <=532px) and (height >=210px) {
+
+    .g-container {
+        max-width: 100%;
+        padding-left: 12vw;
+        margin-right: 10vw;
+        margin-top: 12vh;
+    }
+
+
+
+    .gr_image1 {
+
+
+        height: 21.5vh;
+        margin-top: 5vh;
+        display: hide;
+
+
+    }
+
+
+    .header_email {
+        font-size: 1.28rem;
+        margin-top: 0.1vh;
+    }
+
+    .courier_text {
+
+        font-size: 1.2rem;
+        max-width: 85%;
+        margin-top: -2vh;
+    }
+
+    .ev_list {
+        margin-top: -2.5vh;
+        max-width: 90%;
+        font-size: 1.2rem;
+    }
+
+    .header_live_performance {
+        font-size: 1.4rem;
+        margin-top: -1vh;
+
+    }
+
+    .media_links {
+        margin-top: -2vh;
+    }
+
+    .service_text {
+        font-size: 1.2rem;
+
+    }
+
+    .overflow_box_hide {
+        display: block;
+    }
+
+
+
+}
+
+/* DESKTOP  NARROW 3 VERSION2 */
+@media screen and (width <340px) and (height >=210px) {
 
     .g-container {
         max-width: 100%;
