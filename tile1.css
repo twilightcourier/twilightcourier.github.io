@@ -258,7 +258,7 @@
 
 
  /* DESKTOP SHORT 1, NARROW VERSION */
- @media screen and (width <=500px) {
+ @media screen and (width <=500px) and (height <= 500px) {
 
      .nav ul {
          flex-direction: row;
