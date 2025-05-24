@@ -793,7 +793,7 @@ li {
 
 
 /* MOBILE VERSION GALAXY S10 Vertical */
-@media screen and (width <=360px) and (700px<=height <=760px) {
+@media screen and (width <=360px) and (650px<=height <=760px) {
 
     .g-container {
         max-width: 100%;
