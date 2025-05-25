@@ -968,3 +968,12 @@
          font-size: 1.0rem;
      }
  }
+
+
+ @media screen and (width <=450px){
+       .tile-group {
+         grid-template-columns: repeat(auto-fill, minmax(46.36vw, 1fr));
+         gap: 0vw;
+
+     }  
+ }
