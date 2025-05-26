@@ -970,7 +970,7 @@
  }
 
 
- @media screen and (width <=450px){
+ @media screen and (width <=650px){
        .tile-group {
          grid-template-columns: repeat(auto-fill, minmax(46.36vw, 1fr));
          gap: 0vw;
