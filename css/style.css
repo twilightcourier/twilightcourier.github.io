@@ -1,4 +1,3 @@
-
 @font-face {
     font-family: NotoSerif1;
     src: url(fonts/NotoSerif-Light.ttf);
@@ -9,6 +8,7 @@
     font-family: 'NotoSerif1', serif;
     color: #777
 }
+
 /* size determined by size of content and borders and margins */
 
 :root {
@@ -30,28 +30,134 @@ body {
 }
 
 
-@media all and (max-height: 200px) {
+.info-container1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(auto-fit, minmax(16.25em, 1fr));
+    grid-gap: 1vw;
 
-    body {
-        padding-top: 0vh;
-    }
+    height: auto;
+    grid-template-areas: "header1" "content1" "footer1";
+    
 }
 
-html {
-    background: #ffffff
+.child-header1 {
+    grid-area: header1;
+   
+}
+
+.child-content1 {
+    grid-area: content1;
+    margin: 1em;
+  
+    
+    
+}
+
+.child-footer1 {
+    grid-area: footer1;
+    font-size: 1rem;
+    margin: 1em;
 }
 
 
-ul {
+.main-nav ul {
+    font-size: 1.3rem;
+    position: fixed;
+    top: -1.3vh;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    margin-left: -7.4vw;
+    padding-top: 2vh;
+    flex-wrap: nowrap;
+    gap: 1.7vw;
+    z-index: 3;
     list-style-type: none;
 }
 
-.link_event_promo {
-    width: 0.1vw;
-    height: 1vh;
-    margin-top: 2vh;
+
+a:hover {
+    font-weight: lighter;
 }
 
+.tile-single img:hover {
+    filter: brightness(150%);
+
+}
+
+a:hover {
+    filter: brightness(150%);
+}
+
+a:hover {
+    color: #ff015d;
+    filter: brightness(150%);
+}
+
+
+
+
+#consentBox {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 10;
+    visibility: hidden;
+}
+
+
+
+
+#consentContent p {
+    color: #777;
+    margin: 10px 0 20px 0;
+}
+
+#consentContent .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.consentButton,
+.rejectButton {
+    padding: 12px 30px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.consentButton {
+
+    color: #ff015d;
+    margin-right: 10px;
+}
+
+.rejectButton {
+    color: #ff015d;
+    text-decoration: none;
+}
+
+#consentBox img {
+    max-width: 90px;
+}
+
+#consentHeader {
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 10px;
+}
 
 
 /* DEFAULTS */
@@ -119,744 +225,11 @@ ul {
 
 }
 
-#consentBox {
-    background: #ffffff;
-    padding: 20px;
-    border-radius: 15px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    text-align: center;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    z-index: 10;
-}
-
-#consentBox.hide {
-    opacity: 0;
-    pointer-events: none;
-    transform: scale(0.8);
-    transition: all 0.3s ease;
-}
-
-
-
-#consentContent p {
-    color: #777;
-    margin: 10px 0 20px 0;
-}
-
-#consentContent .buttons {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-.consentButton,
-.rejectButton {
-    padding: 12px 30px;
-    border: none;
-    outline: none;
-    font-size: 16px;
-    font-weight: 500;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-
-.consentButton {
-
-    color: #ff015d;
-    margin-right: 10px;
-}
-
-.rejectButton {
-    color: #ff015d;
-    text-decoration: none;
-}
-
-#consentBox img {
-    max-width: 90px;
-}
-
-#consentHeader {
-    font-size: 25px;
-    font-weight: 600;
-    margin-top: 10px;
-}
-
 .privacy {
     max-width: 70%;
     font-size: 1.3rem;
     margin-left: 25vw;
     margin-top: 15vh;
     padding-bottom: 10vh;
-
-}
-
-
-
-/* DESKTOP VERSION */
-@media screen and (840px <=width) and (height >=210px) {
-
-    .nav ul {
-        margin: 0;
-        font-size: 1.5rem;
-        max-width: 21%;
-        margin-left: -1.8vw;
-        top: 2.2vh;
-
-
-    }
-
-
-    .overflow_box_hide {
-
-        display: none;
-
-    }
-
-    .content-section {
-        margin-top: -1vh;
-    }
-
-    .content-section1 {
-
-        font-size: 2.5rem;
-        padding-top: var(--margin_top);
-        margin-top: 1vh;
-
-    }
-
-    .link_event_promo {
-        margin-top: 6.5vh;
-    }
-
-    .footer {
-        font-size: 1rem;
-    }
-}
-
-
-/* DESKTOP VERSION NARROW 1, TALL */
-@media screen and (width <=840px) and (height >=210px) {
-
-    .nav ul {
-
-        top: 2vh;
-        margin-left: -5.5vw;
-
-
-    }
-
-
-    .overflow_box_hide {
-
-        display: none;
-
-    }
-
-    .content-section {
-        margin-top: -1vh;
-    }
-
-    .content-section1 {
-
-        font-size: 2.5rem;
-        padding-top: var(--margin_top);
-        margin-top: 1vh;
-
-    }
-
-    .link_event_promo {
-        margin-top: 6.5vh;
-    }
-
-    .footer {
-        font-size: 1rem;
-    }
-}
-
-/* DESKTOP VERSION NARROW 2, TALL */
-@media screen and (width <=610px) and (height >=210px) {
-
-    .nav ul {
-        flex-direction: column;
-        top: 2vh;
-        margin-left: -6.5vw;
-
-
-    }
-
-
-    .overflow_box_hide {
-
-        display: none;
-
-    }
-
-    .content-section {
-        margin-top: -1vh;
-    }
-
-    .content-section1 {
-
-        font-size: 2.5rem;
-        padding-top: var(--margin_top);
-        margin-top: 1vh;
-
-    }
-
-    .link_event_promo {
-        margin-top: 6.5vh;
-    }
-
-    .footer {
-        font-size: 1rem;
-    }
-}
-
-/* DESKTOP  NARROW 3, TALL VERSION */
-@media screen and (width <=532px) and (height >=210px) {
-    .nav ul {
-        flex-direction: row;
-        top: -2vh;
-        margin-left: -2.5vw;
-
-
-    }
-
-
-    .overflow_box_hide {
-
-        display: none;
-
-    }
-
-    .content-section {
-        margin-top: -1vh;
-    }
-
-    .content-section1 {
-
-        font-size: 2.5rem;
-        padding-top: var(--margin_top);
-        margin-top: 1vh;
-
-    }
-
-    .link_event_promo {
-        margin-top: 6.5vh;
-    }
-
-    .footer {
-        font-size: 1rem;
-    }
-}
-
-
-/* DESKTOP NARROW, short 1 VERSION */
-@media screen and (width <=532px) and (height <=350px) {
-
-    .nav ul {
-        flex-direction: column;
-        top: -2vh;
-        margin-left: -9vw;
-        max-width: 20%;
-
-
-    }
-
-
-    .overflow_box_hide {
-
-        display: none;
-
-    }
-
-    .content-section {
-        margin-top: -1vh;
-    }
-
-    .content-section1 {
-
-        font-size: 2.5rem;
-        padding-top: var(--margin_top);
-        margin-top: 1vh;
-
-    }
-
-    .link_event_promo {
-        margin-top: 6.5vh;
-    }
-
-    .footer {
-        font-size: 1rem;
-    }
-}
-
-/* DESKTOP short 2 VERSION */
-@media screen and (height <=210px) {
-
-    .nav ul {
-        flex-direction: column;
-        top: -2vh;
-        margin-left: 1vw;
-        max-width: 20%;
-        position: sticky;
-
-
-    }
-
-
-    .overflow_box_hide {
-
-        display: none;
-
-    }
-
-    .content-section {
-        margin-top: -1vh;
-    }
-
-    .content-section1 {
-
-        font-size: 2.5rem;
-        padding-top: var(--margin_top);
-        margin-top: 1vh;
-
-    }
-
-    .link_event_promo {
-        margin-top: 6.5vh;
-    }
-
-    .footer {
-        font-size: 1rem;
-    }
-}
-
-
-
-
-/* MOBILE VERSION GALAXY NOTE ANDROID 11 Vertical */
-
-@media screen and (386px <=width <=499px) and (761px <=height <=950px) {
-
-
-
-    .nav ul {
-
-        flex-direction: row;
-        top: -1.3vh;
-        margin-left: -7.4vw;
-
-
-    }
-
-    .content-section {
-        margin-top: 5vh;
-
-    }
-
-    .content-section1 {
-        font-size: 2.5rem;
-        color: #777;
-        padding-top: 3vh;
-        margin-top: 5vh;
-
-    }
-
-
-
-}
-
-/* MOBILE VERSION GALAXY NOTE ANDROID 11 Horizontal */
-@media screen and (761px <=width <=950px) and (361px <=height <=450px) {
-
-
-    .nav ul {
-
-        margin-left: -3.4vw;
-        top: 4.5vh;
-
-
-    }
-
-
-
-    .overflow_box_hide {
-        height: 11vh;
-
-    }
-
-    .footer {
-        font-size: 0.9rem;
-        padding-bottom: 7vh;
-        margin-top: 8vh;
-    }
-
-}
-
-/* MOBILE VERSION GALAXY S10 Vertical */
-@media screen and (width <=360px) and (600px<=height <=760px) {
-
-    .nav ul {
-        font-size: 1.2rem;
-        flex-direction: row;
-        margin-left: -14.4vw;
-        padding-top: 2vh;
-        gap: 1vw;
-        top: -1.3vh;
-
-
-    }
-
-
-
-    .footer {
-
-        margin-top: 4.5vh;
-
-    }
-
-
-}
-
-/* MOBILE VERSION GALAXY S10 Horizontal */
-
-@media screen and (533px <=width <=760px) and (height <=360px) {
-
-    .nav ul {
-
-        margin-left: -3.4vw;
-        top: 4.5vh;
-
-
-
-    }
-
-
-
-
-    .overflow_box_hide {
-        height: 11vh;
-
-    }
-
-    .footer {
-        font-size: 0.9rem;
-        padding-bottom: 5vh;
-    }
-
-}
-
-/* MOBILE VERSION GALAXY S20 Vertical */
-
-@media screen and (width <=360px) and (761px<=height <=810px) {
-    .nav ul {
-        font-size: 1.2rem;
-        flex-direction: row;
-        margin-left: -14.4vw;
-        gap: 1vw;
-        top: -1.3vh;
-
-
-    }
-
-
-    .footer {
-
-        margin-top: 4.5vh;
-
-    }
-
-
-}
-
-/* MOBILE VERSION GALAXY S20+ Vertical */
-
-@media screen and (361px<=width <=385px) and (801px<=height <=860px) {
-    .nav ul {
-        font-size: 1.2rem;
-        flex-direction: row;
-        margin-left: -10.4vw;
-        gap: 0vw;
-        top: -1.3vh;
-
-
-    }
-
-
-    .footer {
-
-        margin-top: 4.5vh;
-
-    }
-
-
-}
-
-
-/* MOBILE VERSION Iphone 12/13 Vertical */
-
-@media screen and (386px<=width <=395px) and (801px<=height <=860px) {
-    .nav ul {
-        font-size: 1.2rem;
-        flex-direction: row;
-        margin-left: -10.4vw;
-        gap: 0vw;
-        top: -1.3vh;
-
-
-    }
-
-    .footer {
-
-        margin-top: 4.0vh;
-        padding-bottom: 2vh;
-
-    }
-
-
-}
-
-/* MOBILE VERSION IPAD VERTICAL */
-@media screen and (800px <=width <=830px) and (990px <=height <=1085px) {
-
-    .nav ul {
-        margin-left: -3.4vw;
-        top: 0vh;
-
-    }
-
-
-
-    .overflow_box_hide {
-
-        height: 3vh;
-    }
-
-    .footer {
-        font-size: 0.9rem;
-        padding-bottom: 1.5vh;
-        margin-top: 5vh;
-    }
-
-}
-
-/* MOBILE VERSION IPAD HORIZONTAL */
-@media screen and (831px <=width <=1100px) and (800px <=height <=830px) {
-    .nav ul {
-
-        margin-left: -3.4vw;
-        top: 4.5vh;
-
-
-
-    }
-
-
-
-
-    .overflow_box_hide {
-
-        height: 11vh;
-
-    }
-
-    .footer {
-        font-size: 0.9rem;
-        padding-bottom: 1.5vh;
-        margin-top: 5vh;
-    }
-
-}
-
-/* MOBILE VERSION GALAXY S20 Horizontal */
-@media screen and (761px <=width <=810px) and (height <=360px) {
-
-    .nav ul {
-        margin-left: -3.4vw;
-        top: 4.5vh;
-
-    }
-
-
-
-    .overflow_box_hide {
-        height: 11vh;
-    }
-
-    .footer {
-        font-size: 0.9rem;
-        padding-bottom: 7vh;
-        margin-top: 8vh;
-    }
-
-}
-
-
-/* MOBILE VERSION Iphone SE 2ndg Vertical */
-@media screen and (361px <=width <=499px) and (650px <=height <=760px) {
-
-    .nav ul {
-        font-size: 1.25rem;
-        flex-direction: row;
-        margin-left: -12.4vw;
-        top: -1.3vh;
-
-    }
-
-    .footer {
-
-        margin-top: 4.5vh;
-
-    }
-
-}
-
-/* MOBILE VERSION Iphone SE 2ndg Horizontal */
-@media screen and (650px <=width <=760px) and (361px <=height <=380px) {
-    .nav ul {
-        top: -1.3vh;
-        margin-left: -7.4vw;
-    }
-
-
-    .footer {
-        font-size: 0.8rem;
-    }
-}
-
-/* MOBILE VERSION Kindle Fire HDX VERTICAL */
-@media screen and (780px <=width <=830px) and (1086px <=height <=1350px) {
-
-    .nav ul {
-        font-size: 1.4rem;
-        margin-left: -3.4vw;
-        top: 0.5vh;
-
-    }
-
-
-    .overflow_box_hide {
-        height: 3vh;
-    }
-
-
-    .footer {
-        font-size: 0.9rem;
-    }
-}
-
-
-/* MOBILE VERSION Kindle Fire HDX HORIZONTAL */
-@media screen and (1101px <=width <=1300px) and (750px <=height <=830px) {
-
-
-
-    .nav ul {
-        top: 2.5vh;
-
-    }
-
-
-    .nav ul {
-        font-size: 1.5rem;
-        margin-left: -2.4vw;
-        top: 0.5vh;
-    }
-
-
-    .overflow_box_hide {
-
-        height: 3vh;
-    }
-
-    .footer {
-        font-size: 0.95rem;
-    }
-
-}
-
-
-
-
-/* WEB VERSION LARGE */
-
-@media screen and (2500px <=width) and (height >=501px) {
-
-    .nav ul {
-        margin: 0;
-        font-size: 1.6rem;
-        max-width: 21%;
-        margin-left: -1.5vw;
-        overflow-wrap: break-word;
-        transform-origin: left top;
-        transform: scale(1.6);
-
-
-    }
-
-
-    .overflow_box_hide {
-
-        display: none;
-
-    }
-
-    .content-section {
-        margin-top: -1vh;
-    }
-
-    .content-section1 {
-
-        font-size: 2.5rem;
-        padding-top: var(--margin_top);
-        margin-top: 1vh;
-
-    }
-}
-
-
-
-.nav a:hover {
-    font-weight: lighter;
-}
-
-
-
-
-
-
-.container {
-    max-width: 70vw;
-
-
-}
-
-.about-image {
-    height: auto;
-    width: 40%;
-    margin: 15vh;
-}
-
-
-
-
-.nav li {
-    display: block;
-    overflow-wrap: break-word;
-    width: auto;
-
-}
-
-.nav a {
-    padding-bottom: 1.6rem;
-    padding-left: 1.6rem;
-    display: inline-block;
-    text-decoration: none;
 
 }

@@ -1,0 +1,14 @@
+.main-nav ul {
+    font-size: 1.3rem;
+    position: fixed;
+    top: -1.3vh;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    margin-left: -7.4vw;
+    padding-top: 2vh;
+    flex-wrap: nowrap;
+    gap: 1.7vw;
+    z-index: 3;
+    list-style-type: none;
+}
