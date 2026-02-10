@@ -1,0 +1,33 @@
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
+
+
+name: Twilight Courier
+title: Twilight Courier
+permalink: /:categories/:year/:month/:day/:title:output_ext
+
+collections:
+  artists_fi:
+    output: true
+  gallery_fi:
+    output: true
+  upcoming_fi:
+    output: true
+  previous_fi:
+    output: true      
+  artists_en:
+    output: true
+  gallery_en:
+    output: true
+  upcoming_en:
+    output: true
+  previous_en:
+    output: true    
+  gallery_sub/ymparistotaide:
+    output: true   
+  
+
+collections_dir: collections_content_
