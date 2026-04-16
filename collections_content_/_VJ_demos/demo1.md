@@ -1,6 +1,7 @@
 ---
 name: bass/dubstep1
 tile_image: "VJ_Demo_Photos\run1_1.jpg"
+ex_url: "https://youtu.be/jogSlRHZgdw"
 artists_img1: "VJ_Demo_Photos\run1_1.jpg"
 img1_alt_text: scu222e imge1 tsafa333sf afsaf asf asf asf
 layout: default

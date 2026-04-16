@@ -12,15 +12,15 @@ permalink: /:categories/:year/:month/:day/:title:output_ext
 collections:
   VJ_Demos:
     output: true
-  gallery_fi:
+  Tutorials:
     output: true
-  upcoming_fi:
+  Event_Photos:
     output: true
-  previous_fi:
+  Graphic_Design:
     output: true      
-  artists_en:
+  Web_Design:
     output: true
-  gallery_en:
+  Online_Course:
     output: true
   upcoming_en:
     output: true
