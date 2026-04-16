@@ -12,18 +12,22 @@ meta_content: Twilight Courier
 
 
 
-    
+
 
 <p id="demo"></p>
 
+{% for collection in site.collections %}
+<h2>Items from {{ collection.label }}</h2>
+<ul>
+    {% for item in site[collection.label] %}
+    <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+    {% endfor %}
+</ul>
+{% endfor %}
 
+<div class="works_page_container">
+    afasf
 
+    <div class="tile-container">
 
-    <div class="works_page_container">
-        afasf
-
-        <div class = "tile-container">
-
-        </div>
-
-       
+    </div>
