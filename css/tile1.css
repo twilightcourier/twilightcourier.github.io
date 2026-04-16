@@ -2,7 +2,7 @@
     display: ;
 }
 
-.tile_group {
+.tile-group {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(16.36vw, 1fr));
     grid-auto-rows: auto;
@@ -15,18 +15,18 @@
     column-gap: 0.2vw;
 }
 
-.tile_group * {
+.tile-group * {
     box-sizing: border-box;
 }
 
-.tile_container {
+.tile-container {
     display: flex;
     flex-direction: column;
     gap: 3.5vh;
     width: 100%;
 }
 
-.tile_image {
+.tile-image {
     grid-area: img;
     max-width: 100%;
     height: 26vh;
