@@ -10,7 +10,7 @@ title: Twilight Courier
 permalink: /:categories/:year/:month/:day/:title:output_ext
 
 collections:
-  VJ_demos:
+  VJ_Demos:
     output: true
   gallery_fi:
     output: true
