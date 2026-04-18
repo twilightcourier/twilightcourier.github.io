@@ -10,32 +10,28 @@ meta_content: Twilight Courier
 ---
 
 
-        {% for item in site.VJ_Demos %}
+{% for item in site.VJ_Demos %}
 
-          <p>{{ item.name | markdownify }}</p>
+<p>{{ item.name | markdownify }}</p>
 {% endfor %}
 
 
 
-asfas
 
 
-    <div class="tile-group">
-        asfasasfas
-        {% for item in site.VJ_Demos %}
+
+<div class="tile-group">
+    {% for item in site.VJ_Demos %}
 
 
-        <div class="tile-single">
-            <div>
-                <li><a href="{{ item.url }}">{{ item.title}}</a></li>
-            </div>
-            <div>
-                <a target="_blank" href=" {{ item.ex_url }} "><img class="tile-image" src="{{ item.tile_image}}"></a>
-            </div>
-        </div>
-          {% endfor %}
+    <div class="tile-single">
+
+        <a target="_blank" href=" {{ item.ex_url }} "><img class="tile-image" src="{{ item.tile_image}}"></a>
+        <li><a href="{{ item.url }}">{{ item.title}}</a></li>
     </div>
-  
+    {% endfor %}
+</div>
+
 
 
 
