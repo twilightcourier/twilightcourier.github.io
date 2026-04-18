@@ -10,30 +10,34 @@ meta_content: Twilight Courier
 ---
 
 
+        {% for item in site.VJ_Demos %}
 
-
-
-
-<p id="demo"></p>
-
-{% for collection in site.collections %}
-<h2>Items from {{ collection.label | replace: "_", " "}}</h2>
-<ul>
-    {% for item in site[collection.label] %}
-    <li><a href="{{ item.url }}">{{ item.title}}</a></li>
-    <div class="tile-group">
-        <div class="tile-single">
-            <a target="_blank" href=" {{ item.ex_url }} "><img class="tile-image"
-                    src="{{ item.tile_image}}">
-            </a>
-        </div>
-
-
-
-    </div>
-    {% endfor %}
-</ul>
+          <p>{{ item.name | markdownify }}</p>
 {% endfor %}
+
+
+
+asfas
+
+
+    <div class="tile-group">
+        asfasasfas
+        {% for item in site.VJ_Demos %}
+
+
+        <div class="tile-single">
+            <div>
+                <li><a href="{{ item.url }}">{{ item.title}}</a></li>
+            </div>
+            <div>
+                <a target="_blank" href=" {{ item.ex_url }} "><img class="tile-image" src="{{ item.tile_image}}"></a>
+            </div>
+        </div>
+          {% endfor %}
+    </div>
+  
+
+
 
 <!--
 <div class="tile-group">
@@ -63,9 +67,9 @@ meta_content: Twilight Courier
 -->
 
 
-    <div class="works_page_container">
-        afasf
+<div class="works_page_container">
+    afasf
 
-        <div class="tile-container">
+    <div class="tile-container">
 
-        </div>
+    </div>
