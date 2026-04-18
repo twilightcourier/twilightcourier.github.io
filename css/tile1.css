@@ -15,12 +15,6 @@
     column-gap: 0.2vw;
 }
 
-.tile-group1 {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(16.36vw, 1fr));
-    grid-auto-rows: auto;
-}
-
 .tile-group * {
     box-sizing: border-box;
 }
@@ -39,3 +33,27 @@
     object-fit: cover;
     display: block;
 }
+
+ .tile-text{
+
+     padding-left: 0.5vw;
+     max-width: 95%;
+     word-wrap: break-word;
+
+ }
+
+ .tile-text.title{
+
+     padding-left: 0.5vw;
+     max-width: 95%;
+     word-wrap: break-word;
+
+ }
+
+  .tile-text.description{
+
+     padding-left: 0.5vw;
+     max-width: 95%;
+     word-wrap: break-word;
+
+ }
