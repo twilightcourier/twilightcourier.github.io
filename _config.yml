@@ -12,7 +12,6 @@ permalink: /:categories/:year/:month/:day/:title:output_ext
 collections:
   VJ_Demos:
     output: true
-    collection_descriptions: "asfsafasfsaf asfasf asf asf"
   Tutorials:
     output: true
   Event_Photos:
