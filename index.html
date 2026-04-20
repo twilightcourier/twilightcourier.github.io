@@ -14,8 +14,13 @@ meta_content: Twilight Courier
 
 
 
+{% for collection in site.collections %}
+<div class="tile_header">
+    {{ collection.label | replace: "_", " "}}
+    DESCRIPTION: {{ collection.collection_descriptions }}.
 
-
+</div>
+{% endfor %}
 <div class="tile-group">
     {% for item in site.VJ_Demos %}
 
@@ -72,4 +77,3 @@ meta_content: Twilight Courier
         </div>
     </div>
 -->
-
