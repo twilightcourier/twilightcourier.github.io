@@ -29,14 +29,19 @@ meta_content: Twilight Courier
         </div>
 
 
-        <p class="tile-text description">
+        <div class="tile-text title">
+            <p>{{ item.tile_description}}</p>
+        </div>
+
+
+        <div class="tile-text title">
             {{ item.tile_description}}
-        </p>
+        </div>
 
         <div class="tile-text links">
             <a href="{{ item.ex_url2 }}">{{ item.ex_url2_text}}</a>
         </div>
-        
+
     </div>
 
     {% endfor %}

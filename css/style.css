@@ -81,10 +81,7 @@ a:hover {
     font-weight: lighter;
 }
 
-.tile-single img:hover {
-    filter: brightness(150%);
 
-}
 
 a:hover {
     filter: brightness(150%);

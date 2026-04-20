@@ -33,13 +33,7 @@
      box-sizing: border-box;
  }
 
- .tile-text{
 
-     padding-left: 0.5vw;
-     max-width: 95%;
-     word-wrap: break-word;
-
- }
 
  .tile-single {
      display: flex;
@@ -92,16 +86,6 @@
  }
 
 
- .tile-descriptions {
-     grid-area: description;
-     justify-content: space-between;
-     align-items: center;
-     font-family: 'Noto Serif', serif;
-     font-size: 2rem;
-     height: auto;
-     order: 2;
-
- }
 
  .tile-links {
      grid-area: links;

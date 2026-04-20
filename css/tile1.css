@@ -22,7 +22,7 @@
 .tile-single {
     display: flex;
     flex-direction: column;
-    gap: 3.5vh;
+    gap: 1.5vh;
     width: 100%;
 }
 
@@ -34,26 +34,49 @@
     display: block;
 }
 
- .tile-text{
 
-     padding-left: 0.5vw;
-     max-width: 95%;
-     word-wrap: break-word;
+.tile-text {
 
- }
+    padding-left: 0.5vw;
+    max-width: 95%;
+    word-wrap: break-word;
+    font-size: 1.4rem;
 
- .tile-text.title{
+}
 
-     padding-left: 0.5vw;
-     max-width: 95%;
-     word-wrap: break-word;
+.tile-text.title {
 
- }
+    padding-left: 0.5vw;
+    max-width: 95%;
+    word-wrap: break-word;
+    height: auto;
 
-  .tile-text.description{
+}
 
-     padding-left: 0.5vw;
-     max-width: 95%;
-     word-wrap: break-word;
+.tile-text a {
+    font-style: italic;
+    font-weight: bold;
+    color: #ff015d;
+    font-style: italic;
+    text-decoration: underline;
 
- }
+}
+
+
+
+.tile-text a:hover {
+    color: #ff015d;
+    filter: brightness(150%);
+    font-style: italic;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.tile-text.description {
+
+    padding-left: 0.5vw;
+    max-width: 95%;
+    word-wrap: break-word;
+
+}

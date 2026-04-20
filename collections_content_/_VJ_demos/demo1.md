@@ -5,7 +5,7 @@ img1_alt_text: scu222e imge1 tsafa333sf afsaf asf asf asf
 ex_url: "https://youtu.be/jogSlRHZgdw"
 ex_url2_text: "11"
 ex_url2: "11"
-tile_description: "Elpac- Outside Ride"
+tile_description: Elpac- Outside Ride
 
 layout: default
 ---
