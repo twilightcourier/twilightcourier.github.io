@@ -2,13 +2,14 @@
 
 .tile-group {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(16.36vw, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(20%, 1fr));
     grid-auto-rows: auto;
     font-family: sans-serif;
     margin-bottom: 1em;
     max-width: 100%;
     transform-origin: left top;
     column-gap: 0.2em;
+    margin-left: 20%;
 }
 
 .tile-group * {
@@ -24,16 +25,16 @@
     display: flex;
     flex-direction: column;
     gap: 0vh;
-    width: 100%;
+
 }
 
 .tile-image {
-    grid-area: img;
-    max-width: 100%;
-    height: 100%;
+    aspect-ratio: 1.393;
     object-fit: cover;
     display: block;
     margin-bottom: 3.5vh;
+    width: 100%;
+
 }
 
 
