@@ -1,6 +1,4 @@
-.works_page_container {
-    display: ;
-}
+
 
 .tile-group {
     display: grid;
@@ -22,7 +20,7 @@
 .tile-single {
     display: flex;
     flex-direction: column;
-    gap: 1.5vh;
+    gap: 0vh;
     width: 100%;
 }
 
@@ -32,7 +30,9 @@
     height: 26vh;
     object-fit: cover;
     display: block;
+    margin-bottom: 3.5vh;
 }
+
 
 
 .tile-text {
