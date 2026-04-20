@@ -13,8 +13,8 @@ meta_content: Twilight Courier
 
 
 
-
-{% for collection in site.collections %}
+{% assign ordered_col = site.collections | sort:"order_n" %}
+{% for collection in ordered_col  %}
 <div class="tile-header">
     {{ collection.label | replace: "_", " "}}
 

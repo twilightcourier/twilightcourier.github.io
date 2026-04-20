@@ -12,8 +12,10 @@ permalink: /:categories/:year/:month/:day/:title:output_ext
 collections:
   VJ_Demos:
     output: true
+    order_n: 1
   Tutorials:
     output: true
+    order_n: 2
   Event_Photos:
     output: true
   Graphic_Design:
