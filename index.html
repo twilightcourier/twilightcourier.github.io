@@ -10,10 +10,6 @@ meta_content: Twilight Courier
 ---
 
 
-{% for item in site.VJ_Demos %}
-
-<p>{{ item.name | markdownify }}</p>
-{% endfor %}
 
 
 
@@ -28,21 +24,22 @@ meta_content: Twilight Courier
 
         <a target="_blank" href=" {{ item.ex_url }} "><img class="tile-image" src="{{ item.tile_image}}"></a>
 
-        <div class="tile-text title"> <a target="_blank" href="https://youtu.be/jogSlRHZgdw">
-                bass/dubstep1 - running, mix1 </a> </div>
-        <li><a href="{{ item.url }}">{{ item.title}}</a></li>
-    </div>
-    
-    <p class="tile-text description">
-        Elpac - Outside Ride
-    </p>
+        <div class="tile-text title">
+            <a href="{{ item.ex_url }}">{{ item.tile_title}}</a>
+        </div>
 
-    <div class="tile-text links">
-        <a target="_blank" href=""> </a>
+
+        <p class="tile-text description">
+            {{ item.tile_description}}
+        </p>
+
+        <div class="tile-text links">
+            <a href="{{ item.ex_url2 }}">{{ item.ex_url2_text}}</a>
+        </div>
+        
     </div>
+
     {% endfor %}
-
-
 
 </div>
 
