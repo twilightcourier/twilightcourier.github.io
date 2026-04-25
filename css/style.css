@@ -49,6 +49,7 @@ body {
     height: 4%;
     position: fixed;
     top: 0;
+    z-index: 2;
 }
 
 .child-header1 {
@@ -83,8 +84,7 @@ body {
     flex-direction: column;
     font-size: 1.5rem;
     text-decoration: underline;
-    margin-bottom: 5%;
-    margin-top: 1%;
+
     border: 2.5px solid #777;
     box-sizing: content-box;
     padding: 8px;
@@ -95,7 +95,13 @@ body {
 
 
 .table-nav-border-container {
-    display: inline-flex
+    display: inline-flex;
+    position: relative;
+    margin-bottom: 15%;
+    margin-top: 1%;
+    left: 38%;
+    top: -1%;
+
 }
 
 
@@ -259,6 +265,15 @@ a:hover {
     .info-container1 {
         grid-template-columns: 1fr 3fr;
         margin-left: 5.08%;
+    }
+
+    .table-nav {
+        margin-top: 50px;
+    }
+
+    .child-content1 {
+        margin-left: -28%;
+        margin-right: 9%;
     }
 
 
