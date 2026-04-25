@@ -14,37 +14,56 @@ meta_content: Twilight Courier
 
 
 {% assign ordered_col = site.collections | sort:"order_n" %}
-{% for collection in ordered_col  %}
-<div class="tile-header">
-    {{ collection.label | replace: "_", " "}}
+<div class="table-nav-border-container">
+<div class="table-nav">
+    {% for collection in ordered_col %}
 
+    <a href="#{{ collection.label }}"> {{ collection.label | replace: "_", " "}}</a>
+    {% endfor %}
 
 </div>
-
-<div class="tile-group">
-    {% for item in site[collection.label]  %}
+</div>
 
 
-    <div class="tile-single">
-
-        <a target="_blank" href=" {{ item.ex_url }} "><img class="tile-image" src="{{ item.tile_image}}"></a>
-
-        <div class="tile-text title">
-            <a href="{{ item.ex_url }}">{{ item.tile_title}}</a>
-        </div>
-        <div class="tile-text title">
-            {{ item.tile_description}}
-        </div>
+{% for collection in ordered_col %}
 
 
 
-        <div class="tile-text links">
-            <a href="{{ item.ex_url2 }}">{{ item.ex_url2_text}}</a>
-        </div>
+<div class="tile-header-group-container ">
+
+
+    <div id="{{ collection.label }}" class="tile-header">
+        {{ collection.label | replace: "_", " "}}
 
     </div>
 
-    {% endfor %}
+    <div class="tile-group">
+
+        {% for item in site[collection.label] %}
+
+
+        <div class="tile-single">
+
+            <a target="_blank" href=" {{ item.ex_url }} "><img class="tile-image" src="{{ item.tile_image}}"></a>
+
+            <div class="tile-text title">
+                <a href="{{ item.ex_url }}">{{ item.tile_title}}</a>
+            </div>
+            <div class="tile-text title">
+                {{ item.tile_description}}
+            </div>
+
+
+
+            <div class="tile-text links">
+                <a href="{{ item.ex_url2 }}">{{ item.ex_url2_text}}</a>
+            </div>
+
+        </div>
+
+        {% endfor %}
+
+    </div>
 
 </div>
 {% endfor %}

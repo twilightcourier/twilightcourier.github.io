@@ -1,14 +1,46 @@
 .header-items {
-    font-size: 1.3rem;
     position: fixed;
-    top: -1.3%;
+    top: 5%;
     display: flex;
     justify-content: left;
     flex-direction: column;
-    margin-left: 1%;
-    padding-top: 2%;
     flex-wrap: nowrap;
-    gap: 1.em;
+    gap: 2.0em;
     z-index: 3;
     list-style-type: none;
+    text-decoration: none;
+    font-size: 1.7rem;
+    padding-bottom: 0%;
+    background-color: #ffffff00;
+
+
+}
+
+a {
+    text-decoration: none
+}
+
+
+
+.header-items a:hover {
+    color: #ff015d;
+    text-decoration: underline;
+}
+
+
+
+@media all and (orientation: portrait) and (width <=576px) {
+
+    .info-container1 {
+        grid-template-columns: 1fr 3fr;
+        margin-left: 5.08%;
+    }
+
+    .header-items {
+        flex-direction: row;
+        top: 1%;
+        padding-bottom: 4.5%;
+        background-color: #ffffff;
+    }
+
 }
