@@ -96,7 +96,9 @@ a {
 }
 
 
-@media all and (orientation: portrait) and (36rem < width <=48rem) {}
+@media all and (orientation: landscape) and (36rem < height <=48rem) {
+    
+}
 
 @media all and (width >=87.5rem) {
 

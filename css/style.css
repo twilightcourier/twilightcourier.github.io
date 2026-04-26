@@ -312,11 +312,15 @@ a:hover {
         margin-left: 4%;
         margin-right: 9%;
     }
+}
 
-
-
+@media all and (orientation: landscape) and (36rem < height <=48rem) {
+    .table-nav-border-container {
+        top: 4%;
+        left: 41%;
+    }
 }
 
 
 
-@media all and (width >=87.5rem) {}
+    @media all and (width >=87.5rem) {}
