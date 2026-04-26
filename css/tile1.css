@@ -118,11 +118,14 @@
 
     .tile-group {
         grid-template-columns: repeat(auto-fill, minmax(80%, 1fr));
-
     }
 
 }
 
 @media all and (orientation: landscape) and (36rem < height <=48rem) {
+
+    .tile-group {
+        grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+    }
 
 }
