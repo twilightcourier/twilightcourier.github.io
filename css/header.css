@@ -96,11 +96,13 @@ a {
 }
 
 
-@media all and (orientation: landscape) and (36rem < height <=48rem) {
+@media all and (orientation: landscape) and (36rem < height < 87.5rem) {
     
 }
 
-@media all and (width >=87.5rem) {
+
+
+@media all and (87.5rem <= width) {
 
     .header-items {
         flex-direction: column;
@@ -109,8 +111,10 @@ a {
         gap: 2.0em;
         background-color: #ffffff00;
         font-size: 1.7rem;
+        visibility: visible;
+    }
 
-
-
+    .menu-icon {
+        display: none;
     }
 }

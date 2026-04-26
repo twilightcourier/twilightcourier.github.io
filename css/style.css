@@ -321,14 +321,14 @@ a:hover {
     }
 }
 
-@media all and (orientation: portrait) and (48rem < width <=62rem) {
+@media all and (orientation: portrait) and (48rem < width < 87.5rem) {
     .table-nav-border-container {
         top: 4%;
         left: 45%;
     }
 }
 
-@media all and (orientation: landscape) and (48rem < height <=62rem) {
+@media all and (orientation: landscape) and (48rem < height < 87.5rem) {
     .table-nav-border-container {
         top: 4%;
         left: 44%;
@@ -337,4 +337,24 @@ a:hover {
 
 
 
-@media all and (width >=87.5rem) {}
+@media all and (87.5rem <=width) {
+
+    .info-container1 {
+        display: grid;
+        grid-gap: 1%;
+        grid-template-areas: "top_divide top_divide" "header1 content1" "footer1 footer1";
+        margin-left: 1.08%;
+        margin-right: 10%;
+        grid-template-columns: 1fr;
+        min-width: 350px;
+
+
+    }
+
+    .child-content1 {
+        margin-left: 4%;
+        margin-right: 9%;
+    }
+
+
+}
