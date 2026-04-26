@@ -129,3 +129,11 @@
     }
 
 }
+
+@media all and (orientation: portrait) and (48rem < width <=62rem) {
+
+    .tile-group {
+        grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+    }
+}
+

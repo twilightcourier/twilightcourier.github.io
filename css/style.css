@@ -321,6 +321,20 @@ a:hover {
     }
 }
 
+@media all and (orientation: portrait) and (48rem < width <=62rem) {
+    .table-nav-border-container {
+        top: 4%;
+        left: 45%;
+    }
+}
+
+@media all and (orientation: landscape) and (48rem < height <=62rem) {
+    .table-nav-border-container {
+        top: 4%;
+        left: 44%;
+    }
+}
 
 
-    @media all and (width >=87.5rem) {}
+
+@media all and (width >=87.5rem) {}
