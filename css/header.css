@@ -110,6 +110,7 @@ a {
         font-size: 1.7rem;
         visibility: visible;
         left: 2.4%;
+        max-width: 30%;
     }
 
     .menu-icon {
