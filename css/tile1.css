@@ -91,7 +91,7 @@
 }
 
 
-@media all and (orientation: portrait) and (width <=576px) {
+@media all and (orientation: portrait) and (width <= 36rem) {
 
     .tile-group {
         grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
@@ -99,7 +99,7 @@
     }
 }
 
-@media all and (orientation: landscape) and (height <=576px) {
+@media all and (orientation: landscape) and (height <= 36rem) {
 
     .tile-group {
         grid-template-columns: repeat(auto-fill, minmax(80%, 1fr));
