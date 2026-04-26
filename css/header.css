@@ -13,8 +13,12 @@
     padding-bottom: 0%;
     background-color: #ffffff00;
     width: 100%;
+    visibility: hidden;
 
+}
 
+.header-items.active {
+    visibility: visible;
 }
 
 a {
@@ -27,6 +31,43 @@ a {
     color: #ff015d;
     text-decoration: underline;
 }
+
+.child-header-nav-button {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    grid-template-areas: "bars" "links";
+
+
+}
+
+.child-bars {
+    grid-area: bars;
+}
+
+
+.child-links {
+    grid-area: links;
+}
+
+.menu-icon {
+    width: 30px;
+    z-index: 99999;
+    position: fixed;
+    top: 2%;
+    left: 1.5%;
+}
+
+.menu-icon>.line {
+    background-color: #777;
+    height: 0.12em;
+    display: block;
+}
+
+.menu-icon>.line+.line {
+    margin-top: 0.5em;
+}
+
 
 
 
