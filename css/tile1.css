@@ -144,4 +144,13 @@
         grid-template-columns: repeat(auto-fill, minmax(20%, 1fr));
     }
 }
+
+@media all and (135rem <= width) {
+    .tile-header {
+        font-size: 2.5vw;
+    }
+    .tile-text {
+        font-size: 2vw;
+    }
+
 }

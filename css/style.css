@@ -326,7 +326,7 @@ a:hover {
 
 
 
-@media all and (87.5rem <=width) {
+@media all and (87.5rem <= width) {
 
     .info-container1 {
         display: grid;
@@ -349,5 +349,19 @@ a:hover {
         font-size: 1.7rem;
     }
 
+
+}
+
+@media all and (135rem <= width) {
+
+    .table-nav-border-container {
+    left: 28vw;
+    top: 20vh;
+
+}
+
+    .table-nav {
+        font-size: 2vw;
+    }
 
 }
