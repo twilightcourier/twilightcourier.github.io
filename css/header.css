@@ -67,10 +67,7 @@ a {
 
 @media all and (orientation: portrait) and (width <=36rem) {
 
-    .info-container1 {
-        grid-template-columns: 1fr 3fr;
-        margin-left: 5.08%;
-    }
+
 
     .header-items {
         flex-direction: row;
@@ -106,15 +103,17 @@ a {
 
     .header-items {
         flex-direction: column;
-        top: 5%;
+        top: 4%;
         padding-bottom: 0%;
         gap: 2.0em;
         background-color: #ffffff00;
         font-size: 1.7rem;
         visibility: visible;
+        left: 2.4%;
     }
 
     .menu-icon {
         display: none;
     }
+
 }

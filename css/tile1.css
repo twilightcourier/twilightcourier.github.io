@@ -97,6 +97,8 @@
         grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
 
     }
+
+
 }
 
 @media all and (orientation: landscape) and (height <=36rem) {
@@ -137,3 +139,9 @@
     }
 }
 
+@media all and (87.5rem <=width) {
+    .tile-group {
+        grid-template-columns: repeat(auto-fill, minmax(20%, 1fr));
+    }
+}
+}

@@ -40,7 +40,6 @@ body {
     grid-template-columns: 1fr;
     min-width: 350px;
 
-
 }
 
 .child-top_divide {
@@ -56,22 +55,12 @@ body {
 .child-header1 {
     grid-area: header1;
     width: 100%;
-
-
-
-
 }
 
 .child-content1 {
     grid-area: content1;
     margin: 1em;
-    margin-left: 15%;
-
-
-
-
-
-
+    margin-left: 0%;
 }
 
 .child-footer1 {
@@ -344,16 +333,20 @@ a:hover {
         grid-gap: 1%;
         grid-template-areas: "top_divide top_divide" "header1 content1" "footer1 footer1";
         margin-left: 1.08%;
-        margin-right: 10%;
-        grid-template-columns: 1fr;
+        margin-right: -2%;
+        grid-template-columns: 1fr 3fr;
         min-width: 350px;
 
 
     }
 
     .child-content1 {
-        margin-left: 4%;
+        margin-left: -12%;
         margin-right: 9%;
+    }
+
+    .table-nav {
+        font-size: 1.7rem;
     }
 
 
