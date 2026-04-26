@@ -1,17 +1,18 @@
 .header-items {
     position: fixed;
-    top: 5%;
+    top: 1%;
     display: flex;
     justify-content: left;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: nowrap;
-    gap: 2.0em;
+    gap: 1.3em;
     z-index: 3;
     list-style-type: none;
     text-decoration: none;
-    font-size: 1.7rem;
+    font-size: 1.6rem;
     padding-bottom: 0%;
     background-color: #ffffff00;
+    width: 100%;
 
 
 }
@@ -29,7 +30,7 @@ a {
 
 
 
-@media all and (orientation: portrait) and (width <= 36rem) {
+@media all and (orientation: portrait) and (width <=36rem) {
 
     .info-container1 {
         grid-template-columns: 1fr 3fr;
@@ -47,4 +48,30 @@ a {
 
     }
 
+}
+
+@media all and (orientation: landscape) and (height <=36rem) {
+    .header-items {
+        flex-direction: column;
+
+    }
+
+}
+
+
+@media all and (orientation: portrait) and (36rem < width <=48rem) {}
+
+@media all and (width >=87.5rem) {
+
+    .header-items {
+        flex-direction: column;
+        top: 5%;
+        padding-bottom: 0%;
+        gap: 2.0em;
+        background-color: #ffffff00;
+        font-size: 1.7rem;
+
+
+
+    }
 }
