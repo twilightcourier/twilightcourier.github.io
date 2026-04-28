@@ -1,9 +1,8 @@
 ---
-tile_title1: Beyond Tuonela
-tile_image: "/VJ_Demo_Photos/run1_1.jpg"
+tile_title_site_url : Beyond Tuonela
+tile_image_site_url: "/VJ_Demo_Photos/run1_1.jpg"
 img1_alt_text: scu222e imge1 tsafa333sf afsaf asf asf asf
 tile_description: Video Mapping Onto Sculpture collaboration project
-ex_url: {{ page.permalink }}
 title: ASFasfsaf
 
 layout: article_page

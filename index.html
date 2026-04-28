@@ -15,13 +15,13 @@ meta_content: Twilight Courier
 
 {% assign ordered_col = site.collections | sort:"order_n" %}
 <div class="table-nav-border-container">
-<div class="table-nav">
-    {% for collection in ordered_col %}
+    <div class="table-nav">
+        {% for collection in ordered_col %}
 
-    <a href="#{{ collection.label }}"> {{ collection.label | replace: "_", " "}}</a>
-    {% endfor %}
+        <a href="#{{ collection.label }}"> {{ collection.label | replace: "_", " "}}</a>
+        {% endfor %}
 
-</div>
+    </div>
 </div>
 
 
@@ -44,11 +44,16 @@ meta_content: Twilight Courier
 
         <div class="tile-single">
 
-            <a target="_blank" href=" {{ item.ex_url }} "><img class="tile-image" src="{{ item.tile_image}}"></a>
+            <a target="_blank" href=" {{ item.ex_url }} "><img class="tile-image" src="{{ item.tile_image}}"
+                    onerror="this.onerror=null; this.remove();"></a>
+
+            <a target="_blank" href=" {{ item.url}} "><img class="tile-image" src="{{ item.tile_image_site_url}}"
+                    onerror="this.onerror=null; this.remove();"></a>
+
 
             <div class="tile-text title">
                 <a href="{{ item.ex_url }}">{{ item.tile_title}}</a>
-                <a href="{{ item.url }}">{{ item.tile_title1}}</a>
+                <a href="{{ item.url }}">{{ item.tile_title_site_url }}</a>
             </div>
             <div class="tile-text title">
                 {{ item.tile_description}}
