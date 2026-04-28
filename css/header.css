@@ -24,6 +24,7 @@
 
 a {
     text-decoration: none;
+    flex-shrink: 0;
 }
 
 
@@ -67,12 +68,12 @@ a {
 
 @media all and (width <=30rem) {
 
-       .header-items {
+    .header-items {
         position: sticky;
         max-width: 30%;
         gap: 0.7em;
 
-       }
+    }
 
 }
 
@@ -81,12 +82,14 @@ a {
 
 
     .header-items {
+        position: fixed;
         flex-direction: row;
         top: 1%;
         padding-bottom: 4.5%;
         gap: 1.3em;
         width: 100%;
         font-size: 1.6rem;
+        left: 13%;
 
     }
 
@@ -94,7 +97,9 @@ a {
 
 @media all and (orientation: landscape) and (height <=36rem) {
     .header-items {
+        position: fixed;
         flex-direction: column;
+        top: 3%;
     }
 
     .menu-icon {
@@ -104,13 +109,12 @@ a {
 }
 
 
-@media all and (orientation: landscape) and (36rem < height < 87.5rem) {}
-
 
 
 @media all and (87.5rem <=width) {
 
     .header-items {
+        position: fixed;
         flex-direction: column;
         top: 4%;
         padding-bottom: 0%;
@@ -130,6 +134,7 @@ a {
 
 @media all and (135rem <=width) {
     .header-items {
+        position: fixed;
         font-size: 2.2vw;
     }
 
