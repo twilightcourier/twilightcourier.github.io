@@ -176,15 +176,16 @@ a:hover {
 
 
 /* DEFAULTS */
-.footer {
-
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    margin-top: 18.5vh;
+.footer-container {
     padding-bottom: 3vh;
-    font-size: 0.8rem;
+    font-size: 1rem;
+
+}
+
+.footer-image {
+    min-width: 150px;
+    width: 12%;
+    height: auto;
 
 }
 
