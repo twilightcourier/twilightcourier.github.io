@@ -24,7 +24,7 @@ collections:
     output: true
   Online_Course:
     output: true
-  upcoming_en:
+  Event_Articles:
     output: true
   previous_en:
     output: true    
