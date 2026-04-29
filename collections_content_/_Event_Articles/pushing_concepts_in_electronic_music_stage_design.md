@@ -1,10 +1,10 @@
 ---
 tile_title_site_url : Beyond Tuonela
-tile_image_site_url: "/VJ_Demo_Photos/run1_1.jpg"
-img1_alt_text: scu222e imge1 tsafa333sf afsaf asf asf asf
-tile_description: Video Mapping Onto Sculpture collaboration project
-title: ASFasfsaf
+tile_image_site_url: "/Images/articles/beyond_tuonela/portal1.jpg"
+tile_image_alt: VJing a portal circled with branches like a nature portal, sculpture of skull with horn antlers reaching towards portal entrance
+tile_description: "Opening The Portal: Pushing Concepts In Electronic Music Stage Design"
 
+title: ASFasfsaf
 layout: article_page
 ---
 
