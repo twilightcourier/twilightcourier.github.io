@@ -80,15 +80,6 @@
 
 
 
-
-
-.tile-text a:hover {
-    font-style: italic;
-    font-weight: lighter;
-    font-style: italic;
-    text-decoration: underline;
-}
-
 .tile-text.description {
 
     padding-left: 0.5vw;

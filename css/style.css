@@ -73,7 +73,7 @@ body {
     display: flex;
     flex-direction: column;
     font-size: 1.5rem;
-    text-decoration: underline;
+
 
     border: 2.5px solid #777;
     box-sizing: content-box;
@@ -94,6 +94,19 @@ body {
 
 }
 
+
+.table-nav a {
+    text-decoration: underline;
+}
+
+.table-nav a:hover {
+
+    font-weight: lighter;
+    color: #ff015d;
+    filter: brightness(150%);
+
+
+}
 
 
 
@@ -311,7 +324,7 @@ body {
 
 
 
-@media all and (87.5rem <= width) {
+@media all and (87.5rem <=width) {
 
     .info-container1 {
         display: grid;
@@ -337,19 +350,19 @@ body {
 
 }
 
-@media all and (135rem <= width) {
+@media all and (135rem <=width) {
 
     .table-nav-border-container {
-    left: 28vw;
-    top: 20vh;
+        left: 28vw;
+        top: 20vh;
 
-}
+    }
 
     .table-nav {
         font-size: 2vw;
     }
 
-    .footer-container{
+    .footer-container {
         font-size: 1.5vw;
     }
 

@@ -16,13 +16,15 @@
     visibility: hidden;
     left: 14%;
 
+
+
 }
 
 .header-items.active {
     visibility: visible;
 }
 
-a {
+.header-items a {
     text-decoration: none;
     flex-shrink: 0;
 }
@@ -32,6 +34,7 @@ a {
 .header-items a:hover {
     color: #ff015d;
     text-decoration: underline;
+    font-weight: lighter;
     filter: brightness(150%);
 }
 
