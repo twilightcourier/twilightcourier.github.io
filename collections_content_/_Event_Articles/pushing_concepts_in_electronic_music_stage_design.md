@@ -40,7 +40,7 @@ There were several audio reactive lights setup around the venue as well.
 <br><br>
 When the stage design piece was completed. We setup a sound system and held a small event to test out the setup. 
 <br><br>
-Videos demos of the work can be found from
+Video demos of the work can be found from
             <a target="_blank" href="https://www.youtube.com/watch?v=qEO4nI3OeHU"> here</a>
             and
             <a target="_blank" href="https://www.youtube.com/watch?v=r-0zEG1ky7c"> here</a>.
