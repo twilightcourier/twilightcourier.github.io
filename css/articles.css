@@ -27,6 +27,10 @@
     max-width: 100%;
 }
 
+.page-img-text {
+    font-size: 1rem;
+}
+
 .page-spacing {
     margin-top: 3em;
     margin-bottom: 3em;
