@@ -1,5 +1,4 @@
 .about-page-container {
-
     display: flex;
     flex-direction: row;
     grid-gap: 1%;
@@ -11,6 +10,11 @@
     grid-area: about-flex ;
     display: flex;
     flex-direction: column;
+}
+
+.about-contact {
+   display: flex;
+   flex-direction: column;
 }
 
 .about-bio {
