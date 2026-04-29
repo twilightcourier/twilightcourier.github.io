@@ -18,7 +18,7 @@
 .page-image-small {
     height: auto;
     object-fit: scale-down;
-    max-width: 30%;
+    max-width: 50%;
 }
 
 .page-image2 {
@@ -82,12 +82,22 @@ a.page-spacing:hover {
 @media all and (orientation: landscape) and (height <=36rem) {
 
     .child-content1 {
-        margin-left: 54%;
-        margin-right: 9%;
+        margin-left: 25%;
+        margin-right: -1%;
     }
 
     .child-top_divide {
         height: 2.0%;
+
+    }
+
+    .header-items {
+        left: 1%;
+        top: 13%;
+    }
+
+    .menu-icon {
+        left: 2.5%;
 
     }
 
@@ -156,6 +166,10 @@ a.page-spacing:hover {
         font-size: 1.7rem;
     }
 
+    .page-image-small {
+        max-width: 30%;
+    }
+
 
 }
 
@@ -173,6 +187,10 @@ a.page-spacing:hover {
 
     .footer-container {
         font-size: 1.5vw;
+    }
+
+    .page-image-small {
+        max-width: 30%;
     }
 
 }
