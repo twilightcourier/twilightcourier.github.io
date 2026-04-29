@@ -32,6 +32,7 @@ a {
 .header-items a:hover {
     color: #ff015d;
     text-decoration: underline;
+    filter: brightness(150%);
 }
 
 

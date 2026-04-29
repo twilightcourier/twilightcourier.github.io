@@ -95,22 +95,6 @@ body {
 }
 
 
-a:hover {
-    font-weight: lighter;
-}
-
-
-
-a:hover {
-    filter: brightness(150%);
-}
-
-a:hover {
-    color: #ff015d;
-    filter: brightness(150%);
-}
-
-
 
 
 #consentBox {

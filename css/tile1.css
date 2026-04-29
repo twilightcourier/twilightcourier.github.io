@@ -20,6 +20,13 @@
     box-sizing: border-box;
 }
 
+.tile-group a:hover {
+
+    color: #ff015d;
+    filter: brightness(150%);
+
+}
+
 .tile-header {
     color: #777;
     font-size: 2.5rem;
@@ -73,11 +80,11 @@
 
 
 
+
+
 .tile-text a:hover {
-    color: #ff015d;
-    filter: brightness(150%);
     font-style: italic;
-    font-weight: bold;
+    font-weight: lighter;
     font-style: italic;
     text-decoration: underline;
 }
@@ -145,10 +152,11 @@
     }
 }
 
-@media all and (135rem <= width) {
+@media all and (135rem <=width) {
     .tile-header {
         font-size: 2.5vw;
     }
+
     .tile-text {
         font-size: 2vw;
     }
