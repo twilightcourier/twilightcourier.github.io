@@ -15,6 +15,12 @@
     max-width: 100%;
 }
 
+.page-image-small {
+    height: auto;
+    object-fit: scale-down;
+    max-width: 30%;
+}
+
 .page-image2 {
     height: auto;
     object-fit: scale-down;
