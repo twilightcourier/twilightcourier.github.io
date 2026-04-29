@@ -9,7 +9,7 @@ layout: article_page
 ---
 
 <div class = "page-spacing">
-<div class="main-page-text">
+<div class="page-main-text">
 Alice was beginning to get very tired of sitting by her sister on the
 bank, and of having nothing to do: once or twice she had peeped into
 the book her sister was reading, but it had no pictures or
@@ -19,23 +19,8 @@ conversations in it, “and what is the use of a book,” thought Alice
 </div>
 
 <div class = "page-spacing">
-<img class="page-image2" alt="testtt ttt tt gg 33 " src="/Images/artist_portraits/artist1.jpg" />
+<a href="/Images/articles/beyond_tuonela/portal1.jpg" > <img class="page-image2" alt="VJing a portal circled with branches like a nature portal, sculpture of skull with horn antlers reaching towards portal entrance" src="/Images/articles/beyond_tuonela/portal1.jpg" /></a>
 </div>
 
 
-
-safa
-
-<div class = "page-spacing">
-<div class="main-page-text">
-Alice was beginning to get very tired of sitting by her sister on the
-bank, and of having nothing to do: once or twice she had peeped into
-the book her sister was reading, but it had no pictures or
-conversations in it, “and what is the use of a book,” thought Alice
-“without pictures or conversations?”
-</div>
-</div>
-      <img alt="" class="header-image" src="/Images/Header/header2.png" />
-<div class = "page-spacing">
-</div>
 

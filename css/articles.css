@@ -24,4 +24,10 @@
 .page-spacing {
     margin-top: 3em;
     margin-bottom: 3em;
+
+}
+
+a.page-spacing:hover {
+    filter: brightness(100%);
+
 }
