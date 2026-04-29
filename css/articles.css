@@ -193,4 +193,12 @@ a.page-spacing:hover {
         max-width: 30%;
     }
 
+    .page-img-text {
+        font-size: 1.2vw;
+    }
+
+    .page-main-text {
+        font-size: 2vw;
+    }
+
 }
