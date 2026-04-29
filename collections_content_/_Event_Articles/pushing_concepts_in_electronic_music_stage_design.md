@@ -26,7 +26,7 @@ Opening The Portal: Pushing Concepts In Electronic Music Stage Design
 <div class="page-main-text">
 This work focused on designing a “nature portal” stage, which incorporated thematic elements of Finnish nature and mythology into the stage design concept. The portal was built out of branches, mushrooms, and moss, gathered from a nearby forest. The work was done in collaboration with the sculpting team at
 
-<a target="_blank" href="https://www.instagram.com/art_house_tapio"> Art House Tapio</a>
+<a target="_blank" href="https://www.instagram.com/art_house_tapio"> Art House Tapio</a>.
 
 
 
@@ -60,7 +60,7 @@ Typically VJs are put to some cramped out of the way corner of the venue. And us
 <br><br>
 For this event we wanted to lean into both of those aspects. Have VJing featured in a theatrical role and adjusting video settings trying to keep the portal stabilized.
 <br><br>
-Art House Tapio constructed this alter in front of the portal, which sat atop the subwoofer to hold my MIDI controller. We found a long usb cable to use with the controller so I could move around the whole stage area with the controller. I would adjust something in Resolume or change some MIDI settings and then go to inspect the portal and check if it was getting too chaotic, too unstable, or it was still fitting to the music. A bit like a mad scientist.
+Art House Tapio constructed this alter in front of the portal, which sat atop the subwoofer to hold my MIDI controller. We found a long usb cable to use with the controller, so I could move around the whole stage area with the controller. I would adjust something in Resolume or change some MIDI settings and then go to inspect the portal and check if it was getting too chaotic, too unstable, or it was still fitting to the music. A bit like a mad scientist.
 <br><br>
 In my usual workflow at events I will adjust settings on the computer and then go to the dancefloor to check my work. I need to get away from the computer, get a broader view, check how the video is working with the whole party. If I’m dancing and listening to music is the video enhancing that, is it matching the mood? Does something need to be adjusted or changed?
 <br><br>

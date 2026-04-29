@@ -37,6 +37,10 @@
 
 }
 
+.page-main-text {
+    font-size: 1.4rem;
+}
+
 .page-main-text a:hover {
     color: #ff015d;
     filter: brightness(150%);

@@ -15,6 +15,7 @@
     width: 100%;
     visibility: hidden;
     left: 14%;
+    max-width: 20%;
 
 
 
@@ -127,7 +128,7 @@
         font-size: 1.7rem;
         visibility: visible;
         left: 2.4%;
-        max-width: 30%;
+        max-width: 15%;
     }
 
     .menu-icon {
