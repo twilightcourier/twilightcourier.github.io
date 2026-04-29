@@ -48,7 +48,7 @@ Videos demos of the work can be found from
 </div>
 
 <div class = "page-spacing">
-<a href="/Images/articles/beyond_tuonela/midi4.png" > <img class="page-image-small" alt="alter in front of nature portal, sculpture of a skull with hands as antlers as holding MIDI kontroller" src="/Images/articles/beyond_tuonela/midi4.png" /></a>
+<a href="/Images/articles/beyond_tuonela/midi4.png" > <img class="page-image-small" alt="alter in front of nature portal, sculpture of a skull with hands as antlers holding MIDI kontroller" src="/Images/articles/beyond_tuonela/midi4.png" /></a>
 <div class = "page-img-text">
 2
  </div>
