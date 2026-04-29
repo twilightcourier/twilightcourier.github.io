@@ -34,7 +34,7 @@ This work focused on designing a “nature portal” stage, which incorporated t
 <br><br>
 The work was completed with a minimal setup. There were 2 projectors in use, one which mapped video onto the primary portal area and the second projector mapped ambient effects around the portal. For example, I designed an audio-reactive effect that was like bolts of electricity from Tesla coils, warped with digital filters. The effect made the portal feel like a high-powered device — barely able to be contained and energizing the entire event.
 <br><br>
-The primary portal surface was designed to be like a warping screen of thick fog, which formed shadows into cyber and natural elements.
+The primary portal surface was designed to be like a screen of thick fog, which formed shadows into cyber and natural elements.
 <br><br>
 There were several audio reactive lights setup around the venue as well.
 <br><br>
