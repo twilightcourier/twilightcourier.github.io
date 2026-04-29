@@ -36,7 +36,7 @@ Videos demos of the work can be found from here and here.
 </div>
 
 <div class = "page-spacing">
-<a href="/Images/articles/beyond_tuonela/midi1.jpg" > <img class="page-image-small" alt="VJing a portal circled with branches like a nature portal, sculpture of skull with horn antlers reaching towards portal entrance" src="/Images/articles/beyond_tuonela/midi1.jpg" /></a>
+<a href="/Images/articles/beyond_tuonela/midi4.png" > <img class="page-image-small" alt="alter in front of nature portal, sculpture of a skull with hands as antlers as holding MIDI kontroller" src="/Images/articles/beyond_tuonela/midi4.png" /></a>
 </div>
 
 
@@ -46,7 +46,7 @@ Typically VJs are put to some cramped out of the way corner of the venue. And us
 <br><br>
 For this event we wanted to lean into both of those aspects. Have VJing featured in a theatrical role and adjusting video settings trying to keep the portal stabilized.
 <br><br>
-House of Tapio constructed this alter in front of the portal, which sat atop the subwoofer to hold my MIDI controller. We found a long usb cable to use with the controller so I could move around the whole stage area with the controller.  I would adjust something in Resolume or change some MIDI settings and then go to inspect the portal and check if it was getting too chaotic, too unstable, or it was still fitting to the music. A bit like a mad scientist.
+House of Tapio constructed this alter in front of the portal, which sat atop the subwoofer to hold my MIDI controller. We found a long usb cable to use with the controller so I could move around the whole stage area with the controller. I would adjust something in Resolume or change some MIDI settings and then go to inspect the portal and check if it was getting too chaotic, too unstable, or it was still fitting to the music. A bit like a mad scientist.
 <br><br>
 In my usual workflow at events I will adjust settings on the computer and then go to the dancefloor to check my work. I need to get away from the computer, get a broader view, check how the video is working with the whole party. If I’m dancing and listening to music is the video enhancing that, is it matching the mood? Does something need to be adjusted or changed?
 <br><br>
@@ -55,7 +55,7 @@ However, in this event I could return to my portal alter. If Resolume crashes, t
 </div>
 
 <div class = "page-spacing">
-<a href= "/Images/articles/beyond_tuonela/portal3.jpg" > <img class="page-image2" alt="VJing a portal circled with branches like a nature portal, sculpture of skull with horn antlers reaching towards portal entrance" src="/Images/articles/beyond_tuonela/portal3.jpg" /></a>
+<a href= "/Images/articles/beyond_tuonela/portal33.png" > <img class="page-image2" alt="photo of nature portal, no projections going on it, mysterious misty feeling" src="/Images/articles/beyond_tuonela/portal33.png" /></a>
 </div>
 
 
