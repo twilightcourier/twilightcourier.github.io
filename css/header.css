@@ -69,7 +69,17 @@
 }
 
 
+@media all and (height <=20rem) {
 
+    .header-items {
+        flex-direction: row;
+        position: sticky;
+        max-width: 30%;
+        gap: 0.7em;
+
+    }
+
+}
 
 @media all and (width <=30rem) {
 
@@ -100,7 +110,7 @@
 
 }
 
-@media all and (orientation: landscape) and (height <=36rem) {
+@media all and (orientation: landscape) and (20rem < height <=36rem) {
     .header-items {
         position: fixed;
         flex-direction: column;
