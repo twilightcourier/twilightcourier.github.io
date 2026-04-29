@@ -31,6 +31,12 @@ audio reactive, Club Kaiku, Twilight Courier, twilightcourier, hardcore VJ, spee
         {% endfor %}
     {% endif %}
 
+        {% if page.css_link2 %}
+        {% for stylesheet1 in page.css_link2 %}
+        <link rel="stylesheet" href="{{ site.baseurl }}/css/{{ stylesheet1 }}.css" />
+        {% endfor %}
+    {% endif %}
+
     <link rel="icon" href="Images/logo.png">
 
 
