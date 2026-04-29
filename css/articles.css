@@ -33,6 +33,13 @@
 
 }
 
+.page-main-text a:hover {
+    color: #ff015d;
+    filter: brightness(150%);
+
+
+}
+
 a.page-spacing:hover {
     filter: brightness(100%);
 

@@ -21,7 +21,11 @@ Opening The Portal: Pushing Concepts In Electronic Music Stage Design
 
 <div class = "page-spacing">
 <div class="page-main-text">
-This work focused on designing a “nature portal” stage, which incorporated thematic elements of Finnish nature and mythology into the stage design concept. The portal was built out of branches, mushrooms, and moss, gathered from a nearby forest. The work was done in collaboration with the sculpting team at House of Tapio.
+This work focused on designing a “nature portal” stage, which incorporated thematic elements of Finnish nature and mythology into the stage design concept. The portal was built out of branches, mushrooms, and moss, gathered from a nearby forest. The work was done in collaboration with the sculpting team at
+
+            <a target="_blank" href="https://www.instagram.com/house_of_tapio/"> House of Tapio</a>.
+
+
 <br><br>
 The work was completed with a minimal setup. There were 2 projectors in use, one which mapped video onto the primary portal area and the second projector mapped ambient effects around the portal. For example, I designed an audio-reactive effect that was like bolts of electricity from Tesla coils, warped with digital filters. The effect made the portal feel like a high-powered device — barely able to be contained and energizing the entire event.
 <br><br>
