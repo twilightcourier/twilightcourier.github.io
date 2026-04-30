@@ -26,8 +26,10 @@ collections:
     output: true
   Event_Articles:
     output: true
-  previous_en:
-    output: true    
+  events:
+    output: true
+    r_index_list: 1
+        
   
 
 collections_dir: collections_content_

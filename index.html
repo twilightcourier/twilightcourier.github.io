@@ -13,13 +13,17 @@ css_link1: index_main
 
 
 
-
+{% assign remove_i = site.collections %}
 {% assign ordered_col = site.collections | sort:"order_n" %}
+
+
 <div class="table-nav-border-container">
     <div class="table-nav">
         {% for collection in ordered_col %}
-
+        {% if collection.label == "events" %}
+        {% else %}
         <a href="#{{ collection.label }}"> {{ collection.label | replace: "_", " "}}</a>
+        {% endif %}
         {% endfor %}
 
     </div>
@@ -27,6 +31,8 @@ css_link1: index_main
 
 
 {% for collection in ordered_col %}
+        {% if collection.label == "events" %}
+        {% else %}
 
 
 
@@ -73,6 +79,7 @@ css_link1: index_main
     </div>
 
 </div>
+ {% endif %}
 {% endfor %}
 
 
