@@ -32,6 +32,7 @@
 
 .contact1e {
     font-size: 2rem;
+    
 }
 
 .about-contact222 {
@@ -39,8 +40,18 @@
 
 }
 
+.contact3 {
+    font-size: 1.1rem;
+
+}
+
 .about-contact222 a:hover , .contact3 a:hover {
     color: #ff015d;
     filter: brightness(150%);
 
+}
+
+.about-header {
+    font-size: 2rem;
+    font-weight: bold;
 }
