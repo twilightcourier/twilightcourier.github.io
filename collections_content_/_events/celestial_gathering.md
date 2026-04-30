@@ -1,12 +1,10 @@
 ---
 
-date: March 1, 2011
-date2: 
-event_name: Celestial Gathering11111
+date: August 8, 2025
+date2: August 9, 2025
+event_name: Celestial Gathering
 e_venue: Syvällä Suomen Metsässä UG, FI 
-    
 
-layout: default
 ---
 
 
