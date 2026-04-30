@@ -55,3 +55,12 @@
     font-size: 2rem;
     font-weight: bold;
 }
+
+.event-list {
+    font-size: 1.4rem;
+}
+
+
+.event-list ul {
+    list-style-type: none;
+}

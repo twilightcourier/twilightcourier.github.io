@@ -52,24 +52,17 @@ css_link2: about
         <div class="about-events">
 
             <div class="about-header">
-                Live Performances
+                Live Performances<br><br>
             </div>
 
-            <ul class="event_list">
+            <div class="event-list">
+                    {% for event in site.data.events %}
+                    {% assign e = event[1] %}
+                   <strong> {{e.date}} </strong> {{e.event_name}} {{e.e_venue}} <br><br>
+                    {% endfor %}
 
-                {% for event in site.data.events %}
-                {% assign e = event[1] %}
-                <p> {{e.event_name}} {{e.e_venue}} </p>
-                {% endfor %}
-                asf
+            </div>
 
-                <li>
-                    <p>
-                        <strong> August 8-9, 2025 </strong>
-                        Celestial Gathering, Syvällä Suomen Metsässä UG, FI
-                    </p>
-                </li>
-            </ul>
 
         </div>
 
