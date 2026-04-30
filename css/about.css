@@ -7,11 +7,7 @@
 }
 
 
-.about-page-container a:hover {
-    color: #ff015d;
-    filter: brightness(150%);
 
-}
 
 .about-flex-container {
     display: flex;
@@ -40,5 +36,11 @@
 
 .about-contact222 {
     font-size: 1.5rem;
+
+}
+
+.about-contact222 a:hover , .contact3 a:hover {
+    color: #ff015d;
+    filter: brightness(150%);
 
 }
