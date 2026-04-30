@@ -28,7 +28,6 @@ collections:
     output: true
   events:
     output: true
-    r_index_list: 1
         
   
 

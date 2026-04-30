@@ -56,10 +56,11 @@ css_link2: about
             </div>
 
             <div class="event-list">
+                {% assign sorted_events = site.events | sort:"date" | reverse %}
 
-                {% for e in site.events %}
+                {% for e in sorted_events %}
            
-                <strong> {{e.date}} </strong> {{e.event_name}}, {{e.e_venue}} <br><br>
+                <strong> {{e.date | date: "%B %-d, %y"}} </strong> {{e.event_name}}, {{e.e_venue}} <br><br>
                 {% endfor %}
                     
 
