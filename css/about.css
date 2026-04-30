@@ -1,35 +1,44 @@
 .about-page-container {
     display: flex;
     flex-direction: row;
-    grid-gap: 1%;
+    gap: 3%;
     align-items: start;
     min-width: 350px;
 }
 
+
+.about-page-container a:hover {
+    color: #ff015d;
+    filter: brightness(150%);
+
+}
+
 .about-flex-container {
-    grid-area: about-flex ;
     display: flex;
     flex-direction: column;
 }
 
 .about-contact {
-   display: flex;
-   flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .about-bio {
-    grid-area: bio ;
+    max-width: 44%;
+    margin-right: 3%;
 }
 
 
 .about-image {
-   max-width: 100%;
+    max-width: 90%;
+    height: auto;
 }
 
 .contact1e {
     font-size: 2rem;
 }
 
-.about-contact222{
+.about-contact222 {
     font-size: 1.5rem;
+
 }
