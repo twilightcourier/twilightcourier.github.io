@@ -58,7 +58,7 @@ css_link2: about
             <div class="event-list">
                     {% for event in site.data.events %}
                     {% assign e = event[1] %}
-                   <strong> {{e.date}} </strong> {{e.event_name}} {{e.e_venue}} <br><br>
+                   <strong> {{e.date}} </strong> {{e.event_name}}, {{e.e_venue}} <br><br>
                     {% endfor %}
 
             </div>
