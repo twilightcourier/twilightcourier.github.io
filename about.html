@@ -59,10 +59,17 @@ css_link2: about
                 {% assign sorted_events = site.events | sort:"date" | reverse %}
 
                 {% for e in sorted_events %}
-           
-                <strong> {{e.date | date: "%B %-d, %y"}} </strong> {{e.event_name}}, {{e.e_venue}} <br><br>
+
+                {% if e.date2 %}
+                <strong> {{e.date | date: "%B %-d"}}-{{e.date2 | date: "%-d, %Y"}} </strong> {{e.event_name}},
+                {{e.e_venue}} <br><br>
+                sssss
+                {% else %}
+                <strong> {{e.date | date: "%B %-d, %Y"}}</strong> {{e.event_name}}, {{e.e_venue}} <br><br>
+                {% endif %}
+
                 {% endfor %}
-                    
+
 
             </div>
 
