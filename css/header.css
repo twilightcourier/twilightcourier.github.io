@@ -92,7 +92,23 @@
 
 }
 
-@media all and (orientation: portrait) and (width <=36rem) {
+@media all and (orientation: portrait) and (width <=24rem) {
+
+    .header-items {
+        position: fixed;
+        flex-direction: row;
+        top: 1%;
+        padding-bottom: 4.5%;
+        gap: 0,75em;
+        width: 100%;
+        font-size: 1.6rem;
+        left: 13%;
+
+    }
+
+}
+
+@media all and (orientation: portrait) and (24rem < width <=36rem) {
 
 
 
