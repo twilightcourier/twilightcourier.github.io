@@ -248,8 +248,29 @@ body {
 }
 
 
+@media all and (orientation: portrait) and (width <=24rem) {
 
-@media all and (orientation: portrait) and (width <=36rem) {
+    .info-container1 {
+        grid-template-columns: 1fr 3fr;
+        margin-left: 7.08%;
+    }
+
+    .table-nav {
+        margin-top: 50px;
+    }
+
+    .child-content1 {
+        margin-left: -35%;
+        margin-right: 9%;
+    }
+
+
+
+}
+
+
+
+@media all and (orientation: portrait) and (24rem < width <=36rem) {
 
     .info-container1 {
         grid-template-columns: 1fr 3fr;
