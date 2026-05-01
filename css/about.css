@@ -22,7 +22,17 @@
 .about-bio {
     max-width: 44%;
     margin-right: 3%;
+    order: 1;
+    display: block;
 }
+
+.about-bio_larger_screens {
+    max-width: 44%;
+    margin-right: 3%;
+    order: 1;
+    display: none;
+}
+
 
 
 .about-image {
@@ -32,7 +42,9 @@
 
 .contact1e {
     font-size: 2rem;
-    
+    font-weight: normal;
+    position: static;
+
 }
 
 .about-contact222 {
@@ -45,7 +57,8 @@
 
 }
 
-.about-contact222 a:hover , .contact3 a:hover {
+.about-contact222 a:hover,
+.contact3 a:hover {
     color: #ff015d;
     filter: brightness(150%);
 
@@ -63,4 +76,33 @@
 
 .event-list ul {
     list-style-type: none;
+}
+
+
+@media all and (orientation: portrait) and (width <=36rem) {
+
+    .about-page-container {
+        flex-direction: column;
+    }
+
+    .child-content1 {
+        margin-left: 5%;
+        margin-right: 0%;
+    }
+
+    .contact1e {
+        margin-top: 3%;
+        font-size: 1.6rem;
+        font-weight: bold;
+        position: relative;
+        left: -2%;
+    }
+
+    .about-bio {
+        max-width: 100%;
+        margin-right: 4%;
+        display: block;
+    }
+
+
 }

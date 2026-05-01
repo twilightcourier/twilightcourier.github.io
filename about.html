@@ -20,6 +20,8 @@ css_link2: about
                     src="/Images/about.JPG" /></a>
         </div>
 
+
+
         <div class="about-contact">
             <div class="contact1e">
                 Contact: twilightcourier[at]proton.me
@@ -49,6 +51,54 @@ css_link2: about
 
         </div>
 
+
+        <div class="about-bio">
+
+            <div class="page-main-text">
+                I am a visual accompanist. My work features themes inspired by fantasy and broken technology. I usually
+                do
+                visuals for harder styles of music such as (Hardcore, Hardstyle, Gabber, J-core, Happy Hardcore,
+                Speedcore,
+                Electro, DnB).
+                <br><br>When planning visuals for an event, I enjoy collaborating with event organizers to ensure that
+                visual design is fully supporting the concept and energy of their event. I design visual themes that fit
+                with the event's marketing as well as assisting with coordinating venue lighting, video projection,
+                video
+                mapping, and stage design.
+
+                <br><br>I have mixed visuals at Club Kaiku, which is one of the most established nightclubs in
+                Helsinki, frequently hosting international DJs. I was selected to participate in the national VJ
+                competition in the city of Tampere. I have played at many underground parties, festivals, and
+                events.
+
+                <br><br>I have had the opportunity to provide visuals for performers such as
+
+                <ul class="performer_list">
+                    <li>Spectrums Data Forces (ES)</li>
+                    <li>Robert Cosmic (ES)</li>
+                    <li>Morphology (FI)</li>
+                    <li>JAKAZiD (UK)</li>
+                    <li>Tektheist (UK)</li>
+                    <li>DJ Saria (UK)</li>
+                    <li>D-Luc-D (UK)</li>
+                    <li>Jean Bloc (SE)</li>
+                    <li>Black Lotus (DE)</li>
+                    <li>Benji B (UK)</li>
+                    <li>Legowelt (NL)</li>
+                    <li>Juicy Romance (UK)</li>
+                    <li>Kettama (IRE)</li>
+
+
+
+
+                </ul>
+
+            </div>
+
+
+        </div>
+
+
         <div class="about-events">
 
             <div class="about-header">
@@ -63,7 +113,7 @@ css_link2: about
                 {% if e.date2 %}
                 <strong> {{e.date | date: "%B %-d"}}-{{e.date2 | date: "%-d, %Y"}} </strong> {{e.event_name}},
                 {{e.e_venue}} <br><br>
-                
+
                 {% else %}
                 <strong> {{e.date | date: "%B %-d, %Y"}}</strong> {{e.event_name}}, {{e.e_venue}} <br><br>
                 {% endif %}
@@ -80,7 +130,7 @@ css_link2: about
 
     </div>
 
-    <div class="about-bio">
+    <div class="about-bio_larger_screens">
 
         <div class="page-main-text">
             I am a visual accompanist. My work features themes inspired by fantasy and broken technology. I usually do
