@@ -171,6 +171,10 @@
 
 @media all and (135rem <=width) {
 
+    .about-bio {
+        display: none;
+    }
+
     .about-image {
         max-width: 102%;
     }
@@ -196,6 +200,55 @@
 
     .event-list {
         font-size: 3vh;
+    }
+
+    .about-bio_larger_screens {
+        display: block;
+        position: relative;
+        left: -0.25%;
+    }
+
+}
+
+
+@media all and (135rem <=height) {
+
+    .about-bio {
+        display: none;
+    }
+
+    .about-page-container {
+        flex-direction: row;
+    
+
+    }
+
+
+    .about-image {
+        max-width: 94%;
+    }
+
+    .contact1e {
+        font-size: 2.5vw;
+    }
+
+
+    .about-contact222 {
+        font-size: 3.5vw;
+
+    }
+
+    .contact3 {
+        font-size: 3.5vw;
+    }
+
+    .about-header {
+        font-size: 4vw;
+        font-weight: bold;
+    }
+
+    .event-list {
+        font-size: 3vw;
     }
 
     .about-bio_larger_screens {
