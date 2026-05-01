@@ -45,8 +45,9 @@ css_link1: index_main
     </div>
 
     <div class="tile-group">
+        {% assign ordered_i = site[collection.label] | sort:"date" | reverse %}
 
-        {% for item in site[collection.label] %}
+        {% for item in ordered_i %}
 
 
         <div class="tile-single">
