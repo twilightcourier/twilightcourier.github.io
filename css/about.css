@@ -131,10 +131,10 @@
 
 
 
-@media all and (orientation: portrait) and (36rem < width < 87.5rem ) {
+@media all and (orientation: portrait) and (36rem < width < 87.5rem) {
 
     .info-container1 {
-        margin-left: 10.1%;
+        margin-left: 3.1%;
     }
 
     .child-content1 {
@@ -142,8 +142,13 @@
     }
 
     .about-bio {
-        max-width: 87% ;
+        max-width: 87%;
     }
+
+    .about-image {
+        max-width: 102%;
+    }
+
 }
 
 @media all and (87.5rem <=width) {
@@ -155,11 +160,11 @@
     .about-bio_larger_screens {
         display: block;
         position: relative;
-        left: -4%;
+        left: -1%;
     }
 
     .about-image {
-        max-width: 92%;
+        max-width: 100%;
     }
 
 
