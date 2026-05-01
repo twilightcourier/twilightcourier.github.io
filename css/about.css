@@ -104,5 +104,28 @@
         display: block;
     }
 
+}
+
+@media all and (orientation: landscape) and (height <=36rem) {
+
+
+    .about-bio {
+        max-width: 100%;
+        margin-right: 4%;
+        display: block;
+    }
+
+    .contact1e {
+        margin-top: 3%;
+        font-size: 1.6rem;
+        font-weight: bold;
+        position: relative;
+        left: -2%;
+    }
+
+    .about-image {
+        max-width: 51%;
+        height: auto;
+    }
 
 }
