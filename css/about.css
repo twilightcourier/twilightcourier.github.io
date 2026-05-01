@@ -129,6 +129,23 @@
 
 }
 
+
+
+@media all and (orientation: portrait) and (36rem < width < 87.5rem ) {
+
+    .info-container1 {
+        margin-left: 10.1%;
+    }
+
+    .child-content1 {
+        margin-top: 8%;
+    }
+
+    .about-bio {
+        max-width: 87% ;
+    }
+}
+
 @media all and (87.5rem <=width) {
 
     .about-bio {
