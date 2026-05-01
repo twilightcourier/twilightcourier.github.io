@@ -92,10 +92,11 @@
 
     .contact1e {
         margin-top: 3%;
-        font-size: 1.6rem;
+        font-size: 2.8vh;
         font-weight: bold;
         position: relative;
         left: -2%;
+        max-width: 100%;
     }
 
     .about-bio {
