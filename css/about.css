@@ -167,6 +167,41 @@
         max-width: 102%;
     }
 
+}
 
+@media all and (135rem <=width) {
+
+    .about-image {
+        max-width: 102%;
+    }
+
+    .contact1e {
+        font-size: 6vh;
+    }
+
+
+    .about-contact222 {
+        font-size: 3.5vh;
+
+    }
+
+    .contact3 {
+        font-size: 3.5vh;
+    }
+
+    .about-header {
+        font-size: 4vh;
+        font-weight: bold;
+    }
+
+    .event-list {
+        font-size: 3vh;
+    }
+
+    .about-bio_larger_screens {
+        display: block;
+        position: relative;
+        left: -0.25%;
+    }
 
 }
