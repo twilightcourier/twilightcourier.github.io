@@ -30,9 +30,10 @@ css_link1: index_main
 </div>
 
 
+
 {% for collection in ordered_col %}
-        {% if collection.label == "events" or collection.label == "posts" %}
-        {% else %}
+{% if collection.label == "events" or collection.label == "posts" %}
+{% else %}
 
 
 
@@ -42,33 +43,33 @@ css_link1: index_main
     <div id="{{ collection.label }}" class="tile-header">
         {{ collection.label | replace: "_", " "}}
 
-           {% if collection.added_text == 1 %}
-           (FLASHING LIGHT WARNING ON CONTENT)
+        {% if collection.added_text == 1 %}
+        (VIDEOS HAVE FLASHING LIGHTS)
 
-           {% else %}
-           {% endif %}
+        {% else %}
+        {% endif %}
 
     </div>
 
     <div class="tile-group">
         {% assign ordered_i = site[collection.label] | sort:"date" | reverse %}
 
-     
 
-        
-        
-        
+
+
+
+
 
         {% for item in ordered_i %}
 
 
         <div class="tile-single">
 
-            <a target="_blank" href=" {{ item.ex_url }} "><img class="tile-image" alt= "{{ item.tile_image_alt }}"  src="{{ item.tile_image}}"
-                    onerror="this.onerror=null; this.remove();"></a>
+            <a target="_blank" href=" {{ item.ex_url }} "><img class="tile-image" alt="{{ item.tile_image_alt }}"
+                    src="{{ item.tile_image}}" onerror="this.onerror=null; this.remove();"></a>
 
-            <a target="_self" href=" {{ item.url}} "><img class="tile-image" alt= "{{ item.tile_image_alt }}" src="{{ item.tile_image_site_url}}"
-                    onerror="this.onerror=null; this.remove();"></a>
+            <a target="_self" href=" {{ item.url}} "><img class="tile-image" alt="{{ item.tile_image_alt }}"
+                    src="{{ item.tile_image_site_url}}" onerror="this.onerror=null; this.remove();"></a>
 
 
             <div class="tile-text title">
@@ -92,7 +93,7 @@ css_link1: index_main
     </div>
 
 </div>
- {% endif %}
+{% endif %}
 {% endfor %}
 
 
