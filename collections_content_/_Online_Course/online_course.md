@@ -1,5 +1,5 @@
 ---
-tile_title: Introduction To VJing And Concert Visual Design (Resolume)
+tile_title: Introduction To VJing And Concert Visual Design
 tile_image: "/Images/collections_content_images/online_course/tile_redo3.jpg"
 tile_image_alt: 3D dragon with horizontal disorted color and duplicate effect
 ex_url: "https://www.udemy.com/course/introduction-to-vjing-and-concert-visual-design-resolume/?referralCode=EBA4CC670F668728E9F5I"
