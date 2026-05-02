@@ -17,6 +17,9 @@ collections:
   Tutorials:
     output: true
     order_n: 2
+  Online_Course:
+    output: true
+    order_n: 2
   Event_Photos:
     output: true
     order_n: 2
