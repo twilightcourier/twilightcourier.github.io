@@ -28,6 +28,8 @@ collections:
     output: true
   events:
     output: true
+  Video_Tests:
+    output: true  
         
   
 
