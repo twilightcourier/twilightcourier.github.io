@@ -1,6 +1,6 @@
 ---
 tile_title_site_url : Beyond Tuonela
-tile_image_site_url: "/Images/articles/beyond_tuonela/portal1.jpg"
+tile_image_site_url: "/Images/collections_content_images/articles/beyond_tuonela/portal1.jpg"
 tile_image_alt: VJing a portal circled with branches like a nature portal, sculpture of skull with horn antlers reaching towards portal entrance
 tile_description: "Opening The Portal: Pushing Concepts In Electronic Music Stage Design"
 
@@ -16,7 +16,7 @@ Opening The Portal: Pushing Concepts In Electronic Music Stage Design
 </div>
 
 <div class = "page-spacing">
-<a href="/Images/articles/beyond_tuonela/portal1.jpg" > <img class="page-image2" alt="VJing a portal circled with branches like a nature portal, sculpture of skull with horn antlers reaching towards portal entrance" src="/Images/articles/beyond_tuonela/portal1.jpg" /></a>
+<a href="/Images/collections_content_images/articles/beyond_tuonela/portal1.jpg" > <img class="page-image2" alt="VJing a portal circled with branches like a nature portal, sculpture of skull with horn antlers reaching towards portal entrance" src="/Images/collections_content_images/articles/beyond_tuonela/portal1.jpg" /></a>
 <div class = "page-img-text">
 1
  </div>
@@ -48,7 +48,7 @@ Video demos of the work can be found from
 </div>
 
 <div class = "page-spacing">
-<a href="/Images/articles/beyond_tuonela/midi4.png" > <img class="page-image-small" alt="alter in front of nature portal, sculpture of a skull with hands as antlers holding MIDI kontroller" src="/Images/articles/beyond_tuonela/midi4.png" /></a>
+<a href="/Images/collections_content_images/articles/beyond_tuonela/midi4.png" > <img class="page-image-small" alt="alter in front of nature portal, sculpture of a skull with hands as antlers holding MIDI kontroller" src="/Images/collections_content_images/articles/beyond_tuonela/midi4.png" /></a>
 <div class = "page-img-text">
 2
  </div>
@@ -78,7 +78,7 @@ Photos 1,2 provided by Art House Tapio
 </div>
 
 <div class = "page-spacing">
-<a href= "/Images/articles/beyond_tuonela/portal33.png" > <img class="page-image2" alt="photo of nature portal, no projections going on it, mysterious misty feeling" src="/Images/articles/beyond_tuonela/portal33.png" /></a>
+<a href= "/Images/collections_content_images/articles/beyond_tuonela/portal33.png" > <img class="page-image2" alt="photo of nature portal, no projections going on it, mysterious misty feeling" src="/Images/collections_content_images/articles/beyond_tuonela/portal33.png" /></a>
 </div>
 
 
