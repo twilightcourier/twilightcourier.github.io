@@ -23,6 +23,9 @@ collections:
   Event_Photos:
     output: true
     order_n: 2
+  Event_Videos:
+    output: true
+    added_text: 1      
   Graphic_Design:
     output: true      
   Web_Design:
