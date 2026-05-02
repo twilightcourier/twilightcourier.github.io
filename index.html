@@ -42,10 +42,22 @@ css_link1: index_main
     <div id="{{ collection.label }}" class="tile-header">
         {{ collection.label | replace: "_", " "}}
 
+           {% if collection.added_text == 1 %}
+           (FLASHING LIGHT WARNING ON CONTENT)
+
+           {% else %}
+           {% endif %}
+
     </div>
 
     <div class="tile-group">
         {% assign ordered_i = site[collection.label] | sort:"date" | reverse %}
+
+     
+
+        
+        
+        
 
         {% for item in ordered_i %}
 
