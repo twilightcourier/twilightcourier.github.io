@@ -19,10 +19,12 @@ collections:
     order_n: 2
   Event_Photos:
     output: true
+    order_n: 2
   Graphic_Design:
     output: true      
   Web_Design:
     output: true
+    order_n: 4
   Online_Course:
     output: true
   Event_Articles:
