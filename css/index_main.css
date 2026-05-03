@@ -50,6 +50,7 @@ body {
     position: fixed;
     top: 0;
     z-index: 2;
+    left: 0%;
 }
 
 .child-header1 {
@@ -263,8 +264,7 @@ body {
         margin-left: -35%;
         margin-right: 9%;
     }
-
-
+    
 
 }
 
@@ -285,6 +285,10 @@ body {
         margin-left: -28%;
         margin-right: 9%;
     }
+
+    .child-top_divide {
+        left: -10%;
+     }
 
 
 
