@@ -12,34 +12,26 @@ permalink: /:categories/:year/:month/:day/:title:output_ext
 collections:
   VJ_Demos:
     output: true
-    order_n: 1
+    order_n: 4
     added_text: 1
   Tutorials:
     output: true
-    order_n: 2
+    order_n: 3
   Online_Course:
     output: true
-    order_n: 2
-  Event_Photos:
-    output: true
-    order_n: 2
-  Event_Videos:
-    output: true
-    added_text: 1      
-  Graphic_Design:
-    output: true      
+    order_n: 1     
   Web_Design:
     output: true
-    order_n: 4
-  Online_Course:
-    output: true
+    order_n: 6
   Event_Articles:
     output: true
+    order_n: 2
   events:
     output: true
   Video_Tests:
     output: true
-    added_text: 1  
+    added_text: 1
+    order_n: 5  
         
   
 
