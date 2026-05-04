@@ -11,10 +11,7 @@ css_link1: index_main
 ---
 
 
-
-
-{% assign remove_i = site.collections %}
-{% assign ordered_col = site.collections | sort:"order_n" %}
+{% assign ordered_col = site.collections | sort:"order_n" | reverse %}
 
 
 <div class="table-nav-border-container">
