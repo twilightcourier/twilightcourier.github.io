@@ -10,13 +10,9 @@ title: Twilight Courier
 permalink: /:categories/:year/:month/:day/:title:output_ext
 
 collections:
-  Video_Tests:
+  Video_Demos:
     output: true
     order_n: 5
-    added_text: 1 
-  VJ_Demos:
-    output: true
-    order_n: 2
     added_text: 1 
   Tutorials:
     output: true
