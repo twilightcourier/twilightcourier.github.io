@@ -17,7 +17,11 @@ collections:
   Video_Tests:
     output: true
     order_n: 6
-    added_text: 1     
+    added_text: 1   
+  Event_Videos:
+    output: true
+    order_n: 7
+    added_text: 1         
   Tutorials:
     output: true
     order_n: 3
@@ -26,7 +30,7 @@ collections:
     order_n: 1     
   Web_Design:
     output: true
-    order_n: 7
+    order_n: 8
   Event_Articles:
     output: true
     order_n: 2
