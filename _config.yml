@@ -27,10 +27,13 @@ collections:
     order_n: 8
   Online_Course:
     output: true
-    order_n: 10     
+    order_n: 10
+  Promotional_Animations:
+    output: true
+    order_n: 4         
   Web_Design:
     output: true
-    order_n: 4
+    order_n: 3
   Event_Articles:
     output: true
     order_n: 9
