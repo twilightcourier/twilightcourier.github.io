@@ -34,9 +34,12 @@ collections:
   Photos:
     output: true
     order_n: 3
-  Web_Design:
+  3D:
     output: true
     order_n: 2
+  Web_Design:
+    output: true
+    order_n: 1
   Event_Articles:
     output: true
     order_n: 9
