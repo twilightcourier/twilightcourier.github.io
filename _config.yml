@@ -31,9 +31,12 @@ collections:
   Promotional_Animations:
     output: true
     order_n: 4         
-  Web_Design:
+  Photos:
     output: true
     order_n: 3
+  Web_Design:
+    output: true
+    order_n: 2
   Event_Articles:
     output: true
     order_n: 9
