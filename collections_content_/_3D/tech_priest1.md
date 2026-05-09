@@ -16,6 +16,22 @@ css_link1: articles
 
 
 <div class = "page-spacing">
+<a href= "/Images/collections_content_images/3D/tech1/r1_1.png" > <img class="page-image2" alt="3D model of a dragon from behind, with feet like gnarled roots" src= "/Images/collections_content_images/3D/tech1/r1_1.png" /></a>
+<div class = "page-img-text">
+2
+
+
+<div class = "page-spacing">
+<a href= "/Images/collections_content_images/3D/tech1/r2_1.png" > <img class="page-image2" alt="3D model of a dragon from behind, with feet like gnarled roots" src= "/Images/collections_content_images/3D/tech1/r2_1.png" /></a>
+<div class = "page-img-text">
+2
+
+<div class = "page-spacing">
+<a href= "/Images/collections_content_images/3D/tech1/r3_2.png" > <img class="page-image2" alt="3D model of a dragon from behind, with feet like gnarled roots" src= "/Images/collections_content_images/3D/tech1/r3_2.png" /></a>
+<div class = "page-img-text">
+2
+
+<div class = "page-spacing">
 <a href= "/Images/collections_content_images/3D/tech1/r5_1.png" > <img class="page-image2" alt="3D model of a dragon from behind, with feet like gnarled roots" src= "/Images/collections_content_images/3D/tech1/r5_1.png" /></a>
 <div class = "page-img-text">
 2
