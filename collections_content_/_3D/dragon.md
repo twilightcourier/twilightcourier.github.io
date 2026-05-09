@@ -3,7 +3,7 @@ tile_title_site_url : dragon1
 tile_image_site_url: "/Images/collections_content_images/3D/dragon/dragon3_1.png"
 tile_image_alt: 3D model of a dragon from behind, with feet like gnarled roots
 tile_description: " "
-
+date: April 15, 2024
 layout: article_page
 css_link1: articles
 ---
