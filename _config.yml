@@ -30,7 +30,8 @@ collections:
     order_n: 10
   Promotional_Animations:
     output: true
-    order_n: 4         
+    order_n: 4
+    added_text : 1       
   Photos:
     output: true
     order_n: 3
