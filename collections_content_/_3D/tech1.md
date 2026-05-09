@@ -3,7 +3,6 @@ tile_title_site_url : tech1
 tile_image_site_url: "/Images/collections_content_images/3D/tech1/r8_1.png"
 tile_image_alt: 3D render cyber modified human with iron framing over eyes and wires attatched front angle against dark background wearing a cloth hood
 tile_description: 
-
 layout: article_page
 css_link1: articles
 ---
