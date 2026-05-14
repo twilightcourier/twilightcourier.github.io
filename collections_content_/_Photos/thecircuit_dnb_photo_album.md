@@ -7,7 +7,11 @@ date: March 9, 2026
 layout: article_page
 css_link1: articles
 ---
-
+<div class = "page-spacing">
+<div class="page-main-text">
+Photos from <a href="https://www.instagram.com/thecircuitdnb">The Circuit DNB</a> <br>Photos by <a href="https://www.instagram.com/suvikervinenphotography">Suvi Kervinen Photography</a> and The Circuit DNB
+</div>
+</div>
 
 <div class = "page-spacing">
 <a href= "/Images/collections_content_images/photos11/thecircuitdnb1/thecircuit3.jpg" > <img class="page-image2" alt="The Circuit DNB Live set 2 DJs performing, camera is far away and tilted angle, Circuit logo like warped energy field behind performers and Route 66 glowing light on the table" src= "/Images/collections_content_images/photos11/thecircuitdnb1/thecircuit3.jpg" /></a>
