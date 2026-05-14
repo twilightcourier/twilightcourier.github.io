@@ -35,7 +35,7 @@ collections:
   3D:
     output: true
     order_n: 2
-  3D1:
+  Photos:
     output: true
     order_n: 3
   Web_Design:
