@@ -10,6 +10,7 @@ css_link1: articles
 
 
 <div class = "page-spacing">
-<a href= "/Images/collections_content_images/photos11/oskillations1/projection1.png" > <img class="page-image2" alt="Industrial pillars and pipes at a venue with glowing distorted clouds patterns projection mapped onto them, like the sky over the industrial ceiling" src= "/Images/collections_content_images/photos11/oskillations1/projection1.png" /></a>
+<a href= "/Images/collections_content_images/photos11/thecircuitdnb1/thecircuit3.jpg" > <img class="page-image2" alt="The Circuit DNB Live set 2 DJs performing, camera is far away and tilted angle, Circuit logo like warped energy field behind performers and Route 66 glowing light on the table" src= "/Images/collections_content_images/photos11/thecircuitdnb1/thecircuit3.jpg" /></a>
 <div class = "page-img-text">
-1
+1  Set from <a href="https://www.instagram.com/ogotterdnb"> DJ Otter</a> and <a href="https://www.instagram.com/sheidowdnb"> DJ Sheidow</a>
+
