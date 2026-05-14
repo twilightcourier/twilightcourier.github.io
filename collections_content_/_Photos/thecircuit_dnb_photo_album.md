@@ -19,7 +19,7 @@ Photos from <a href="https://www.instagram.com/thecircuitdnb">The Circuit DNB</a
 1  Set from <a href="https://www.instagram.com/ogotterdnb"> OG Otter</a> and <a href="https://www.instagram.com/sheidowdnb"> DJ Sheidow</a>
 
 <div class = "page-spacing">
-<a href= "/Images/collections_content_images/photos11/thecircuitdnb1/thecircuit2.jpg" > <img class="page-image2" alt="The Circuit DNB Live set 2 DJs performing OG Otter and Sheidow, The Circuit logo like glowing sea distorted sunset video projection behin performers and Route 66 glowing light on the table" src= "/Images/collections_content_images/photos11/thecircuitdnb1/thecircuit2.jpg" /></a>
+<a href= "/Images/collections_content_images/photos11/thecircuitdnb1/thecircuit2.jpg" > <img class="page-image2" alt="The Circuit DNB Live set 2 DJs performing OG Otter and Sheidow, The Circuit logo like glowing sea distorted sunset video projection behind performers and Route 66 glowing light on the table" src= "/Images/collections_content_images/photos11/thecircuitdnb1/thecircuit2.jpg" /></a>
 <div class = "page-img-text">
 2  Set from <a href="https://www.instagram.com/ogotterdnb"> DJ Otter</a> and <a href="https://www.instagram.com/sheidowdnb"> DJ Sheidow</a>
 
