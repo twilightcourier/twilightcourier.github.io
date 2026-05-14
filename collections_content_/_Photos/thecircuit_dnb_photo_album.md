@@ -1,6 +1,6 @@
 ---
 tile_title_site_url : The Circuit DNB Photo Album
-tile_image_site_url: "/Images/collections_content_images/photos11/thecircuitdnb1/thecircuit3.jpg"
+tile_image_site_url: "/Images/collections_content_images/photos11/thecircuitdnb1/thecircuit3_1.png"
 tile_image_alt: The Circuit DNB Live set 2 DJs performing, camera is far away and tilted angle, Circuit logo like warped energy field behind performers and Route 66 glowing light on the table
 tile_description: Photos by <a href="https://www.instagram.com/suvikervinenphotography">Suvi Kervinen Photography</a> and <a href="https://www.instagram.com/thecircuitdnb">The Circuit DNB</a>
 date: March 9, 2026
