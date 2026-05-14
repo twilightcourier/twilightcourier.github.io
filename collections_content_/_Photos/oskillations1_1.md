@@ -2,7 +2,7 @@
 tile_title_site_url : projection_mapping2
 tile_image_site_url: "/Images/collections_content_images/photos11/oskillations1/projection1.png"
 tile_image_alt: Industrial pillars and pipes at a venue with glowing distorted clouds patterns projection mapped onto them, like the sky over the industrial ceiling
-tile_description: Photo from Oskillations
+tile_description: Photo from <a href="https://www.instagram.com/oskillations">OsKillations</a>
 date: November 12, 2025
 layout: article_page
 css_link1: articles
