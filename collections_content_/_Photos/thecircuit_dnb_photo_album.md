@@ -32,3 +32,9 @@ Photos from <a href="https://www.instagram.com/thecircuitdnb">The Circuit DNB</a
 <a href= "/Images/collections_content_images/photos11/thecircuitdnb1/thecircuit5.jpg" > <img class="page-image-small" alt="DJ performing at The circuit, video projection like sparks of electricity behind DJ deck and glowing route 66 sign on desk" src= "/Images/collections_content_images/photos11/thecircuitdnb1/thecircuit5.jpg" /></a>
 <div class = "page-img-text">
 4  Set from <a href="https://www.instagram.com/annikaeveli"> Annika</a>
+
+<div class = "page-spacing">
+<a href= "/Images/collections_content_images/photos11/thecircuitdnb1/thecircuit4.jpg" > <img class="page-image2" alt="DJ performing at The circuit, video projection like sparks of electricity behind DJ deck and glowing route 66 sign on desk" src= "/Images/collections_content_images/photos11/thecircuitdnb1/thecircuit4.jpg" /></a>
+<div class = "page-img-text">
+5  Set from <a href="https://www.instagram.com/djmali_c"> DJ Mali C</a>
+
