@@ -34,7 +34,10 @@ collections:
     added_text: 1
   3D:
     output: true
-    order_n: 2
+    order_n: 3
+  Photos:
+    output: true
+    order_n: 2    
   Web_Design:
     output: true
     order_n: 1
