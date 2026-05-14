@@ -24,7 +24,6 @@ Photos from <a href="https://www.instagram.com/thecircuitdnb">The Circuit DNB</a
 2  Set from <a href="https://www.instagram.com/ogotterdnb"> DJ Otter</a> and <a href="https://www.instagram.com/sheidowdnb"> DJ Sheidow</a>
 
 <div class = "page-spacing">
-<a href= "/Images/collections_content_images/photos11/thecircuitdnb1/thecircuit1.jpg" > <img class="page-image2" alt="The Circuit DNB Live set 2 DJs performing, The Circuit logo like glowing sea distorted sunset video projection behin performers and Route 66 glowing light on the table" src= "/Images/collections_content_images/photos11/thecircuitdnb1/thecircuit1.jpg" /></a>
+<a href= "/Images/collections_content_images/photos11/thecircuitdnb1/thecircuit1.jpg" > <img class="page-image2" alt="DJ performing at UG venue, camera angle from the audiance, dancers in silhoutte, Expaced performing, carved scratched patterns in video projection behind the DJ desk, ambient lights faintly glowing around the venue" src= "/Images/collections_content_images/photos11/thecircuitdnb1/thecircuit1.jpg" /></a>
 <div class = "page-img-text">
-2  Set from <a href="https://www.instagram.com/ogotterdnb"> DJ Otter</a> and <a href="https://www.instagram.com/sheidowdnb"> DJ Sheidow</a>
-
+3  Set from <a href="https://www.instagram.com/expacednb"> Expaced</a>
