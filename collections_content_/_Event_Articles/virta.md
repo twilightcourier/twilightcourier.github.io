@@ -37,7 +37,7 @@ The Toivakka church has unique paintings created by Pellervo Lukumies. My first 
 <div class = "page-spacing">
 <a href= "/Images/collections_content_images/articles/virta/paintings1.webp"> <img class="page-image2" alt="Toivakka church ceiling paintings from Pellervo Lukumies. They depict biblical scenes with characters in eccentric and exotic fashion " src="/Images/collections_content_images/articles/virta/paintings1.webp" /></a>
 <div class = "page-img-text">
-2 Photo from  <a target="_blank" href="https://yle.fi/aihe/a/20-276984#&gid=0&pid=39-5144895bb656d01e419"> Yle / Eva Pursiainen </a>
+2 Photo from  <a target="_blank" href="https://yle.fi/aihe/a/20-276984#&gid=0&pid=39-5144895bb656d01e419"> Yle / Eva Pursiainen </a>   Some of Pellervo Lukumies' paintings in the Toivakka Church
 
  </div>
 </div>
