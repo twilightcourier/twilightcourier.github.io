@@ -3,6 +3,7 @@ tile_title_site_url : Beyond Tuonela
 tile_image_site_url: "/Images/collections_content_images/articles/beyond_tuonela/portal1.jpg"
 tile_image_alt: VJing a portal circled with branches like a nature portal, sculpture of skull with horn antlers reaching towards portal entrance
 tile_description: "Opening The Portal: Pushing Concepts In Electronic Music Stage Design"
+date: October 10 , 2025 
 
 title: ASFasfsaf
 layout: article_page
