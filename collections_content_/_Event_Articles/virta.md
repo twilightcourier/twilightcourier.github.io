@@ -35,23 +35,58 @@ The Toivakka church has unique paintings created by Pellervo Lukumies. My first 
 </div>
 
 <div class = "page-spacing">
-<a href= "/Images/collections_content_images/articles/virta/installation1.jpg"> <img class="page-image-small" alt="asfasf" src="/Images/collections_content_images/articles/virta/installation1.jpg"" /></a>
+<a href= "/Images/collections_content_images/articles/virta/paintings1.webp"> <img class="page-image2" alt="Toivakka church ceiling paintings from Pellervo Lukumies. They depict biblical scenes with characters in eccentric and exotic fashion " src="/Images/collections_content_images/articles/virta/paintings1.webp" /></a>
 <div class = "page-img-text">
-2
+2 Photo from  <a target="_blank" href="https://yle.fi/aihe/a/20-276984#&gid=0&pid=39-5144895bb656d01e419"> Yle / Eva Pursiainen </a>
+
+ </div>
+</div>
+
+<div class = "page-spacing">
+<div class="page-main-text">
+
+Working as a media designer you are often responsible for deciding the entire AV technology setup of the event. This is a skill that requires some experience to get a feel for, entering a space and deciding, what effect your trying to achieve, where everything should be positioned, and how it will actually be setup and taken down. What would both complement the UV-painted fabrics and bring energy and a nice feeling to the space. Will the light beam from the projectors be annoying? What is the limitations of the projectors? Typically there is very limited time to decide all of these factors.
+
+<br><br>
+
+We planned that the projectors should be placed near to the central alter. Sir Michael Madness’ video work would be projected onto the walls and ceiling of the church and we would setup rows of UV-painted fabrics above it, which provided a central point for the installation and also diffused some of the light from the projectors below them. 
+<br><br>
+
+When we visited the church I noticed an ornate chandelier hanging from the ceiling in the middle of the room, I knew that this feature needed to be highlighted. We setup another projector upstairs in the church and I sent a weaving flowing pattern onto chandelier. I set the video loop on approximately a 30 second timer, so it would fade out and in. When the video came on the chandelier illuminated the whole space and sent flowing floral shadows from the ornate decorations downwards toward the central alter. When the loop faded out it provided a relief, and contrast to balance the effect.
+
+</div>
+</div>
+
+<div class = "page-spacing">
+<a href= "/Images/collections_content_images/articles/virta/chandelier1.png"> <img class="page-image2" alt="Chandlier, video projection illumination" src="/Images/collections_content_images/articles/virta/chandelier1.png" /></a>
+<div class = "page-img-text">
+3 Screenshot from video by Riikka Arte
+
  </div>
 </div>
 
 
 <div class = "page-spacing">
 <div class="page-main-text">
-agasf
+
+These sorts of loops are created by taking a texture image, usually a digital painting then applying them to a 3D object, like a thin twisted sheet in Blender, and then animating both the movement of the object  and the UV coordinates of the texture image, so it flows over the object. After this I applied lighting effects, such as different bloom variations to make the animation more radiant.
+<br><br>
+
+The exhibition also featured a workshop day for local schoolchildren. Rika Arte taught a UV-painting workshop and I led a sort of analog video mapping workshop. We had many objects with interesting optical properties, such as glasses, different plastic filters, prisms, thin fabrics. By shining a flashlight through these objects it’s easy to create pretty patterns and effects. A “video mask” to fit a pattern to a surface can even be constructed out of paper. The students were playing with creating patterns from these objects around the church.
+<br><br>
 
 </div>
 </div>
+
 
 <div class = "page-spacing">
-<a href= "/Images/collections_content_images/articles/virta/installation1.jpg" > <img class="page-image2" alt="asfsaf" src="/Images/collections_content_images/articles/virta/installation1.jpg" /></a>
+<a href= "/Images/collections_content_images/articles/virta/uv1.webp"> <img class="page-image-small" alt="Central glowing eye flower effect uv painted fabric in church dark aquatic atmosphere video projections on the walls" src="/Images/collections_content_images/articles/virta/uv1.webp" /></a>
+<div class = "page-img-text">
+4 Screenshot from video by Riikka Arte
+
+ </div>
 </div>
+
 
 
 
