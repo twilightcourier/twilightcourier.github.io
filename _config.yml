@@ -12,7 +12,7 @@ permalink: /:categories/:year/:month/:day/:title:output_ext
 collections:
   VJ_Demos:
     output: true
-    order_n: 7
+    order_n: 6
     added_text: 1 
   Video_Tests:
     output: true
@@ -20,30 +20,30 @@ collections:
     added_text: 1   
   Event_Videos:
     output: true
-    order_n: 6
+    order_n: 5
     added_text: 1         
   Tutorials:
     output: true
-    order_n: 8
+    order_n: 98
   Online_Course:
     output: true
-    order_n: 10
+    order_n: 100
   Promotional_Animations:
     output: true
     order_n: 4
     added_text: 1
   3D:
     output: true
-    order_n: 2
+    order_n: 96
   Photos:
     output: true
-    order_n: 3
+    order_n: 97
   Web_Design:
     output: true
     order_n: 1
   Event_Articles:
     output: true
-    order_n: 9
+    order_n: 99
   events:
     output: true
 
