@@ -48,6 +48,8 @@ collections:
     output: true
   awards:
     output: true 
+  exhibitions:
+    output: true 
 
         
   

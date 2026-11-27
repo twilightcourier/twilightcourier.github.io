@@ -5,7 +5,6 @@ tile_image_alt: UV Paint Light Installation Colourful designs and painted fabric
 tile_description: "Light Art And Video Installation in A Village Church"
 date: October 27 , 2026 
 
-title: ASFasfsaf
 layout: article_page
 css_link1: articles
 ---
@@ -22,7 +21,6 @@ Light Art And Video Installation In A Village Church
 1 VIRTA Installation, photo from Riikka Arte
  </div>
 </div>
-
 
 <div class = "page-spacing">
 <div class="page-main-text">
