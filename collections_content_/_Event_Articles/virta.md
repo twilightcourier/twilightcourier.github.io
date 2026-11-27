@@ -12,7 +12,7 @@ css_link1: articles
 
 <div class = "page-spacing">
 <div class="page-main-text">
-Light Art And Video Installation in A Village Church
+Light Art And Video Installation In A Village Church
 </div>
 </div>
 
@@ -98,7 +98,9 @@ The main point I was trying to convey in the workshop is that, creating interest
 In the next iteration of the workshop, I would like allow students to make their own images, and then use their photos as the texture source on a 3D object, and have the students be able to see the output of a projector decorating a space with their own works.
 <br><br>
 <br><br>
-If your interested in taking lessons to learn about 3D modelling, media design, audio-reactive content, VJing, you can contact me and setup a time through the following link.
+If your interested in taking lessons to learn about 3D modelling, media design, audio-reactive content, VJing, you can contact me and setup a time through the following link. 
+<br><br>
+Get started turning your art into media installations!
 <br><br>
 <a target="_blank" href="https://twilightcourier.gumroad.com/l/vj_lesson?layout=profile"> Book Lessons through Gumroad </a>
 </div>
