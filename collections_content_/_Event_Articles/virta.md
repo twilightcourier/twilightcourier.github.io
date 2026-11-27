@@ -58,7 +58,7 @@ When we visited the church I noticed an ornate chandelier hanging from the ceili
 </div>
 
 <div class = "page-spacing">
-<a href= "/Images/collections_content_images/articles/virta/chandelier1.png"> <img class="page-image2" alt="Chandlier, video projection illumination" src="/Images/collections_content_images/articles/virta/chandelier1.png" /></a>
+<a href= "/Images/collections_content_images/articles/virta/chandelier1.png"> <img class="page-image2" alt="Chandlier, video projection illumination and uv painted fabrics aquatic feeling around it from UV lights" src="/Images/collections_content_images/articles/virta/chandelier1.png" /></a>
 <div class = "page-img-text">
 3 Screenshot from video by Riikka Arte
 
@@ -76,17 +76,17 @@ These sorts of loops are created by taking a texture image, usually a digital pa
 </div>
 
 <div class = "page-spacing">
-<a href= "/Images/collections_content_images/articles/virta/z3.webp"> <img class="page-image-small" alt="Central glowing eye flower effect uv painted fabric in church dark aquatic atmosphere video projections on the walls" src="/Images/collections_content_images/articles/virta/z3.webp" /></a>
+<a href= "/Images/collections_content_images/articles/virta/z3.webp"> <img class="page-image-small" alt="Glowing flowing black and white pattern wrapped around roughly tube shape" src="/Images/collections_content_images/articles/virta/z3.webp" /></a>
 <div class = "page-img-text">
-4 Screenshot from video by Riikka Arte
+4 Screenshot of the video loop projected over the chandelier
 
 <div class = "page-spacing">
 <div class="page-main-text">
 
 <div class = "page-spacing">
-<a href= "/Images/collections_content_images/articles/virta/z2.webp"> <img class="page-image-small" alt="Central glowing eye flower effect uv painted fabric in church dark aquatic atmosphere video projections on the walls" src="/Images/collections_content_images/articles/virta/z2.webp" /></a>
+<a href= "/Images/collections_content_images/articles/virta/z2.webp"> <img class="page-image-small" alt="Source 3D model in Blender software, like several twisted paper sheets" src="/Images/collections_content_images/articles/virta/z2.webp" /></a>
 <div class = "page-img-text">
-4 Screenshot from video by Riikka Arte
+5 Source 3D model in Blender
 
 <div class = "page-spacing">
 <div class="page-main-text">
@@ -106,9 +106,9 @@ If your interested in taking lessons to learn about 3D modelling, media design, 
 
 
 <div class = "page-spacing">
-<a href= "/Images/collections_content_images/articles/virta/uv1.webp"> <img class="page-image-small" alt="Central glowing eye flower effect uv painted fabric in church dark aquatic atmosphere video projections on the walls" src="/Images/collections_content_images/articles/virta/uv1.webp" /></a>
+<a href= "/Images/collections_content_images/articles/virta/uv1.webp"> <img class="page-image-small" alt="UV Lights and UV painted floral patterns on fabrics, drips of glowing paint in different layers, church seats in the background" src="/Images/collections_content_images/articles/virta/uv1.webp" /></a>
 <div class = "page-img-text">
-4 Screenshot from video by Riikka Arte
+6 Screenshot from video by Riikka Arte
 
  </div>
 </div>
