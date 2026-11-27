@@ -46,6 +46,8 @@ collections:
     order_n: 99
   events:
     output: true
+  awards:
+    output: true 
 
         
   

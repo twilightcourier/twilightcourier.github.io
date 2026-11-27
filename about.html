@@ -54,12 +54,35 @@ css_link2: about
 
         <div class="about-bio">
 
-           {% include about_bio.html %}
+            {% include about_bio.html %}
 
         </div>
 
 
         <div class="about-events">
+
+            <div class="about-header">
+                Awards/Grants<br><br>
+            </div>
+            <div class="event-list">
+                {% assign sorted_events = site.awards | sort:"date" | reverse %}
+
+                {% for e in sorted_events %}
+
+                {% if e.date2 %}
+                <strong> {{e.date | date: "%B %-d"}}-{{e.date2 | date: "%-d, %Y"}} </strong> {{e.event_name}}
+                {{e.e_venue}} <br><br>
+
+                {% else %}
+                <strong> {{e.date | date: "%B %-d, %Y"}}</strong> {{e.event_name}}, {{e.e_venue}} <br><br>
+                {% endif %}
+
+                {% endfor %}
+
+
+            </div>
+
+
 
             <div class="about-header">
                 Live Performances<br><br>
@@ -92,7 +115,7 @@ css_link2: about
 
     <div class="about-bio_larger_screens">
 
-      {% include about_bio.html %}
+        {% include about_bio.html %}
 
 
     </div>
