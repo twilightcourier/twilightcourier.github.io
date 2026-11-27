@@ -26,7 +26,7 @@ Light Art And Video Installation In A Village Church
 
 <div class = "page-spacing">
 <div class="page-main-text">
-Virta was a collaborative installation work created by <a target="_blank" href="https://www.riikkaarte.com/"> Riikka Arte </a>, <a target="_blank" href="https://www.instagram.com/sirmichaelmadness/"> Sir Michael Madness </a>, from the deco team <a target="_blank" href="https://www.instagram.com/avaruusdiscodeco/"> Avaruus Disco </a> and myself. We were given creative liberty to build a light and UV-paint installation in the <a target="_blank" href="https://www.toivakka.fi/en/front-page/to-see/"> Toivakka Church </a> . When planning concepts, Rika Arte and I were both interested by the potential of video mapping onto UV-painted fabrics. Additionally, we all kept returning to a theme of water, somehow the installation should feel like an underwater space.
+Virta was a collaborative installation work created by <a target="_blank" href="https://www.riikkaarte.com/"> Riikka Arte </a>, <a target="_blank" href="https://www.instagram.com/sirmichaelmadness/"> Sir Michael Madness </a>, from the deco team <a target="_blank" href="https://www.instagram.com/avaruusdiscodeco/"> Avaruus Disco </a> and myself. We were given creative liberty to build a light and UV-paint installation in the <a target="_blank" href="https://www.toivakka.fi/en/front-page/to-see/"> Toivakka Church </a> . When planning concepts, Riikka Arte and I were both interested by the potential of video mapping onto UV-painted fabrics. Additionally, we all kept returning to a theme of water, somehow the installation should feel like an underwater space.
 <br><br>
 The Toivakka church has unique paintings created by Pellervo Lukumies. My first impression of the paintings was 70s progressive rock music such as King Crimson and Rush. Typically I design content to accompany a DJ performance and fit the energy of the event. While the Virta installation featured an ambient track, I decided that at least the visuals should also feel like they fit to progressive rock music.
 <br><br>
@@ -52,7 +52,7 @@ Working as a media designer you are often responsible for deciding the entire AV
 We planned that the projectors should be placed near to the central alter. Sir Michael Madness’ video work would be projected onto the walls and ceiling of the church and we would setup rows of UV-painted fabrics above it, which provided a central point for the installation and also diffused some of the light from the projectors below them. 
 <br><br>
 
-When we visited the church I noticed an ornate chandelier hanging from the ceiling in the middle of the room, I knew that this feature needed to be highlighted. We setup another projector upstairs in the church and I sent a weaving flowing pattern onto chandelier. I set the video loop on approximately a 30 second timer, so it would fade out and in. When the video came on the chandelier illuminated the whole space and sent flowing floral shadows from the ornate decorations downwards toward the central alter. When the loop faded out it provided a relief, and contrast to balance the effect.
+When we visited the church I noticed an ornate chandelier hanging from the ceiling in the middle of the room. I knew that this feature needed to be highlighted. We setup another projector upstairs in the church and I sent a weaving flowing pattern onto chandelier. I set the video loop on approximately a 30 second timer, so it would fade out and in. When the video came on the chandelier illuminated the whole space and sent flowing floral shadows from the ornate decorations downwards toward the central alter. When the loop faded out it provided a relief, and contrast to balance the effect.
 
 </div>
 </div>
@@ -91,12 +91,11 @@ These sorts of loops are created by taking a texture image, usually a digital pa
 <div class = "page-spacing">
 <div class="page-main-text">
 
-The exhibition also featured a workshop day for local schoolchildren. Rika Arte taught a UV-painting workshop and I led a sort of analog video mapping workshop. We had many objects with interesting optical properties, such as glasses, different plastic filters, prisms, thin fabrics. By shining a flashlight through these objects it’s easy to create pretty patterns and effects. A “video mask” to fit a pattern to a surface can even be constructed out of paper. The students were playing with creating patterns from these objects around the church.
+The exhibition also featured a workshop day for local schoolchildren. Riikka Arte taught a UV-painting workshop and I led a sort of analog video mapping workshop. We had many objects with interesting optical properties, such as glasses, different plastic filters, prisms, thin fabrics. By shining a flashlight through these objects it’s easy to create pretty patterns and effects. A “video mask” to fit a pattern to a surface can even be constructed out of paper. The students were playing with creating patterns from these objects around the church.
 <br><br>
-The main point I was trying to convey in the workshop is that, creating interesting patterns and effects is relatively easy. With only a flashlight and a glass you can do a lot for decorating and modifying a space. The animation I created for Virta started as a digital painting. You can easily take your art and turn it into a video installation or add a layer of textures onto an art piece.
+The main point I was trying to convey in the workshop is that, creating interesting patterns and effects is relatively easy. With only a flashlight and a glass you can do a lot for decorating and modifying a space. The animation I created for VIRTA started as a digital painting. You can easily take your art and turn it into a video installation or add a layer of textures onto an art piece.
 <br><br>
 In the next iteration of the workshop, I would like allow students to make their own images, and then use their photos as the texture source on a 3D object, and have the students be able to see the output of a projector decorating a space with their own works.
-<br><br>
 <br><br>
 If your interested in taking lessons to learn about 3D modelling, media design, audio-reactive content, VJing, you can contact me and setup a time through the following link. 
 <br><br>
