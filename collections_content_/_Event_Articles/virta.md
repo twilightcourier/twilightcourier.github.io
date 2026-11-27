@@ -72,9 +72,35 @@ When we visited the church I noticed an ornate chandelier hanging from the ceili
 These sorts of loops are created by taking a texture image, usually a digital painting then applying them to a 3D object, like a thin twisted sheet in Blender, and then animating both the movement of the object  and the UV coordinates of the texture image, so it flows over the object. After this I applied lighting effects, such as different bloom variations to make the animation more radiant.
 <br><br>
 
+</div>
+</div>
+
+<div class = "page-spacing">
+<a href= "/Images/collections_content_images/articles/virta/z3.webp"> <img class="page-image-small" alt="Central glowing eye flower effect uv painted fabric in church dark aquatic atmosphere video projections on the walls" src="/Images/collections_content_images/articles/virta/z3.webp" /></a>
+<div class = "page-img-text">
+4 Screenshot from video by Riikka Arte
+
+<div class = "page-spacing">
+<div class="page-main-text">
+
+<div class = "page-spacing">
+<a href= "/Images/collections_content_images/articles/virta/z2.webp"> <img class="page-image-small" alt="Central glowing eye flower effect uv painted fabric in church dark aquatic atmosphere video projections on the walls" src="/Images/collections_content_images/articles/virta/z2.webp" /></a>
+<div class = "page-img-text">
+4 Screenshot from video by Riikka Arte
+
+<div class = "page-spacing">
+<div class="page-main-text">
+
 The exhibition also featured a workshop day for local schoolchildren. Rika Arte taught a UV-painting workshop and I led a sort of analog video mapping workshop. We had many objects with interesting optical properties, such as glasses, different plastic filters, prisms, thin fabrics. By shining a flashlight through these objects it’s easy to create pretty patterns and effects. A “video mask” to fit a pattern to a surface can even be constructed out of paper. The students were playing with creating patterns from these objects around the church.
 <br><br>
-
+The main point I was trying to convey in the workshop is that, creating interesting patterns and effects is relatively easy. With only a flashlight and a glass you can do a lot for decorating and modifying a space. The animation I created for Virta started as a digital painting. You can easily take your art and turn it into a video installation or add a layer of textures onto an art piece.
+<br><br>
+In the next iteration of the workshop, I would like allow students to make their own images, and then use their photos as the texture source on a 3D object, and have the students be able to see the output of a projector decorating a space with their own works.
+<br><br>
+<br><br>
+If your interested in taking lessons to learn about 3D modelling, media design, audio-reactive content, VJing, you can contact me and setup a time through the following link.
+<br><br>
+<a target="_blank" href="https://twilightcourier.gumroad.com/l/vj_lesson?layout=profile"> Book Lessons through Gumroad </a>
 </div>
 </div>
 
