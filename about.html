@@ -62,7 +62,7 @@ css_link2: about
         <div class="about-events">
 
             <div class="about-header">
-                Installations And Exhibitions<br><br>
+                Installations/Exhibitions<br><br>
             </div>
             <div class="event-list">
                 {% assign sorted_events = site.exhibitions | sort:"date" | reverse %}
@@ -94,11 +94,14 @@ css_link2: about
                 {% for e in sorted_events %}
 
                 {% if e.date2 %}
-                <strong> {{e.date | date: "%B %-d"}}-{{e.date2 | date: "%-d, %Y"}} </strong> {{e.event_name}}
+                <strong> {{e.date | date: "%B %-d"}}-{{e.date2 | date: "%-d, %Y"}} </strong>
+                <a target="_blank" href="{{e.e_link}}"> {{e.event_name}}</a>,
                 {{e.e_venue}} <br><br>
 
                 {% else %}
-                <strong> {{e.date | date: "%B %-d, %Y"}}</strong> {{e.event_name}}, {{e.e_venue}} <br><br>
+                <strong> {{e.date | date: "%B %-d, %Y"}}</strong> 
+                 <a target="_blank" href="{{e.e_link}}"> {{e.event_name}}</a>
+                {{e.e_venue}} <br><br>
                 {% endif %}
 
                 {% endfor %}
